@@ -1,10 +1,10 @@
 import { memo } from 'react'
 import { hrefFor } from '../app/router.ts'
+import { getCategory } from '../domain/categories.ts'
 import { formatDistance, navigationUrl } from '../domain/geo.ts'
-import { getOpeningStatus } from '../domain/openingHours.ts'
+import { getOpeningStatus, STATUS_LABEL, statusDetail } from '../domain/openingHours.ts'
 import type { Shop } from '../domain/types.ts'
 import { IconGlobe, IconNavigate } from './Icons.tsx'
-import { CategoryTags, StatusBadge } from './ShopBits.tsx'
 
 interface Props {
   shop: Shop
@@ -13,8 +13,11 @@ interface Props {
   now: Date
 }
 
+/** Compact, rustig kaartje: naam en afstand, één statusregel, categorieën als tekst en kleine icoonknoppen. */
 function ShopCardImpl({ shop, distanceKm, now }: Props) {
   const status = getOpeningStatus(shop.openingHours, now)
+  const detail = statusDetail(status)
+  const categories = shop.categories.map((id) => getCategory(id)).filter((c) => !!c)
   return (
     <article className="card">
       <a className="card__main" href={hrefFor.shop(shop.id)}>
@@ -26,17 +29,29 @@ function ShopCardImpl({ shop, distanceKm, now }: Props) {
             </span>
           )}
         </div>
-        <p className="card__city">{shop.city || 'Plaats onbekend'}</p>
-        <StatusBadge status={status} />
-        <CategoryTags ids={shop.categories} />
+        <p className="card__meta">
+          <span>{shop.city || 'Plaats onbekend'}</span>
+          <span className={`card__status card__status--${status.kind}`}>
+            <span className="card__dot" aria-hidden />
+            {STATUS_LABEL[status.kind]}
+            {detail && <span className="card__status-detail"> · {detail.charAt(0).toLowerCase() + detail.slice(1)}</span>}
+          </span>
+        </p>
+        <p className="card__cats">
+          {categories.map((c) => (
+            <span key={c.id} className="card__cat" style={{ ['--cat' as string]: c.color }}>
+              {c.shortLabel}
+            </span>
+          ))}
+        </p>
       </a>
-      <div className="card__actions">
-        <a className="btn btn--ghost" href={navigationUrl(shop)} target="_blank" rel="noopener noreferrer">
-          <IconNavigate width={18} height={18} /> Route
+      <div className="card__icons">
+        <a className="icon-link" href={navigationUrl(shop)} target="_blank" rel="noopener noreferrer" aria-label={`Route naar ${shop.name}`} title="Route">
+          <IconNavigate width={18} height={18} />
         </a>
         {shop.website && (
-          <a className="btn btn--ghost" href={shop.website} target="_blank" rel="noopener noreferrer">
-            <IconGlobe width={18} height={18} /> Website
+          <a className="icon-link" href={shop.website} target="_blank" rel="noopener noreferrer" aria-label={`Website van ${shop.name}`} title="Website">
+            <IconGlobe width={18} height={18} />
           </a>
         )}
       </div>
