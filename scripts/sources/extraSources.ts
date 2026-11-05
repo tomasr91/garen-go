@@ -173,14 +173,49 @@ export function streetName(address: string): string {
   return normalizeText(address.replace(/\s*\d.*$/, ''))
 }
 
-/** "H. Droststraat" en "Hendrik Droststraat" tellen als dezelfde straat (laatste woord gelijk). */
+/** Levenshtein-afstand, voor kleine tikfouten ("Zoetemeer" ↔ "Zoetermeer"). */
+export function editDistance(a: string, b: string): number {
+  const dp = Array.from({ length: b.length + 1 }, (_, i) => i)
+  for (let i = 1; i <= a.length; i++) {
+    let prev = dp[0]
+    dp[0] = i
+    for (let j = 1; j <= b.length; j++) {
+      const tmp = dp[j]
+      dp[j] = Math.min(dp[j] + 1, dp[j - 1] + 1, prev + (a[i - 1] === b[j - 1] ? 0 : 1))
+      prev = tmp
+    }
+  }
+  return dp[b.length]
+}
+
+const compactText = (s: string) => normalizeText(s).replace(/ /g, '')
+
+/** Bijna gelijk: gelijk, bevat de ander, of hooguit 2 tikfouten (bij langere namen). */
+function similar(a: string, b: string): boolean {
+  const x = compactText(a)
+  const y = compactText(b)
+  if (!x || !y) return false
+  if (x === y || x.includes(y) || y.includes(x)) return true
+  return Math.min(x.length, y.length) >= 6 && editDistance(x, y) <= 2
+}
+
+/** "H. Droststraat" ↔ "Hendrik Droststraat", "Lage-maat" ↔ "Lagemaat": zelfde straat. */
 export function streetMatches(a: string, b: string): boolean {
   const x = streetName(a)
   const y = normalizeText(b)
   if (!x || !y) return false
-  const lastX = x.split(' ').pop()!
-  const lastY = y.split(' ').pop()!
-  return x === y || lastX === lastY || x.includes(y) || y.includes(x)
+  if (similar(x, y)) return true
+  return x.split(' ').pop() === y.split(' ').pop() && x.split(' ').pop()!.length >= 5
+}
+
+/** Plaatsnaam uit de bron vs. BAG-woonplaats: "Spakenburg" ↔ "Bunschoten-Spakenburg", "Den Bosch" ↔ "'s-Hertogenbosch". */
+export function cityMatches(a: string, b: string): boolean {
+  const alias = (c: string) =>
+    normalizeText(c.replace(/\(.*?\)/g, ''))
+      .replace(/^den bosch$/, 's hertogenbosch')
+      .replace(/^den haag$/, 's gravenhage')
+      .replace(/ (zh|nh|gld|nb|ov|lb|fr|gr|dr|ut|zl)$/, '')
+  return similar(alias(a), alias(b))
 }
 
 interface PdokDoc {
@@ -213,9 +248,11 @@ export async function geocodePdok(e: SourceEntry): Promise<{ lat: number; lon: n
   for (const q of queries) {
     const doc = await pdok(q)
     if (!doc) continue
-    const cityOk = !e.city || normalizeText(doc.woonplaatsnaam) === normalizeText(e.city)
-    const streetOk = !doc.straatnaam || streetMatches(e.address, doc.straatnaam)
-    if (!cityOk || !streetOk) continue
+    // De straat moet altijd kloppen; daarnaast de postcode óf (ongeveer) de plaats.
+    const streetOk = !!doc.straatnaam && streetMatches(e.address, doc.straatnaam)
+    const pcOk = !!doc.postcode && doc.postcode.replace(/\s/g, '') === pc
+    const cityOk = !e.city || cityMatches(e.city, doc.woonplaatsnaam)
+    if (!streetOk || !(pcOk || cityOk)) continue
     const m = /POINT\(([\d.]+) ([\d.]+)\)/.exec(doc.centroide_ll)
     if (!m) continue
     return { lon: Number(m[1]), lat: Number(m[2]), postcode: doc.postcode }

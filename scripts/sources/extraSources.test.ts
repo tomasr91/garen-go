@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Shop } from '../../src/domain/types.ts'
-import { entryToShop, isSameBusiness, isSameShop, mergeExtra, streetMatches } from './extraSources.ts'
+import { cityMatches, entryToShop, isSameBusiness, isSameShop, mergeExtra, streetMatches } from './extraSources.ts'
 
 const now = '2026-11-05T00:00:00.000Z'
 const osm: Shop = {
@@ -82,5 +82,21 @@ describe('streetMatches', () => {
     expect(streetMatches('H. Droststraat 48a', 'Hendrik Droststraat')).toBe(true)
     expect(streetMatches('Kleine Overstraat 6', 'Kleine Overstraat')).toBe(true)
     expect(streetMatches('Kleine Overstraat 6', 'Brink')).toBe(false)
+  })
+})
+
+describe('cityMatches en streetMatches (soepel bij schrijfwijzen)', () => {
+  it('plaatsnamen', () => {
+    expect(cityMatches('Spakenburg', 'Bunschoten-Spakenburg')).toBe(true)
+    expect(cityMatches('Den Bosch', "'s-Hertogenbosch")).toBe(true)
+    expect(cityMatches('Zoetemeer', 'Zoetermeer')).toBe(true)
+    expect(cityMatches('Buren (Ameland)', 'Buren')).toBe(true)
+    expect(cityMatches('Rijswijk ZH', 'Rijswijk')).toBe(true)
+    expect(cityMatches('Deventer', 'Zwolle')).toBe(false)
+  })
+  it('straatnamen', () => {
+    expect(streetMatches('Lage-maat 4-07', 'Lagemaat')).toBe(true)
+    expect(streetMatches('Vaart Zuid Zijde 7', 'Vaart Zuidzijde')).toBe(true)
+    expect(streetMatches('Dorpstraat 42', 'Kerkstraat')).toBe(false)
   })
 })
