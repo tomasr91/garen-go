@@ -11,7 +11,8 @@
     "test:watch": "vitest",
     "lint": "oxlint",
     "data:import": "node scripts/import-shops.ts",
-    "data:dealers": "node scripts/import-dealers.ts"
+    "data:dealers": "node scripts/import-dealers.ts",
+    "data:hours": "node scripts/import-website-hours.ts"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

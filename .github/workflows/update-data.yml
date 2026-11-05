@@ -8,6 +8,10 @@ on:
         description: 'Ook verkooppunten van garenmerken opnieuw ophalen (duurt ±10 minuten)'
         type: boolean
         default: true
+      openingstijden:
+        description: 'Openingstijden zoeken op de websites van winkels zonder tijden (duurt ±10 minuten)'
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -29,6 +33,10 @@ jobs:
         continue-on-error: true
         run: npm run data:dealers
       - run: npm run data:import
+      - name: Openingstijden van winkelwebsites
+        if: ${{ inputs.openingstijden }}
+        continue-on-error: true
+        run: npm run data:hours
       - name: Wijzigingen committen
         id: commit
         run: |

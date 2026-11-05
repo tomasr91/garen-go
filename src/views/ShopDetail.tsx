@@ -109,6 +109,15 @@ function DetailContent({ shop, now, distance }: { shop: Shop; now: Date; distanc
           </p>
         )}
         {shop.openingHours?.note && <p className="hours-note">{shop.openingHours.note}</p>}
+        {shop.openingHours?.source && (
+          <p className="hint">
+            Automatisch overgenomen van de{' '}
+            <a href={shop.openingHours.source.url} target="_blank" rel="noopener noreferrer">
+              website van de winkel
+            </a>{' '}
+            op {new Date(shop.openingHours.source.retrievedAt).toLocaleDateString('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' })}.
+          </p>
+        )}
         {shop.openingHours && (
           <p className="hint">Feestdagen en vakanties kunnen afwijken. Controleer bij twijfel de website van de winkel.</p>
         )}

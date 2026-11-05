@@ -71,9 +71,17 @@ Regels bij het importeren:
 
 Data © OpenStreetMap-bijdragers ([ODbL](https://www.openstreetmap.org/copyright)). De verkooppuntgegevens komen uit de openbare winkelzoekers van de genoemde merken.
 
+4. **`data/sources/website-hours.json`**: openingstijden van de eigen websites van winkels zonder tijden (`npm run data:hours`).
+   - Herkend worden schema.org-gegevens en duidelijke Nederlandse tekst direct onder een kopje als "Openingstijden".
+   - Zomer- en wintertijden, tegenstrijdige roosters en websites van ketens zonder postcode-match worden overgeslagen.
+   - De winkeldetails tonen dat de tijden automatisch zijn overgenomen, met een link naar de bron. Tijden uit OSM, `manual.json` of beheer gaan altijd voor.
+   - robots.txt wordt gerespecteerd. Per winkel worden maximaal 3 pagina's bekeken.
+
+Gevonden coördinaten worden terug in `manual.json` en `dealers.json` geschreven, zodat een volgende run niet opnieuw hoeft te geocoderen. Pas je een adres aan? Verwijder dan ook `lat` en `lon`.
+
 ### Data bijwerken
 
-Ga naar **Actions → "Winkeldata bijwerken" → Run workflow**. Het vinkje *verkooppunten* bepaalt of ook de merklijsten opnieuw worden opgehaald (±10 minuten). De workflow commit de nieuwe data en publiceert de site opnieuw.
+Ga naar **Actions → "Winkeldata bijwerken" → Run workflow**. De vinkjes *verkooppunten* en *openingstijden* bepalen of ook de merklijsten en de winkelwebsites opnieuw worden doorzocht (elk ±10 minuten). De workflow commit de nieuwe data en publiceert de site opnieuw.
 
 Lokaal: `npm run data:dealers` (optioneel), daarna `npm run data:import`.
 

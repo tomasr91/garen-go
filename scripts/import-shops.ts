@@ -15,6 +15,7 @@ import { resolve } from 'node:path'
 import type { Shop, ShopDataset } from '../src/domain/types.ts'
 import { dedupeShops, fillMissingCity, mapOsmElement, SHOP_TYPE_CATEGORIES, type Place } from './osm/mapping.ts'
 import { overpass } from './osm/overpass.ts'
+import { applyWebsiteHours, type WebsiteHoursMap } from './sources/websiteHours.ts'
 import { entryToShop, geocodePdok, mergeExtra, type SourceEntry } from './sources/extraSources.ts'
 
 const OUTPUT = resolve(import.meta.dirname, '../public/data/shops.json')
@@ -111,6 +112,9 @@ async function main() {
   const manualShops = await toShops(manual, 'manual', 'src', now)
   const addable = await toShops(dealers.filter((d) => !d.enrichOnly), 'import', 'dlr', now)
   const enrichers = await toShops(dealers.filter((d) => d.enrichOnly), 'import', 'dlr', now)
+  // Gevonden coördinaten bewaren, zodat een volgende run niet opnieuw hoeft te geocoderen.
+  await writeFile(resolve(SOURCES_DIR, 'dealers.json'), JSON.stringify(dealers, null, 1) + '\n')
+  await writeFile(resolve(SOURCES_DIR, 'manual.json'), JSON.stringify(manual, null, 2) + '\n')
   const step1 = mergeExtra(fromOsm, manualShops, 'replace')
   const step2 = mergeExtra(step1.shops, addable, 'enrich-or-add')
   const step3 = mergeExtra(step2.shops, enrichers, 'enrich-only')
@@ -135,6 +139,17 @@ async function main() {
     merged.push(prev && prev.active === false ? { ...shop, active: false } : shop)
   }
   merged.sort((a, b) => a.id.localeCompare(b.id))
+
+  // Eerder gevonden openingstijden van winkelwebsites (npm run data:hours) opnieuw toepassen.
+  let websiteHours: WebsiteHoursMap = {}
+  try {
+    websiteHours = JSON.parse(await readFile(resolve(SOURCES_DIR, 'website-hours.json'), 'utf8')) as WebsiteHoursMap
+  } catch {
+    /* nog niet aanwezig */
+  }
+  const withSiteHours = applyWebsiteHours(merged, websiteHours)
+  merged.splice(0, merged.length, ...withSiteHours.shops)
+  console.log(`  openingstijden van winkelwebsites toegepast: ${withSiteHours.applied}`)
 
   const dataset: ShopDataset = {
     version: 1,

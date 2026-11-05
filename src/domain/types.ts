@@ -39,6 +39,8 @@ export interface OpeningHours {
   raw?: string
   /** Toelichting voor bezoekers, bijv. "In de zomer afwijkende tijden, bel vooraf." */
   note?: string
+  /** Als de tijden automatisch van de website van de winkel komen: waar en wanneer. */
+  source?: { url: string; method: string; retrievedAt: string }
 }
 
 export type SourceType = 'osm' | 'manual' | 'import'
