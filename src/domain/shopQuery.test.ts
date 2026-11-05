@@ -39,6 +39,10 @@ describe('zoeken', () => {
     expect(matchesQuery(a, '3511')).toBe(true)
     expect(matchesQuery(a, 'amsterdam')).toBe(false)
   })
+  it('kent Den Haag en Den Bosch', () => {
+    expect(matchesQuery(shop('x', { city: "'s-Gravenhage" }), 'den haag')).toBe(true)
+    expect(matchesQuery(shop('x', { city: "'s-Hertogenbosch" }), 'Den Bosch')).toBe(true)
+  })
   it('negeert accenten en hoofdletters', () => {
     expect(matchesQuery(shop('x', { name: 'Café Crochet' }), 'cafe')).toBe(true)
   })
@@ -48,6 +52,10 @@ describe('sorteren', () => {
   it('op afstand vanaf de gebruiker', () => {
     const fromAmsterdam = sortShops(withDistance([a, b, c], { lat: 52.37, lon: 4.9 }), 'distance').map((x) => x.shop.id)
     expect(fromAmsterdam).toEqual(['b', 'a', 'c'])
+  })
+  it("sorteert 's-Gravenhage onder de G", () => {
+    const g = shop('g', { city: "'s-Gravenhage" })
+    expect(sortShops(withDistance([a, g, b], null), 'city').map((x) => x.shop.city)).toEqual(['Amsterdam', "'s-Gravenhage", 'Utrecht'])
   })
   it('valt zonder locatie terug op plaatsnaam', () => {
     expect(sortShops(withDistance([a, b, c], null), 'distance').map((x) => x.shop.city)).toEqual(['Amsterdam', 'Groningen', 'Utrecht'])

@@ -46,7 +46,7 @@ const NAME_HINTS: [RegExp, string][] = [
 const CRAFT_RELEVANT = /(wol|garen|brei|haak|naai|stof|stoffen|quilt|patchwork|borduur|handwerk|fourni|knop|textiel|yarn|knit|stitch|sew|fabric|kant|vilt)/i
 
 /** Namen die op raamdecoratie of meubelstoffering wijzen, niet op handwerk. */
-const EXCLUDE_NAME = /(gordijn|raamdecoratie|raambekleding|zonwering|stoffeerderij|tapijt|vloeren)/i
+const EXCLUDE_NAME = /(gordijn|raamdecoratie|raambekleding|zonwering|stoffeerderij|tapijt|vloeren|schuimrubber|foam|matras|beddengoed|bed & textiel)/i
 
 export type MapResult = { shop: Shop } | { skipped: string }
 

@@ -32,6 +32,9 @@ describe('parseOsmOpeningHours', () => {
       expect(parseOsmOpeningHours(raw), raw).toBeNull()
     }
   })
+  it('accepteert een komma als regelscheiding', () => {
+    expect(parseOsmOpeningHours('Tu-Fr 09:30-18:00, Sa 09:30-17:00')!.weekly.sa).toEqual([{ open: '09:30', close: '17:00' }])
+  })
   it('ondersteunt 24/7', () => {
     expect(parseOsmOpeningHours('24/7')!.weekly.su).toEqual([{ open: '00:00', close: '24:00' }])
   })

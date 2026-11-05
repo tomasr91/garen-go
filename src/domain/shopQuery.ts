@@ -27,11 +27,30 @@ export function normalizeText(s: string): string {
 
 const compact = (s: string) => normalizeText(s).replace(/ /g, '')
 
+/** Officiële en gangbare plaatsnamen, zodat "Den Haag" ook "'s-Gravenhage" vindt. */
+const CITY_ALIASES: [string, string][] = [
+  ['s gravenhage', 'den haag'],
+  ['s hertogenbosch', 'den bosch'],
+]
+function withAliases(text: string): string {
+  let out = text
+  for (const [a, b] of CITY_ALIASES) {
+    if (out.includes(a)) out += ` ${b}`
+    else if (out.includes(b)) out += ` ${a}`
+  }
+  return out
+}
+
+/** Sorteersleutel voor plaatsnamen: "'s-Gravenhage" hoort bij de G, "'t Zandt" bij de Z. */
+export function citySortKey(city: string): string {
+  return city.replace(/^['’](s|t)[-\s]/i, '')
+}
+
 /** Zoekt op winkelnaam, plaatsnaam en postcode. Alle zoekwoorden moeten ergens voorkomen. */
 export function matchesQuery(shop: Shop, query: string): boolean {
   const q = normalizeText(query)
   if (!q) return true
-  const haystack = normalizeText(`${shop.name} ${shop.city} ${shop.postcode}`)
+  const haystack = withAliases(normalizeText(`${shop.name} ${shop.city} ${shop.postcode}`))
   const words = q.split(' ')
   if (words.every((w) => haystack.includes(w))) return true
   // Postcode zonder spatie ("3511AB") of gedeeltelijk ("3511").
@@ -58,7 +77,7 @@ export function sortShops(items: ShopWithDistance[], mode: SortMode): ShopWithDi
   const byCity = (a: ShopWithDistance, b: ShopWithDistance) => {
     // Winkels zonder plaats achteraan.
     if (!a.shop.city !== !b.shop.city) return a.shop.city ? -1 : 1
-    return collator.compare(a.shop.city, b.shop.city) || byName(a, b)
+    return collator.compare(citySortKey(a.shop.city), citySortKey(b.shop.city)) || byName(a, b)
   }
   const sorted = [...items]
   if (mode === 'distance' && items.some((i) => i.distanceKm !== undefined)) {

@@ -22,7 +22,8 @@ describe('mapOsmElement', () => {
     expect(mapOsmElement({ type: 'node', id: 2, lat: 52, lon: 5, tags: { shop: 'craft', name: 'Schildersbenodigdheden Jan' } }, now)).toHaveProperty('skipped')
     expect(mapOsmElement({ type: 'node', id: 3, lat: 52, lon: 5, tags: { shop: 'craft', name: 'Hobby & Garen' } }, now)).toHaveProperty('shop')
   })
-  it('laat gordijnwinkels en naamloze winkels weg', () => {
+  it('laat gordijnwinkels, schuimrubberwinkels en naamloze winkels weg', () => {
+    expect(mapOsmElement({ type: 'node', id: 10, lat: 52, lon: 5, tags: { shop: 'fabric', name: 'Schuimrubber Gigant' } }, now)).toHaveProperty('skipped')
     expect(mapOsmElement({ type: 'node', id: 4, lat: 52, lon: 5, tags: { shop: 'fabric', name: 'Gordijnenhuis' } }, now)).toHaveProperty('skipped')
     expect(mapOsmElement({ type: 'node', id: 5, lat: 52, lon: 5, tags: { shop: 'wool' } }, now)).toHaveProperty('skipped')
   })

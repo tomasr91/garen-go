@@ -58,7 +58,13 @@ function parseTimes(part: string): TimeRange[] | null {
 
 export function parseOsmOpeningHours(raw: string | undefined | null): OpeningHours | null {
   if (!raw) return null
-  const value = raw.trim().replace(/\s*-\s*/g, '-').replace(/\s*,\s*/g, ',').replace(/\s+/g, ' ')
+  const value = raw
+    .trim()
+    .replace(/\s*-\s*/g, '-')
+    .replace(/\s*,\s*/g, ',')
+    .replace(/\s+/g, ' ')
+    // Veelgemaakte fout: komma in plaats van puntkomma tussen regels ("Tu-Fr 09:30-18:00, Sa 09:30-17:00").
+    .replace(/(\d),(?=[A-Z][a-z])/g, '$1;')
   if (!value || value.includes('||') || value.includes('"')) return null
 
   if (value === '24/7') {
