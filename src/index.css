@@ -338,6 +338,27 @@ h1, h2, h3 { margin: 0; line-height: 1.2; }
 .range input { min-height: 40px; padding: 4px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
 .admin-form__foot { display: flex; justify-content: flex-end; gap: 8px; position: sticky; bottom: 0; padding: 12px 0; background: var(--bg); }
 
+/* ───────── Installeren ───────── */
+.install-btn {
+  margin-left: auto; min-height: 36px; padding: 0 14px; border-radius: 999px; cursor: pointer;
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--line)); background: var(--accent-soft);
+  color: var(--accent-ink); font-weight: 700; font-size: 0.85rem;
+}
+.sheet-backdrop { position: fixed; inset: 0; z-index: 1000; background: rgb(40 30 20 / 35%); display: flex; align-items: flex-end; justify-content: center; }
+.sheet {
+  width: 100%; max-width: 480px; background: var(--surface); border-radius: 22px 22px 0 0;
+  padding: 16px 20px calc(24px + env(safe-area-inset-bottom)); box-shadow: var(--shadow-lg);
+}
+.sheet__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
+.sheet__head h2 { font-family: var(--font-display); font-size: 1.3rem; }
+.steps { margin: 0 0 8px; padding-left: 1.3rem; display: grid; gap: 8px; }
+/* Als geïnstalleerde app: ruimte voor de statusbalk (notch). */
+@media (display-mode: standalone) {
+  .topbar { padding-top: env(safe-area-inset-top); height: calc(var(--topbar-h) + env(safe-area-inset-top)); }
+  .tab-panel--map { top: calc(var(--topbar-h) + env(safe-area-inset-top)); }
+  .detail__bar { padding-top: env(safe-area-inset-top); height: calc(var(--topbar-h) + env(safe-area-inset-top)); }
+}
+
 /* ───────── Desktop ───────── */
 @media (min-width: 900px) {
   :root { --tabbar-h: 0px; }
@@ -346,6 +367,8 @@ h1, h2, h3 { margin: 0; line-height: 1.2; }
     background: transparent; border: 0; box-shadow: none; width: 280px;
   }
   .tabbar__item { flex-direction: row; gap: 8px; min-height: 40px; font-size: 0.95rem; }
+  .install-btn { margin-right: 300px; }
+  .sheet { border-radius: 22px; margin-bottom: 10vh; }
   .card-list { grid-template-columns: 1fr 1fr; }
   .tab-panel { max-width: 1000px; }
   .chips { margin: 0; padding-inline: 2px; flex-wrap: wrap; }

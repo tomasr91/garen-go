@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useRef } from 'react'
 import { hrefFor, useRoute, type Tab } from './app/router.ts'
 import { IconList, IconMap, IconYarn } from './components/Icons.tsx'
+import { InstallButton } from './components/InstallApp.tsx'
 import { AppStateProvider } from './state/AppState.tsx'
 import { ShopStoreProvider, useShopStore } from './state/ShopStore.tsx'
 import { MapTab } from './views/MapTab.tsx'
@@ -46,6 +47,7 @@ function Shell() {
           <IconYarn className="brand__icon" width={26} height={26} />
           <span className="brand__name">Garen <span className="brand__amp">&amp;</span> Go</span>
         </a>
+        <InstallButton />
       </header>
 
       <main className="main">
