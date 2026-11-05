@@ -1,0 +1,13 @@
+garnstudio_nl 403 https://www.garnstudio.com/findastore.php?cid=7&id=7&lang=nl
+scheepjes_home 200 https://www.scheepjes.com/nl/
+scheepjes_old 200 https://www.scheepjes.com/en/shops/?filter=nederland
+lanagrossa_home 401 https://www.lana-grossa.de/
+durable_home 200 https://www.durable.nl/nl_NL
+rico_home 200 https://www.rico-design.de/en/home/
+katia_home 200 https://www.katia.com/NL/
+dmc_home 403 https://www.dmc.com/nl/
+botter_home 000 https://www.botteryarns.nl/ERR
+stylecraft_home 403 https://www.stylecraft-yarns.co.uk/
+lammy_home 200 https://lammyyarns.com/
+hjertegarn_home 200 https://hjertegarn.dk/
+langyarns_home 200 https://www.langyarns.com/

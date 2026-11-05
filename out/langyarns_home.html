@@ -1,0 +1,2672 @@
+<script type="text/javascript">
+    var options = {
+        enableHighAccuracy: true,
+        timeout: 5000,
+        maximumAge: 0
+    };
+
+    navigator.geolocation.getCurrentPosition(success, error, options);
+
+    function success(position) {
+        var latitude = position.coords.latitude;
+        var longitude = position.coords.longitude;
+        var ajaxURL = "//secure.geonames.org/countryCode?lat=" + latitude + "&lng=" + longitude + "&username=creants";
+
+        $.ajax({
+            url: ajaxURL,
+            type: "get",
+            success: function(result) {
+                var countryCode = result.trim();
+                var lang = navigator.language;
+
+                // Send data to the server to update session variables
+                $.ajax({
+                    url: "/cfm/updateSessionData.cfm",
+                    type: "post",
+                    data: { sc: countryCode, l: lang },
+                    success: function(response) {
+                        if (response.success) {
+                            console.log(response.message);
+                            // Optionally, update the UI or reload specific sections dynamically
+                        } else {
+                            console.error("Server error:", response.message);
+                        }
+                    },
+                    error: function(err) {
+                        console.error("AJAX error:", err);
+                    }
+                });
+            },
+            error: function(err) {
+                console.error("Geolocation error:", err);
+            }
+        });
+    }
+
+    function error(err) {
+        console.warn(`ERROR(${err.code}): ${err.message}`);
+    }
+</script>
+<!DOCTYPE html>
+  
+  <html lang="de" x-ms-format-detection="none">
+    
+
+    <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58901643-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-58901643-1');
+      </script>
+
+      
+
+      
+      
+      <title>LANGYARNS | Wolle & Garne | Strickanleitungen | Strickhefte</title>
+      <meta http-equiv="Cache-control" content="public">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="generator" content="dolphin-vinci -  web based management tools Content management system" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="HandheldFriendly" content="true">
+      <meta name="copyright" content="LANG & CO. AG"/>
+      <meta name="author" content="LANG & CO. AG" />
+      <meta name="Description" content="Seit 1867 entwickelt und vertreibt LANGYARNS hochwertige Handstrickgarne. Finden Sie klassische wie auch Trend-Garne mit den passenden Anleitungen." />
+      <meta name="Keywords" content="LANGYARNS, WOOLADDICTS, Wolle, Garne, Stricken, Häkeln, Strickanleitungen, Publikationen, Strickhefte, Häkelanleitungen, Merino, Alpaka, Cashmere, Merinowolle, Sockenwolle, gratis Strickanleitungen, Stricknadeln, " />
+
+      <!-- Schema.org markup for Google+ -->
+      <meta itemprop="name" content="LANGYARNS | Wolle & Garne | Strickanleitungen | Strickhefte">
+      <meta itemprop="description" content="Seit 1867 entwickelt und vertreibt LANGYARNS hochwertige Handstrickgarne. Finden Sie klassische wie auch Trend-Garne mit den passenden Anleitungen.">
+      <meta itemprop="image" content="https://www.langyarns.com/img/LANGYARNS.jpg">
+
+      <!-- Open Graph data -->
+      <meta property="og:title" content="LANGYARNS | Wolle & Garne | Strickanleitungen | Strickhefte" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="https://www.langyarns.com/de/Startseite" />
+      <meta property="og:image" content="https://www.langyarns.com/img/LANGYARNS.jpg" />
+      <meta property="og:description" content="Seit 1867 entwickelt und vertreibt LANGYARNS hochwertige Handstrickgarne. Finden Sie klassische wie auch Trend-Garne mit den passenden Anleitungen." />
+      <meta property="og:site_name" content="LANGYARNS | Wolle & Garne | Strickanleitungen | Strickhefte" />
+      <meta property="article:published_time" content="2021-05-139T00:00:00+01:00" />
+      <meta property="article:modified_time" content="2026-11-309T00:00:00+01:00" />
+      <meta property="article:section" content="Article Section" />
+      <meta property="article:tag" content="Article Tag" />
+      <meta property="fb:admins" content="456827634407770" />
+      <meta property="fb:page_id" content="456827634407770" />
+      <meta property="fb:app_id" content="1250258535764670" />
+
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+      <link rel="stylesheet" href="https://use.typekit.net/qxm6bfc.css">
+
+      
+      <link rel="stylesheet" type="text/css" href="/css/fonts.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/main.css" />
+      <link rel="stylesheet" type="text/css" href="/css/showroom.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/blog/blog.css" />
+
+      <link rel="stylesheet" type="text/css" href="/css/theme.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/cookie.css" />
+      <link rel="stylesheet" type="text/css" href="/css/slider.css" />
+      <link rel="stylesheet" type="text/css" href="/css/navi.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/jquery_ui.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/slick.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/slick-theme.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/content.css" />
+      <link rel="stylesheet" type="text/css" href="/css/boxen.css" />
+      <link rel="stylesheet" type="text/css" href="/css/search.css" />
+      <link rel="stylesheet" type="text/css" href="/css/member.min.css" />
+      
+      <link rel="stylesheet" type="text/css" href="/css/list.css" />
+      <link rel="stylesheet" type="text/css" href="/css/detail.css" />
+      <link rel="stylesheet" type="text/css" href="/css/animation.css" />
+      <link rel="stylesheet" type="text/css" href="/css/footer.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/pos.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/trace.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/dialog.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/formular.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/shop.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/swiffy-slider.min.css" />
+      <link rel="stylesheet" type="text/css" href="/css/lightbox.css" />
+
+      <script type="text/javascript" src="/js/dolphin/swiffy/swiffy-slider.min.js"></script>
+      <script type="text/javascript" src="/js/dolphin/swiffy/swiffy-slider-extensions.min.js"></script>
+      <script type="text/javascript" src="/js/dolphin/swiffy/smoothscroll.js"></script>
+
+      <script type="text/javascript" src="/js/dolphin/jq/jquery-1.10.2.min.js"></script>
+      <script type="text/javascript" src="/js/dolphin/jqui/ui/jquery-ui.min.js"></script>
+      <script type="text/javascript" src="/js/slick.min.js"></script>     
+      <script type="text/javascript" src="/js/dolphin.min.js"></script>
+      <script type="text/javascript" src="/js/cookie.js"></script>
+      <script type="text/javascript" src="/js/slider.min.js"></script>
+      <script type="text/javascript" src="/js/jAjax.min.js"></script>
+      <script type="text/javascript" src="/js/imagesloaded.pkgd.min.js"></script>
+      <script type="text/javascript" src="/js/masonry.js"></script>
+
+      <script async type="text/javascript" src="/cf_scripts/scripts/wddx.js"></script>
+      <script type="text/javascript" src="/js/dolphin/lb/lightbox.min.js"></script>
+      <script type="text/javascript" src="/js/dolphin/bx/jquery.bxslider.min.js"></script>
+      <script src='https://www.google.com/recaptcha/api.js'></script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $.cookieBar("de");
+        });
+      </script>
+    </head>
+  
+
+  <body class="loaded">
+    <!-- Google Tag Manager (noscript) 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MVBFGV9"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>-->
+    <!-- End Google Tag Manager (noscript) -->
+    
+
+      <div class="wrapper">
+        
+        <div class="ajaxDialog">
+      
+        </div>
+        <div id="layerNavigationResp">
+          <div id="buttonNavigationRespClose" onClick="closeRespNavi();">&#xf054;</div>
+          
+
+
+<div class="topbar-language"> 
+		<a href="/de/" class="active" title="Deutsch">de</a>			
+  
+		<a href="/en/" title="English">en</a>			
+  
+		<a href="/fr/" title="Français">fr</a>			
+  </div>
+
+<div class="clear"></div>
+<div class="topbar-search"> 
+
+	<form name="frmSearch" action="/de/Suche/" method="get" class="search-form-top">
+		<input name="sk" placeholder="Suche" type="text" value="" class="input" />
+		<input type="submit" value="&#xf002;" class="button" />
+	</form>
+	
+</div>
+
+
+    <div class="naviRespStand">
+      <ul class="list-level-one">
+        
+          
+          <li  class="list-item-level-one"  id="item_34">
+            <a title="Kundenkonto"  href="/de/Kundenkonto/Login/" class="link-level-one" target="_self">
+              <span class="title">Kundenkonto</span>
+            </a>
+
+            
+            
+                <ul class="member-bar-preview list-level-two">
+                  
+                    <li class="list-item-level-two">
+                      <a title="Login"  href="/de/Kundenkonto/Login/" class="link-level-two" target="_self">
+                        Login
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Registrieren"  href="/de/Kundenkonto/Login/" class="link-level-two" target="_self">
+                        Registrieren
+                      </a>
+                      
+                      
+                    </li>
+                  
+                </ul>
+              
+
+          </li>
+        
+      </ul>
+    </div>
+  
+
+    <div class="naviRespStand">
+      <ul class="list-level-one">
+        
+          
+          <li  class="list-item-level-one"  id="item_472">
+            <a title="Newsletter"  href="/de/Newsletter/" class="link-level-one" target="_self">
+              <span class="title">Newsletter</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+      </ul>
+    </div>
+  
+
+    <div class="naviResp">
+      <ul class="list-level-one">
+        
+          
+          <li  class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/202608_Startseite_01_v2.jpg);" id="item_485">
+            <a title="Wolle | Garne"  href="/de/Wolle-Garne/" class="link-level-one" target="_self">
+              <span class="title" style="background:#000000;color:#FFFFFF;">Wolle | Garne</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+          
+          <li  class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/202608_Startseite_02_v4.jpg);" id="item_486">
+            <a title="Modelle"  href="/de/Strickanleitungen/" class="link-level-one" target="_self">
+              <span class="title" style="background:#000000;color:#FFFFFF;">Modelle</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+          
+          <li  class="list-item-level-one"  id="item_491">
+            <a title="LANGYARNS"  href="https://www.langyarns.com" class="link-level-one" target="_self">
+              <span class="title">LANGYARNS</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+          
+          <li  class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/202608_Startseite_03.jpg);" id="item_487">
+            <a title="Publikationen"  href="/de/Publikationen/" class="link-level-one" target="_self">
+              <span class="title" style="background:#000000;color:#FFFFFF;">Publikationen</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+          
+          <li  class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/Navigation_WOOLADDICTS.svg);" id="item_489">
+            <a title="WOOLADDICTS"  href="https://www.wooladdicts.com/" class="link-level-one" target="_blank">
+              <span class="title" style="background:#000000;color:#ffffff;">WOOLADDICTS</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+      </ul>
+    </div>
+  
+
+    <div class="naviRespStand">
+      <ul class="list-level-one">
+        
+          
+          <li  class="list-item-level-one"  id="item_495">
+            <a title="Unternehmen"  href="/de/Unternehmen/" class="link-level-one" target="_self">
+              <span class="title">Unternehmen</span>
+            </a>
+
+            
+            
+                <ul class="naviRespStandSub list-level-two">
+                  
+                    <li class="list-item-level-two">
+                      <a title="Geschichte"  href="/de/Unternehmen/Geschichte/" class="link-level-two" target="_self">
+                        Geschichte
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Organisation"  href="/de/Unternehmen/Organisation/" class="link-level-two" target="_self">
+                        Organisation
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Offene Stellen"  href="/de/Unternehmen/Offene-Stellen/" class="link-level-two" target="_self">
+                        Offene Stellen
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="FAQ"  href="/de/Unternehmen/FAQ/" class="link-level-two" target="_self">
+                        FAQ
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Wollfachgeschaft zu übernehmen"  href="/de/Unternehmen/Wollfachgeschaft-zu-uebernehmen/" class="link-level-two" target="_self">
+                        Wollfachgeschaft zu übernehmen
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Kontakt"  href="/de/Unternehmen/Kontakt/" class="link-level-two" target="_self">
+                        Kontakt
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Vertreter"  href="/de/Unternehmen/Vertreter/" class="link-level-two" target="_self">
+                        Vertreter
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Vertriebspartner"  href="/de/Unternehmen/Vertriebspartner/" class="link-level-two" target="_self">
+                        Vertriebspartner
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Händlerbereich"  href="https://webshop.langyarns.com/" class="link-level-two" target="_blank">
+                        Händlerbereich
+                      </a>
+                      
+                      
+                    </li>
+                  
+                </ul>
+              
+
+          </li>
+        
+          
+          <li  class="list-item-level-one"  id="item_500">
+            <a title="Verkaufsstellen"  href="/de/Verkaufsstellen/" class="link-level-one" target="_self">
+              <span class="title">Verkaufsstellen</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+          
+          <li  class="list-item-level-one"  id="item_623">
+            <a title="Onlineshops"  href="/de/Onlineshops/" class="link-level-one" target="_self">
+              <span class="title">Onlineshops</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+          
+          <li  class="list-item-level-one"  id="item_494">
+            <a title="Stories by LANGYARNS"  href="/de/Stories-by-LANGYARNS/" class="link-level-one" target="_self">
+              <span class="title">Stories by LANGYARNS</span>
+            </a>
+
+            
+            
+                <ul class="naviRespStandSub list-level-two">
+                  
+                    <li class="list-item-level-two">
+                      <a title="Blog"  href="/de/Blog/" class="link-level-two" target="_self">
+                        Blog
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Trace your yarn"  href="/de/Stories-by-LANGYARNS/Trace-your-yarn/" class="link-level-two" target="_self">
+                        Trace your yarn
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Punto 34 - Socken-Videos"  href="/de/Stories-by-LANGYARNS/Punto-34---Socken-Videos/" class="link-level-two" target="_self">
+                        Punto 34 - Socken-Videos
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Bücher"  href="/de/Stories-by-LANGYARNS/Buecher/" class="link-level-two" target="_self">
+                        Bücher
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Advents KAL 2026"  href="/de/AdventsKAL2026/" class="link-level-two" target="_self">
+                        Advents KAL 2026
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Advents KAL 2025"  href="/de/AdventsKAL2025/" class="link-level-two" target="_self">
+                        Advents KAL 2025
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Advents KAL 2024"  href="/de/AdventsKAL2024/" class="link-level-two" target="_self">
+                        Advents KAL 2024
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Advents KAL 2023"  href="/de/AdventsKAL2023/" class="link-level-two" target="_self">
+                        Advents KAL 2023
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Advents KAL 2022"  href="/de/honeycombkal/" class="link-level-two" target="_self">
+                        Advents KAL 2022
+                      </a>
+                      
+                      
+                    </li>
+                  
+                </ul>
+              
+
+          </li>
+        
+      </ul>
+    </div>
+  
+        </div>
+        <header class="page-header">
+          <div id="containerTop">
+            <div id="layerTop">
+              <div class="topbar">
+                <div class="topbar-inner">
+                  <div class="topbar-language"> 
+		<a href="/de/" class="active" title="Deutsch">de</a>			
+  
+		<a href="/en/" title="English">en</a>			
+  
+		<a href="/fr/" title="Français">fr</a>			
+  </div>
+                  <div class="topbar-countryselect"> 
+<div class="countryselect small">
+	
+		<div class="countryselect-input" onclick="$('.countryselect').toggleClass('open');">
+			
+			Schweiz
+		</div>
+	
+	<div class="countryselect-list">
+		<div class="countryselect-list-inner">
+			
+				<a href="/?sc=DE" class="countryselect-list-option">
+					Deutschland
+				</a>
+			
+				<a href="/?sc=FR" class="countryselect-list-option">
+					Frankreich
+				</a>
+			
+				<a href="/?sc=AT" class="countryselect-list-option">
+					Österreich
+				</a>
+			
+				<a href="/?sc=CH" class="countryselect-list-option">
+					Schweiz
+				</a>
+			
+				<a href="/?sc=AF" class="countryselect-list-option">
+					Afghanistan
+				</a>
+			
+				<a href="/?sc=EG" class="countryselect-list-option">
+					Ägypten
+				</a>
+			
+				<a href="/?sc=AL" class="countryselect-list-option">
+					Albanien
+				</a>
+			
+				<a href="/?sc=DZ" class="countryselect-list-option">
+					Algerien
+				</a>
+			
+				<a href="/?sc=AD" class="countryselect-list-option">
+					Andorra
+				</a>
+			
+				<a href="/?sc=AO" class="countryselect-list-option">
+					Angola
+				</a>
+			
+				<a href="/?sc=AG" class="countryselect-list-option">
+					Antigua und Barbuda
+				</a>
+			
+				<a href="/?sc=GQ" class="countryselect-list-option">
+					Äquatorialguinea
+				</a>
+			
+				<a href="/?sc=AR" class="countryselect-list-option">
+					Argentinien
+				</a>
+			
+				<a href="/?sc=AM" class="countryselect-list-option">
+					Armenien
+				</a>
+			
+				<a href="/?sc=AZ" class="countryselect-list-option">
+					Aserbaidschan
+				</a>
+			
+				<a href="/?sc=ET" class="countryselect-list-option">
+					Äthiopien
+				</a>
+			
+				<a href="/?sc=AU" class="countryselect-list-option">
+					Australien
+				</a>
+			
+				<a href="/?sc=BS" class="countryselect-list-option">
+					Bahamas
+				</a>
+			
+				<a href="/?sc=BH" class="countryselect-list-option">
+					Bahrain
+				</a>
+			
+				<a href="/?sc=BD" class="countryselect-list-option">
+					Bangladesch
+				</a>
+			
+				<a href="/?sc=BB" class="countryselect-list-option">
+					Barbados
+				</a>
+			
+				<a href="/?sc=BE" class="countryselect-list-option">
+					Belgien
+				</a>
+			
+				<a href="/?sc=BZ" class="countryselect-list-option">
+					Belize
+				</a>
+			
+				<a href="/?sc=BJ" class="countryselect-list-option">
+					Benin
+				</a>
+			
+				<a href="/?sc=BT" class="countryselect-list-option">
+					Bhutan
+				</a>
+			
+				<a href="/?sc=BO" class="countryselect-list-option">
+					Bolivien
+				</a>
+			
+				<a href="/?sc=BA" class="countryselect-list-option">
+					Bosnien und Herzegowina
+				</a>
+			
+				<a href="/?sc=BW" class="countryselect-list-option">
+					Botswana
+				</a>
+			
+				<a href="/?sc=BR" class="countryselect-list-option">
+					Brasilien
+				</a>
+			
+				<a href="/?sc=BN" class="countryselect-list-option">
+					Brunei
+				</a>
+			
+				<a href="/?sc=BG" class="countryselect-list-option">
+					Bulgarien
+				</a>
+			
+				<a href="/?sc=BF" class="countryselect-list-option">
+					Burkina Faso
+				</a>
+			
+				<a href="/?sc=BI" class="countryselect-list-option">
+					Burundi
+				</a>
+			
+				<a href="/?sc=CL" class="countryselect-list-option">
+					Chile
+				</a>
+			
+				<a href="/?sc=CK" class="countryselect-list-option">
+					Cookinseln
+				</a>
+			
+				<a href="/?sc=CR" class="countryselect-list-option">
+					Costa Rica
+				</a>
+			
+				<a href="/?sc=DK" class="countryselect-list-option">
+					Dänemark
+				</a>
+			
+				<a href="/?sc=DM" class="countryselect-list-option">
+					Dominica
+				</a>
+			
+				<a href="/?sc=DO" class="countryselect-list-option">
+					Dominikanische Republik
+				</a>
+			
+				<a href="/?sc=DJ" class="countryselect-list-option">
+					Dschibuti
+				</a>
+			
+				<a href="/?sc=EC" class="countryselect-list-option">
+					Ecuador
+				</a>
+			
+				<a href="/?sc=SV" class="countryselect-list-option">
+					El Salvador
+				</a>
+			
+				<a href="/?sc=CI" class="countryselect-list-option">
+					Elfenbeinküste
+				</a>
+			
+				<a href="/?sc=ER" class="countryselect-list-option">
+					Eritrea
+				</a>
+			
+				<a href="/?sc=EE" class="countryselect-list-option">
+					Estland
+				</a>
+			
+				<a href="/?sc=FJ" class="countryselect-list-option">
+					Fidschi
+				</a>
+			
+				<a href="/?sc=FI" class="countryselect-list-option">
+					Finnland
+				</a>
+			
+				<a href="/?sc=GA" class="countryselect-list-option">
+					Gabun
+				</a>
+			
+				<a href="/?sc=GM" class="countryselect-list-option">
+					Gambia
+				</a>
+			
+				<a href="/?sc=GE" class="countryselect-list-option">
+					Georgien
+				</a>
+			
+				<a href="/?sc=GH" class="countryselect-list-option">
+					Ghana
+				</a>
+			
+				<a href="/?sc=GD" class="countryselect-list-option">
+					Grenada
+				</a>
+			
+				<a href="/?sc=GR" class="countryselect-list-option">
+					Griechenland
+				</a>
+			
+				<a href="/?sc=GT" class="countryselect-list-option">
+					Guatemala
+				</a>
+			
+				<a href="/?sc=GN" class="countryselect-list-option">
+					Guinea
+				</a>
+			
+				<a href="/?sc=GW" class="countryselect-list-option">
+					Guinea-Bissau
+				</a>
+			
+				<a href="/?sc=GY" class="countryselect-list-option">
+					Guyana
+				</a>
+			
+				<a href="/?sc=HT" class="countryselect-list-option">
+					Haiti
+				</a>
+			
+				<a href="/?sc=HN" class="countryselect-list-option">
+					Honduras
+				</a>
+			
+				<a href="/?sc=IN" class="countryselect-list-option">
+					Indien
+				</a>
+			
+				<a href="/?sc=ID" class="countryselect-list-option">
+					Indonesien
+				</a>
+			
+				<a href="/?sc=IQ" class="countryselect-list-option">
+					Irak
+				</a>
+			
+				<a href="/?sc=IR" class="countryselect-list-option">
+					Iran
+				</a>
+			
+				<a href="/?sc=IE" class="countryselect-list-option">
+					Irland
+				</a>
+			
+				<a href="/?sc=IS" class="countryselect-list-option">
+					Island
+				</a>
+			
+				<a href="/?sc=IL" class="countryselect-list-option">
+					Israel
+				</a>
+			
+				<a href="/?sc=IT" class="countryselect-list-option">
+					Italien
+				</a>
+			
+				<a href="/?sc=JM" class="countryselect-list-option">
+					Jamaika
+				</a>
+			
+				<a href="/?sc=JP" class="countryselect-list-option">
+					Japan
+				</a>
+			
+				<a href="/?sc=YE" class="countryselect-list-option">
+					Jemen
+				</a>
+			
+				<a href="/?sc=JO" class="countryselect-list-option">
+					Jordanien
+				</a>
+			
+				<a href="/?sc=KH" class="countryselect-list-option">
+					Kambodscha
+				</a>
+			
+				<a href="/?sc=CM" class="countryselect-list-option">
+					Kamerun
+				</a>
+			
+				<a href="/?sc=CA" class="countryselect-list-option">
+					Kanada
+				</a>
+			
+				<a href="/?sc=CV" class="countryselect-list-option">
+					Kap Verde
+				</a>
+			
+				<a href="/?sc=KZ" class="countryselect-list-option">
+					Kasachstan
+				</a>
+			
+				<a href="/?sc=QA" class="countryselect-list-option">
+					Katar
+				</a>
+			
+				<a href="/?sc=KE" class="countryselect-list-option">
+					Kenia
+				</a>
+			
+				<a href="/?sc=KG" class="countryselect-list-option">
+					Kirgisistan
+				</a>
+			
+				<a href="/?sc=KI" class="countryselect-list-option">
+					Kiribati
+				</a>
+			
+				<a href="/?sc=CO" class="countryselect-list-option">
+					Kolumbien
+				</a>
+			
+				<a href="/?sc=KM" class="countryselect-list-option">
+					Komoren
+				</a>
+			
+				<a href="/?sc=CD" class="countryselect-list-option">
+					Kongo, Demokratische Republik
+				</a>
+			
+				<a href="/?sc=CG" class="countryselect-list-option">
+					Kongo, Republik
+				</a>
+			
+				<a href="/?sc=KP" class="countryselect-list-option">
+					Korea, Nord
+				</a>
+			
+				<a href="/?sc=KR" class="countryselect-list-option">
+					Korea, Süd
+				</a>
+			
+				<a href="/?sc=HR" class="countryselect-list-option">
+					Kroatien
+				</a>
+			
+				<a href="/?sc=CU" class="countryselect-list-option">
+					Kuba
+				</a>
+			
+				<a href="/?sc=KW" class="countryselect-list-option">
+					Kuwait
+				</a>
+			
+				<a href="/?sc=LA" class="countryselect-list-option">
+					Laos
+				</a>
+			
+				<a href="/?sc=LS" class="countryselect-list-option">
+					Lesotho
+				</a>
+			
+				<a href="/?sc=LV" class="countryselect-list-option">
+					Lettland
+				</a>
+			
+				<a href="/?sc=LB" class="countryselect-list-option">
+					Libanon
+				</a>
+			
+				<a href="/?sc=LR" class="countryselect-list-option">
+					Liberia
+				</a>
+			
+				<a href="/?sc=LY" class="countryselect-list-option">
+					Libyen
+				</a>
+			
+				<a href="/?sc=LI" class="countryselect-list-option">
+					Liechtenstein
+				</a>
+			
+				<a href="/?sc=LT" class="countryselect-list-option">
+					Litauen
+				</a>
+			
+				<a href="/?sc=LU" class="countryselect-list-option">
+					Luxemburg
+				</a>
+			
+				<a href="/?sc=MG" class="countryselect-list-option">
+					Madagaskar
+				</a>
+			
+				<a href="/?sc=MW" class="countryselect-list-option">
+					Malawi
+				</a>
+			
+				<a href="/?sc=MY" class="countryselect-list-option">
+					Malaysia
+				</a>
+			
+				<a href="/?sc=MV" class="countryselect-list-option">
+					Malediven
+				</a>
+			
+				<a href="/?sc=ML" class="countryselect-list-option">
+					Mali
+				</a>
+			
+				<a href="/?sc=MT" class="countryselect-list-option">
+					Malta
+				</a>
+			
+				<a href="/?sc=MA" class="countryselect-list-option">
+					Marokko
+				</a>
+			
+				<a href="/?sc=MH" class="countryselect-list-option">
+					Marshallinseln
+				</a>
+			
+				<a href="/?sc=MR" class="countryselect-list-option">
+					Mauretanien
+				</a>
+			
+				<a href="/?sc=MU" class="countryselect-list-option">
+					Mauritius
+				</a>
+			
+				<a href="/?sc=MK" class="countryselect-list-option">
+					Mazedonien
+				</a>
+			
+				<a href="/?sc=MX" class="countryselect-list-option">
+					Mexiko
+				</a>
+			
+				<a href="/?sc=FM" class="countryselect-list-option">
+					Mikronesien
+				</a>
+			
+				<a href="/?sc=MD" class="countryselect-list-option">
+					Moldawien
+				</a>
+			
+				<a href="/?sc=MC" class="countryselect-list-option">
+					Monaco
+				</a>
+			
+				<a href="/?sc=MN" class="countryselect-list-option">
+					Mongolei
+				</a>
+			
+				<a href="/?sc=ME" class="countryselect-list-option">
+					Montenegro
+				</a>
+			
+				<a href="/?sc=MZ" class="countryselect-list-option">
+					Mosambik
+				</a>
+			
+				<a href="/?sc=MM" class="countryselect-list-option">
+					Myanmar
+				</a>
+			
+				<a href="/?sc=NA" class="countryselect-list-option">
+					Namibia
+				</a>
+			
+				<a href="/?sc=NR" class="countryselect-list-option">
+					Nauru
+				</a>
+			
+				<a href="/?sc=NP" class="countryselect-list-option">
+					Nepal
+				</a>
+			
+				<a href="/?sc=NZ" class="countryselect-list-option">
+					Neuseeland
+				</a>
+			
+				<a href="/?sc=NI" class="countryselect-list-option">
+					Nicaragua
+				</a>
+			
+				<a href="/?sc=NL" class="countryselect-list-option">
+					Niederlande
+				</a>
+			
+				<a href="/?sc=NE" class="countryselect-list-option">
+					Niger
+				</a>
+			
+				<a href="/?sc=NG" class="countryselect-list-option">
+					Nigeria
+				</a>
+			
+				<a href="/?sc=NU" class="countryselect-list-option">
+					Niue
+				</a>
+			
+				<a href="/?sc=NO" class="countryselect-list-option">
+					Norwegen
+				</a>
+			
+				<a href="/?sc=OM" class="countryselect-list-option">
+					Oman
+				</a>
+			
+				<a href="/?sc=TL" class="countryselect-list-option">
+					Osttimor / Timor-Leste
+				</a>
+			
+				<a href="/?sc=PK" class="countryselect-list-option">
+					Pakistan
+				</a>
+			
+				<a href="/?sc=PS" class="countryselect-list-option">
+					Palästina
+				</a>
+			
+				<a href="/?sc=PW" class="countryselect-list-option">
+					Palau
+				</a>
+			
+				<a href="/?sc=PA" class="countryselect-list-option">
+					Panama
+				</a>
+			
+				<a href="/?sc=PG" class="countryselect-list-option">
+					Papua-Neuguinea
+				</a>
+			
+				<a href="/?sc=PY" class="countryselect-list-option">
+					Paraguay
+				</a>
+			
+				<a href="/?sc=PE" class="countryselect-list-option">
+					Peru
+				</a>
+			
+				<a href="/?sc=PH" class="countryselect-list-option">
+					Philippinen
+				</a>
+			
+				<a href="/?sc=PL" class="countryselect-list-option">
+					Polen
+				</a>
+			
+				<a href="/?sc=PT" class="countryselect-list-option">
+					Portugal
+				</a>
+			
+				<a href="/?sc=TW" class="countryselect-list-option">
+					Republik China
+				</a>
+			
+				<a href="/?sc=RW" class="countryselect-list-option">
+					Ruanda
+				</a>
+			
+				<a href="/?sc=RO" class="countryselect-list-option">
+					Rumänien
+				</a>
+			
+				<a href="/?sc=RU" class="countryselect-list-option">
+					Russland
+				</a>
+			
+				<a href="/?sc=SB" class="countryselect-list-option">
+					Salomonen
+				</a>
+			
+				<a href="/?sc=ZM" class="countryselect-list-option">
+					Sambia
+				</a>
+			
+				<a href="/?sc=WS" class="countryselect-list-option">
+					Samoa
+				</a>
+			
+				<a href="/?sc=SM" class="countryselect-list-option">
+					San Marino
+				</a>
+			
+				<a href="/?sc=ST" class="countryselect-list-option">
+					São Tomé und Príncipe
+				</a>
+			
+				<a href="/?sc=SA" class="countryselect-list-option">
+					Saudi-Arabien
+				</a>
+			
+				<a href="/?sc=SE" class="countryselect-list-option">
+					Schweden
+				</a>
+			
+				<a href="/?sc=SN" class="countryselect-list-option">
+					Senegal
+				</a>
+			
+				<a href="/?sc=RS" class="countryselect-list-option">
+					Serbien
+				</a>
+			
+				<a href="/?sc=SC" class="countryselect-list-option">
+					Seychellen
+				</a>
+			
+				<a href="/?sc=SL" class="countryselect-list-option">
+					Sierra Leone
+				</a>
+			
+				<a href="/?sc=ZW" class="countryselect-list-option">
+					Simbabwe
+				</a>
+			
+				<a href="/?sc=SG" class="countryselect-list-option">
+					Singapur
+				</a>
+			
+				<a href="/?sc=SK" class="countryselect-list-option">
+					Slowakei
+				</a>
+			
+				<a href="/?sc=SI" class="countryselect-list-option">
+					Slowenien
+				</a>
+			
+				<a href="/?sc=SO" class="countryselect-list-option">
+					Somalia
+				</a>
+			
+				<a href="/?sc=SO" class="countryselect-list-option">
+					Somaliland
+				</a>
+			
+				<a href="/?sc=ES" class="countryselect-list-option">
+					Spanien
+				</a>
+			
+				<a href="/?sc=LK" class="countryselect-list-option">
+					Sri Lanka
+				</a>
+			
+				<a href="/?sc=KN" class="countryselect-list-option">
+					St. Kitts und Nevis
+				</a>
+			
+				<a href="/?sc=LC" class="countryselect-list-option">
+					St. Lucia
+				</a>
+			
+				<a href="/?sc=VC" class="countryselect-list-option">
+					St. Vincent und die Grenadinen
+				</a>
+			
+				<a href="/?sc=ZA" class="countryselect-list-option">
+					Südafrika
+				</a>
+			
+				<a href="/?sc=SD" class="countryselect-list-option">
+					Sudan
+				</a>
+			
+				<a href="/?sc=SS" class="countryselect-list-option">
+					Südsudan
+				</a>
+			
+				<a href="/?sc=SR" class="countryselect-list-option">
+					Suriname
+				</a>
+			
+				<a href="/?sc=SZ" class="countryselect-list-option">
+					Swasiland
+				</a>
+			
+				<a href="/?sc=SY" class="countryselect-list-option">
+					Syrien
+				</a>
+			
+				<a href="/?sc=TJ" class="countryselect-list-option">
+					Tadschikistan
+				</a>
+			
+				<a href="/?sc=TZ" class="countryselect-list-option">
+					Tansania
+				</a>
+			
+				<a href="/?sc=TH" class="countryselect-list-option">
+					Thailand
+				</a>
+			
+				<a href="/?sc=TG" class="countryselect-list-option">
+					Togo
+				</a>
+			
+				<a href="/?sc=TO" class="countryselect-list-option">
+					Tonga
+				</a>
+			
+				<a href="/?sc=TT" class="countryselect-list-option">
+					Trinidad und Tobago
+				</a>
+			
+				<a href="/?sc=TD" class="countryselect-list-option">
+					Tschad
+				</a>
+			
+				<a href="/?sc=CZ" class="countryselect-list-option">
+					Tschechien
+				</a>
+			
+				<a href="/?sc=TN" class="countryselect-list-option">
+					Tunesien
+				</a>
+			
+				<a href="/?sc=TR" class="countryselect-list-option">
+					Türkei
+				</a>
+			
+				<a href="/?sc=TM" class="countryselect-list-option">
+					Turkmenistan
+				</a>
+			
+				<a href="/?sc=TV" class="countryselect-list-option">
+					Tuvalu
+				</a>
+			
+				<a href="/?sc=UG" class="countryselect-list-option">
+					Uganda
+				</a>
+			
+				<a href="/?sc=UA" class="countryselect-list-option">
+					Ukraine
+				</a>
+			
+				<a href="/?sc=HU" class="countryselect-list-option">
+					Ungarn
+				</a>
+			
+				<a href="/?sc=UY" class="countryselect-list-option">
+					Uruguay
+				</a>
+			
+				<a href="/?sc=UZ" class="countryselect-list-option">
+					Usbekistan
+				</a>
+			
+				<a href="/?sc=VU" class="countryselect-list-option">
+					Vanuatu
+				</a>
+			
+				<a href="/?sc=VA" class="countryselect-list-option">
+					Vatikanstadt
+				</a>
+			
+				<a href="/?sc=VE" class="countryselect-list-option">
+					Venezuela
+				</a>
+			
+				<a href="/?sc=AE" class="countryselect-list-option">
+					Vereinigte Arabische Emirate
+				</a>
+			
+				<a href="/?sc=US" class="countryselect-list-option">
+					Vereinigte Staaten
+				</a>
+			
+				<a href="/?sc=GB" class="countryselect-list-option">
+					Vereinigtes Königreich
+				</a>
+			
+				<a href="/?sc=VN" class="countryselect-list-option">
+					Vietnam
+				</a>
+			
+				<a href="/?sc=CN" class="countryselect-list-option">
+					Volksrepublik China
+				</a>
+			
+				<a href="/?sc=BY" class="countryselect-list-option">
+					Weißrussland
+				</a>
+			
+				<a href="/?sc=EH" class="countryselect-list-option">
+					Westsahara
+				</a>
+			
+				<a href="/?sc=CF" class="countryselect-list-option">
+					Zentralafrikanische Republik
+				</a>
+			
+				<a href="/?sc=CY" class="countryselect-list-option">
+					Zypern
+				</a>
+			
+		</div>
+	</div>
+</div>
+</div>
+                  <div class="topbar-search"> 
+
+	<form name="frmSearch" action="/de/Suche/" method="get" class="search-form-top">
+		<input name="sk" placeholder="Suche" type="text" value="" class="input" />
+		<input type="submit" value="&#xf002;" class="button" />
+	</form>
+	
+</div>
+                  
+                  <div class="topbar-social">
+                    <a href="https://www.facebook.com/langyarns/" target="_blank" title="Facebook"><div class="icon">&#xf39e;</div></a>
+                    <a href="https://www.instagram.com/langyarns_official/" target="_blank" title="Instagram"><div class="icon">&#xf16d;</div></a>
+                    <a href="https://www.pinterest.com/langyarns/" target="_blank" title="Pinterest"><div class="icon">&#xf231;</div></a>
+    	            <a href="https://www.langyarns.com/de/Blog/" title="Blog"><div class="icon">&#xf37d;</div></a>
+                    <a href="https://www.youtube.com/user/LANGYARNS" target="_blank" title="YouTube"><div class="icon">&#xf167;</div></a>
+                  </div>
+                  <div class="topbar-member">
+    <a class="topbar-member-link" href="/de/Kundenkonto/Login/"><div class="naviIcon">&#xf055;</div>Registrieren</a>
+    <span class="spacer">|</span>
+    <a class="topbar-member-link" href="/de/Kundenkonto/Login/"><div class="naviIcon">&#xf090;</div>login</a>
+  </div>
+                  
+                  <div class="topbar-navi"><div id="layerHeadButton" onclick="openRespNavi()">&#xf0c9;</div></div>
+                </div>
+              </div>
+              <div id="layerLogo">
+                <a href="https://www.langyarns.com">
+                  <img src="/img/logo.svg" class="logo" title="Logo LANG & CO. AG" alt="Logo LANG & CO. AG">
+                </a>
+              </div>
+            </div>
+          </div>
+          <div id="containerHead"class="containerHome">
+            <div class="layerHead">
+              <div id="layerNavigation">
+                <nav>
+                  
+
+    <div class="main-menu">
+      <ul class="list-level-one">
+        
+          
+          <li  onclick="$('#nav_485').toggleClass('flexbox');"class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/202608_Startseite_01_v2.jpg);" id="item_485">
+            <a title="Wolle | Garne"  href="/de/Wolle-Garne/" class="link-level-one" target="_self">
+              <span class="title" style="background:#000000;color:#FFFFFF;">Wolle | Garne</span>
+            </a>
+
+            
+            
+                <ul class="preview nav-filter" id="nav_485">
+                  
+                    <li class="level-one">
+                      <a title="Tierische Fasern"  href="/de/Wolle-Garne/Tierische-Fasern/" target="_self">
+                        Tierische Fasern
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Merino"  href="/de/Wolle-Garne/Merino/" target="_self">
+                                  Merino
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Schurwolle"  href="/de/Wolle-Garne/Schurwolle/" target="_self">
+                                  Schurwolle
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Mohair"  href="/de/Wolle-Garne/Mohair/" target="_self">
+                                  Mohair
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Alpaka"  href="/de/Wolle-Garne/Alpaka/" target="_self">
+                                  Alpaka
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Baby Alpaca"  href="/de/Wolle-Garne/Baby-Alpaca/" target="_self">
+                                  Baby Alpaca
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Kaschmir"  href="/de/Wolle-Garne/Kaschmir/" target="_self">
+                                  Kaschmir
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Kamel"  href="/de/Wolle-Garne/Kamel/" target="_self">
+                                  Kamel
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Yak"  href="/de/Wolle-Garne/Yak/" target="_self">
+                                  Yak
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Seide"  href="/de/Wolle-Garne/Seide/" target="_self">
+                                  Seide
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Pflanzliche Fasern"  href="/de/Wolle---Garne/Pflanzliche-Fasern/" target="_self">
+                        Pflanzliche Fasern
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Baumwolle"  href="/de/Wolle---Garne/Baumwolle/" target="_self">
+                                  Baumwolle
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Leinen"  href="/de/Wolle---Garne/Leinen/" target="_self">
+                                  Leinen
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Kunstfasern"  href="/de/Wolle---Garne/Kunstfasern/" target="_self">
+                        Kunstfasern
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Viskose"  href="/de/Wolle---Garne/Viskose/" target="_self">
+                                  Viskose
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Synthetik"  href="/de/Wolle---Garne/Synthetik/" target="_self">
+                                  Synthetik
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Nach Kategorie"  href="/de/Wolle-Garne/Kategorie/" target="_self">
+                        Nach Kategorie
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Premium Garne"  href="/de/Wolle---Garne/Premium/" target="_self">
+                                  Premium Garne
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Noble Yarns"  href="/de/Wolle---Garne/Noble-Yarns/" target="_self">
+                                  Noble Yarns
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Sockengarne"  href="/de/Wolle---Garne/Socken/" target="_self">
+                                  Sockengarne
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Traceable"  href="/de/Wolle---Garne/Traceable/" target="_self">
+                                  Traceable
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Mulesing-Frei"  href="/de/Wolle---Garne/Mulesing-Frei/" target="_self">
+                                  Mulesing-Frei
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Schulgarn"  href="/de/Wolle---Garne/Schulgarn/" target="_self">
+                                  Schulgarn
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="RAW Garne (zum Färben)"  href="/de/Wolle---Garne/Raw/" target="_self">
+                                  RAW Garne (zum Färben)
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                </ul>
+              
+
+          </li>
+        
+          
+          <li  onclick="$('#nav_486').toggleClass('flexbox');"class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/202608_Startseite_02_v4.jpg);" id="item_486">
+            <a title="Modelle"  href="/de/Strickanleitungen/" class="link-level-one" target="_self">
+              <span class="title" style="background:#000000;color:#FFFFFF;">Modelle</span>
+            </a>
+
+            
+            
+                <ul class="preview nav-filter" id="nav_486">
+                  
+                    <li class="level-one">
+                      <a title="Indie Designs"  href="/de/Strickanleitungen/IndieDesigns/" target="_self">
+                        Indie Designs
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Herren"  href="/de/Strickanleitungen/Herren/" target="_self">
+                        Herren
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Herrenpullover"  href="/de/Strickanleitungen/Herrenpullover/" target="_self">
+                                  Herrenpullover
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Herrenjacken"  href="/de/Strickanleitungen/Herrenjacke/" target="_self">
+                                  Herrenjacken
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Damen"  href="/de/Strickanleitungen/Damen/" target="_self">
+                        Damen
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Damenpullover"  href="/de/Strickanleitungen/Damenpullover/" target="_self">
+                                  Damenpullover
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Damenjacken"  href="/de/Strickanleitungen/Damenjacke/" target="_self">
+                                  Damenjacken
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Kinder"  href="/de/Strickanleitungen/Kinder/" target="_self">
+                        Kinder
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Kinderpullover"  href="/de/Strickanleitungen/Kinderpullover/" target="_self">
+                                  Kinderpullover
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Kinderjacken"  href="/de/Strickanleitungen/Kinderjacke/" target="_self">
+                                  Kinderjacken
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Kindermäntel"  href="/de/Strickanleitungen/Kindermantel/" target="_self">
+                                  Kindermäntel
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Kinderaccessoires"  href="/de/Strickanleitungen/Kinderaccessoires/" target="_self">
+                                  Kinderaccessoires
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Baby & Kleinkinder"  href="/de/Strickanleitungen/Baby-Kleinkinder/" target="_self">
+                        Baby & Kleinkinder
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Babypullover"  href="/de/Strickanleitungen/Babypullover/" target="_self">
+                                  Babypullover
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Babyjacken"  href="/de/Strickanleitungen/Babyjacke/" target="_self">
+                                  Babyjacken
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Babymützen"  href="/de/Strickanleitungen/Babymuetze/" target="_self">
+                                  Babymützen
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Babyschuhe"  href="/de/Strickanleitungen/Babyschuhe/" target="_self">
+                                  Babyschuhe
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Babydecken"  href="/de/Strickanleitungen/Babydecke/" target="_self">
+                                  Babydecken
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Kollektion"  href="/de/Strickanleitungen/Kollektion/" target="_self">
+                        Kollektion
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Frühling & Sommer"  href="/de/Strickanleitungen/Fruehling-Sommer/" target="_self">
+                                  Frühling & Sommer
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Herbst & Winter"  href="/de/Strickanleitungen/Herbst-Winter/" target="_self">
+                                  Herbst & Winter
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Ganzjährig"  href="/de/Strickanleitungen/ganzjährig/" target="_self">
+                                  Ganzjährig
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Kategorie"  href="/de/Strickanleitungen/Kategorie/" target="_self">
+                        Kategorie
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Pullover"  href="/de/Strickanleitungen/Pullover/" target="_self">
+                                  Pullover
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Pullover langarm"  href="/de/Strickanleitungen/Pullover-langarm/" target="_self">
+                                  Pullover langarm
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Pullover kurzarm"  href="/de/Strickanleitungen/Pullover-kurzarm/" target="_self">
+                                  Pullover kurzarm
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Tops"  href="/de/Strickanleitungen/Top/" target="_self">
+                                  Tops
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Pullunder"  href="/de/Strickanleitungen/Pullunder/" target="_self">
+                                  Pullunder
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Cardigan"  href="/de/Strickanleitungen/Cardigan/" target="_self">
+                                  Cardigan
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Jacken"  href="/de/Strickanleitungen/Jacke/" target="_self">
+                                  Jacken
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Kleider"  href="/de/Strickanleitungen/Kleid/" target="_self">
+                                  Kleider
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Röcke"  href="/de/Strickanleitungen/Rock/" target="_self">
+                                  Röcke
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Mäntel"  href="/de/Strickanleitungen/Maentel/" target="_self">
+                                  Mäntel
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Ponchos"  href="/de/Strickanleitungen/Poncho/" target="_self">
+                                  Ponchos
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Capes"  href="/de/Strickanleitungen/Capes/" target="_self">
+                                  Capes
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Accessoires"  href="/de/Strickanleitungen/Accessoires/" target="_self">
+                        Accessoires
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Tücher"  href="/de/Strickanleitungen/Tuch/" target="_self">
+                                  Tücher
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Dreieckstücher"  href="/de/Strickanleitungen/Dreieckstuch/" target="_self">
+                                  Dreieckstücher
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Schals"  href="/de/Strickanleitungen/Schal/" target="_self">
+                                  Schals
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Stolas"  href="/de/Strickanleitungen/Stola/" target="_self">
+                                  Stolas
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Loop Schals"  href="/de/Strickanleitungen/Loop-Schal /" target="_self">
+                                  Loop Schals
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Kopfbedeckungen"  href="/de/Strickanleitungen/Kopfbedeckung/" target="_self">
+                                  Kopfbedeckungen
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Mützen"  href="/de/Strickanleitungen/Muetze/" target="_self">
+                                  Mützen
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Stirnbänder"  href="/de/Strickanleitungen/Stirnband/" target="_self">
+                                  Stirnbänder
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Handschuhe"  href="/de/Strickanleitungen/Handschuhe/" target="_self">
+                                  Handschuhe
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Stulpen"  href="/de/Strickanleitungen/Stulpen/" target="_self">
+                                  Stulpen
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Pulswärmer"  href="/de/Strickanleitungen/Pulswaermer/" target="_self">
+                                  Pulswärmer
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Taschen"  href="/de/Strickanleitungen/Tasche/" target="_self">
+                                  Taschen
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Rucksäcke"  href="/de/Strickanleitungen/Rucksaecke/" target="_self">
+                                  Rucksäcke
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Beutel"  href="/de/Strickanleitungen/Beutel/" target="_self">
+                                  Beutel
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Socken"  href="/de/Strickanleitungen/Socken/" target="_self">
+                                  Socken
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Intérieur"  href="/de/Strickanleitungen/Interieur/" target="_self">
+                        Intérieur
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Decken"  href="/de/Strickanleitungen/Decke/" target="_self">
+                                  Decken
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Kissen"  href="/de/Strickanleitungen/Kissen/" target="_self">
+                                  Kissen
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Körbe"  href="/de/Strickanleitungen/Korb/" target="_self">
+                                  Körbe
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Topflappen"  href="/de/Strickanleitungen/Topflappen/" target="_self">
+                                  Topflappen
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Technik"  href="/de/Modelle/Technik/" target="_self">
+                        Technik
+                      </a>
+                      
+                      
+                          <ul class="nav-filter-level-two">
+                            
+                              <li class="level-two">
+                                <a title="Stricken"  href="/de/Strickanleitungen/Stricken/" target="_self">
+                                  Stricken
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Häkeln"  href="/de/Haekelanleitungen/" target="_self">
+                                  Häkeln
+                                </a>
+                              </li>
+                            
+                              <li class="level-two">
+                                <a title="Top-Down"  href="/de/Strickanleitungen/Top-Down/" target="_self">
+                                  Top-Down
+                                </a>
+                              </li>
+                            
+                          </ul>
+                        
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Gratis-Anleitungen"  href="/de/Strickanleitungen/gratis/" target="_self">
+                        Gratis-Anleitungen
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="level-one">
+                      <a title="Korrigenda"  href="/de/Modelle/Korrigenda/" target="_self">
+                        Korrigenda
+                      </a>
+                      
+                      
+                    </li>
+                  
+                </ul>
+              
+
+          </li>
+        
+          
+          <li  onclick="$('#nav_491').toggleClass('flexbox');"class="list-item-level-one"  id="item_491">
+            <a title="LANGYARNS"  href="https://www.langyarns.com" class="link-level-one" target="_self">
+              <span class="title">LANGYARNS</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+          
+          <li  onclick="$('#nav_487').toggleClass('flexbox');"class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/202608_Startseite_03.jpg);" id="item_487">
+            <a title="Publikationen"  href="/de/Publikationen/" class="link-level-one" target="_self">
+              <span class="title" style="background:#000000;color:#FFFFFF;">Publikationen</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+          
+          <li  onclick="$('#nav_489').toggleClass('flexbox');"class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/Navigation_WOOLADDICTS.svg);" id="item_489">
+            <a title="WOOLADDICTS"  href="https://www.wooladdicts.com/" class="link-level-one" target="_blank">
+              <span class="title" style="background:#000000;color:#ffffff;">WOOLADDICTS</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+      </ul>
+    </div>
+  
+                </nav>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        
+        <main class="page-main">
+          
+          
+            <div id="containerStart">
+              
+                  <div id="layerStartContent">
+                    
+<div class="singlepage">
+	
+		
+		<div class="singlepage-item" id="singlepage-item-1448">
+			<div class="singlepage-item-inner">
+				
+
+    <div class="content-item has-title  has-no-subtitle  has-main-image  has-content  has-no-bg-color  box box-1-col-item" 
+      id="content-item-2746">
+        
+      <div class="content-item-inner">
+        <a name="paragraph1" id="paragraph1"></a>
+          
+              <div class="head">
+                
+                    <h1 class="title">Willkommen bei LANGYARNS!</h1>
+                  
+              </div>
+            
+              <div class="content">
+                <p data-pm-slice="0 0 []">Seit 1867 steht LANGYARNS f&uuml;r h&ouml;chste Qualit&auml;t. Als Familienunternehmen in der 6. Generation verbinden wir Tradition mit Innovation und entwickeln Handstrickgarne, die weltweit gesch&auml;tzt werden.</p>
+
+<p data-pm-slice="0 0 []">Jetzt <a href="https://www.langyarns.com/de/Wolle-Garne/">Garne</a>, <a href="https://www.langyarns.com/de/Strickanleitungen/">Modellanleitungen </a>und <a href="https://www.langyarns.com/de/Publikationen/">Publikationen </a>entdecken. Erh&auml;ltlich exklusiv im Wollfachhandel.</p>
+
+<p data-pm-slice="0 0 []">&nbsp;</p>
+
+<p data-pm-slice="0 0 []"><a href="https://www.langyarns.com/de/Verkaufsstellen/"><img alt="" src="/userfiles/image/202501%20Startseite_07.jpg" style="width: 640px; height: 100px;" /></a></p>
+
+<p data-pm-slice="0 0 []">&nbsp;</p>
+
+              </div>
+            
+        </div>
+      </div>
+      
+
+<div class="content-item">
+    <div class="content-item-inner">
+        
+                <div class="head">
+                    
+                        <div class="title"><h1 style="color: #000000!important;">Neue Garne für den Herbst / Winter 2026</h1></div>
+                    
+                </div>
+            
+            <div class="layerSlider">
+                <div class="swiffy-slider slider-item-show4 slider-item-nogap slider-item-snapstart slider-nav-dark slider-nav-chevron slider-nav-outside-expand slider-nav-visible slider-nav-animation-fast" id="yarn-list-items">
+                </div>      
+            </div>
+        
+    </div>
+</div>
+<script>
+    jsLanguage = "de";
+jsListType = "news";
+jsFilterCategory = "";
+jsFilterMaterial = "";
+jsLinkYarn = "/de/Wolle-Garne/";
+
+    //Animation
+    newHTML = '<div class="animation"><div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>';
+    $("#yarn-list-items").html(newHTML);
+
+    $(document).ready(function() {
+        //Filter holen
+        var ajaxURL = "/dolphin/fw/cfc/langyarns/cfcYarn.cfc?method=renderYarnSliderItemsByFilter&language=" + jsLanguage + "&listType=" + jsListType + "&filterCategory=" + jsFilterCategory + "&filterMaterial=" + jsFilterMaterial + "&linkYarn=" + jsLinkYarn;
+        //Funktion renderItemsByFilter ausfÃ¼hren und im DIV ID:event-list-items einfÃ¼gen
+        $.ajax({
+            type: 'GET',
+            url: ajaxURL,
+            success: function(returnHTML) {
+                $("#yarn-list-items").html(returnHTML);
+                
+                var sliderElement = document.getElementById('yarn-list-items');
+                swiffyslider.init(sliderElement);
+                swiffyslider.initSlider(sliderElement);
+                
+                //in den angezeigte Items ID auslesen
+                var arr = [];
+                var currentCount = 0;
+                $(".item").each(function(iLoop) {
+                    if ($(this).data("item-id")) {
+                        //if (!arr.includes($(this).data("item-id"))) {
+                            arr.push($(this).data("item-id"));
+                        //}
+                    }
+                });                
+            },
+            error: function(err) {
+                //alert('Error: in Yarn List[662]: \nMessage:' + err.message);
+            }
+        });
+    });  
+</script> 
+
+
+<div class="content-item">
+    <div class="content-item-inner">
+        
+                <div class="head">
+                    
+                        <div class="title"><h1 style="color: #000000!important;">Strick und Häkel Inspiration für die kalte Jahreszeit</h1></div>
+                    
+                </div>
+            
+            <div class="layerSlider">
+                <div class="swiffy-slider slider-item-show4 slider-item-nogap slider-item-snapstart slider-nav-dark slider-nav-chevron slider-nav-outside-expand slider-nav-visible slider-nav-animation-fast" id="model-list-items">
+                </div>      
+            </div>
+        
+    </div>
+</div>
+<script>
+    jsLanguage = "de";
+jsListType = "news";
+jslinkModel = "/de/Strickanleitungen/";
+
+    //Animation
+    newHTML = '<div class="animation"><div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>';
+    $("#model-list-items").html(newHTML);
+
+    $(document).ready(function() {
+        //Filter holen
+        var ajaxURL = "/dolphin/fw/cfc/langyarns/cfcPattern.cfc?method=renderModelSliderItemsByFilter&language=" + jsLanguage + "&listType=" + jsListType + "&linkModel=" + jslinkModel + "&itemCount=20";
+        //Funktion renderItemsByFilter ausfÃ¼hren und im DIV ID:event-list-items einfÃ¼gen
+        $.ajax({
+            type: 'GET',
+            url: ajaxURL,
+            success: function(returnHTML) {
+                $("#model-list-items").html(returnHTML);
+                var sliderElement = document.getElementById('model-list-items');
+                swiffyslider.init(sliderElement);
+                swiffyslider.initSlider(sliderElement);
+                //in den angezeigte Items ID auslesen
+                var arr = [];
+                var currentCount = 0;
+                $(".item").each(function(iLoop) {
+                    if ($(this).data("item-id")) {
+                        //if (!arr.includes($(this).data("item-id"))) {
+                            arr.push($(this).data("item-id"));
+                        //}
+                    }
+                });                
+            },
+            error: function(err) {
+                alert('Error: in Yarn List[662]: \nMessage:' + err.message);
+            }
+        });
+    });   
+</script> 
+
+
+<div class="content-item">
+    <div class="content-item-inner">
+        
+                <div class="head">
+                    
+                        <div class="title"><h1 style="color: #000000!important;">Jetzt im Fachhandel erhältlich</h1></div>
+                    
+                </div>
+            
+            <div class="layerSlider publication">
+                <div class="swiffy-slider slider-item-show4 slider-item-nogap slider-item-snapstart slider-nav-dark slider-nav-chevron slider-nav-outside-expand slider-nav-visible slider-nav-animation-fast" id="publication-list-items">
+                </div>      
+            </div>
+        
+    </div>
+</div>
+<script>
+    jsLanguage = "de";
+jsListType = "news";
+jslinkPublication = "/de/Publikationen/";
+
+    //Animation
+    newHTML = '<div class="animation"><div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>';
+    $("#publication-list-items").html(newHTML);
+
+    $(document).ready(function() {
+        //Filter holen
+        var ajaxURL = "/dolphin/fw/cfc/langyarns/cfcPattern.cfc?method=renderPublicationSliderItemsByFilter&language=" + jsLanguage + "&listType=" + jsListType + "&linkPublication=" + jslinkPublication;
+        //Funktion renderItemsByFilter ausfÃ¼hren und im DIV ID:event-list-items einfÃ¼gen
+        $.ajax({
+            type: 'GET',
+            url: ajaxURL,
+            success: function(returnHTML) {
+                $("#publication-list-items").html(returnHTML);
+                var sliderElement = document.getElementById('publication-list-items');
+                swiffyslider.init(sliderElement);
+                swiffyslider.initSlider(sliderElement);
+                //in den angezeigte Items ID auslesen
+                var arr = [];
+                var currentCount = 0;
+                $(".item").each(function(iLoop) {
+                    if ($(this).data("item-id")) {
+                        //if (!arr.includes($(this).data("item-id"))) {
+                            arr.push($(this).data("item-id"));
+                        //}
+                    }
+                });                
+            },
+            error: function(err) {
+                alert('Error: in Yarn List[662]: \nMessage:' + err.message);
+            }
+        });
+    });   
+</script> 
+    <div class="content-item banner has-no-title  has-no-subtitle  has-no-content  has-no-bg-color" 
+    id="content-item-12830">
+        
+      <div class="content-item-inner">
+        
+
+        
+        
+          <div class="content-banner page-theme" id="page-theme-12830">
+              
+                    <div class="theme-item">
+                      <img class="image" src="/userfiles/image/inhalte/202602_Startseite_13.jpg" alt="" title="" loading="lazy">
+                      
+                    </div>
+                  
+            </div>
+
+          
+          
+          <script type="text/javascript">
+            $(function() {
+              var layerThemeSlider = $('.page-theme');
+              layerThemeSlider.slick({
+                slidesToShow: 1,
+                fade: true,
+                pauseOnHover: false,
+                arrows: true,
+                infinite: true,
+                slidesToScroll: 1,
+                speed: 2000,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                touchMove: true,
+                adaptiveHeight: true,
+                responsive: [
+                    {
+                    breakpoint: 1000,
+                    settings: {
+                    arrows: false,
+                    }
+                  }
+                ]
+              });
+              imagesDone(layerThemeSlider, "addClass", "active");
+              divElement = document.getElementById('page-theme-12830');
+              elemHeight = "height:" + divElement.offsetHeight + "px";
+              document.getElementById('content-item-12830').setAttribute("style", elemHeight);
+              console.log(elemHeight);
+            });
+          </script>
+        
+      </div>
+    </div>
+  
+			</div>
+		</div>
+	
+</div>
+
+                  </div>
+              
+            </div>
+          
+          
+        </main>
+
+        <footer class="page-footer">
+          <div id="containerFooter">
+            
+	<div id="layerFooter">
+		<div class="inner">
+			<div class="content-left">
+                <div class="main-menu">
+                    <ul class="list-level-one">
+                        
+                            <li class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/202608_Startseite_01_v2.jpg);">
+                                <a class="link-level-one" href="/de/Wolle-Garne" title="Wolle | Garne">
+                                    <span class="title" style="background: #000000;color:#FFFFFF; ">Wolle | Garne</span>
+                                </a>
+                            </li>
+                        
+                            <li class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/202608_Startseite_02_v4.jpg);">
+                                <a class="link-level-one" href="/de/Strickanleitungen" title="Modelle">
+                                    <span class="title" style="background: #000000;color:#FFFFFF; ">Modelle</span>
+                                </a>
+                            </li>
+                        
+                            <li class="list-item-level-one background-image" style="background-image: url(/userfiles/image/navigation/202608_Startseite_03.jpg);">
+                                <a class="link-level-one" href="/de/Publikationen" title="Publikationen">
+                                    <span class="title" style="background: #000000;color:#FFFFFF; ">Publikationen</span>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </div>
+				
+  
+  <div class="content-item box box-2-col-item newsletter">
+    <div class="content-item-inner">
+      <div class="formTemplate newsletter">
+        <a name="goTo" /></a>
+        
+          <div class="head">
+            <div class="title">Newsletter Anmeldung</div>
+            <div class="subtitle"></div>
+          </div>
+        
+          <div class="text"><p>Wir informieren Sie regelm&auml;ssig &uuml;ber interessante News aus der Welt der Handstrickgarne.</p>
+
+<p>In den Newslettern ver&ouml;ffentlichen wir regelm&auml;ssig eine gratis Strickanleitung -&nbsp;<br />
+profitieren Sie von diesem Angebot!</p>
+</div>
+        
+        <div class="form">
+          <form name="formTemplate formNewsletterRegister" method="post">
+          	<div class="item disabled">
+            	<div class="label"></div>
+            	<div class="value"><input class="input" type="text" name="creantsCaptcha" value="" placeholder="" /></div>
+          	</div>
+            <div class="item">
+              <input class="input" type="text" name="strAddressEMail1" value="" placeholder="Ihre E-Mail-Adresse" />
+            </div>
+            <div class="item action">
+              <input class="input" type="text" name="strAddressEMail2" value="" placeholder="E-Mail-Adresse wiederholen" />
+              <div class="action">
+              
+                <input class="button" type="submit" name="cmdNewsletterRegister" value="&#xf090; anmelden" />
+              
+              </div>
+            </div>
+            <div class="dataProtection">
+              <input class="input" type="checkbox" id="blnAcceptDataprotection" name="blnAcceptDataprotection"  value="1" />
+              <div>Mit dem Absenden dieses Formulars stimmen Sie unserer&nbsp;<a href="/de/Datenschutzvereinbarung/">Datenschutzvereinbarung</a>&nbsp;zu.</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+				<div class="clear"></div>
+			</div>
+			<div class="content-right">
+                
+
+    <div class="footer-menu">
+      <ul class="list-level-one">
+        
+          
+          <li  class="list-item-level-one"  id="item_495">
+            <a title="Unternehmen"  href="/de/Unternehmen/" class="link-level-one" target="_self">
+              <span class="title">Unternehmen</span>
+            </a>
+
+            
+            
+                <ul class="submenu list-level-two">
+                  
+                    <li class="list-item-level-two">
+                      <a title="Geschichte"  href="/de/Unternehmen/Geschichte/" class="link-level-two" target="_self">
+                        Geschichte
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Organisation"  href="/de/Unternehmen/Organisation/" class="link-level-two" target="_self">
+                        Organisation
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Offene Stellen"  href="/de/Unternehmen/Offene-Stellen/" class="link-level-two" target="_self">
+                        Offene Stellen
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="FAQ"  href="/de/Unternehmen/FAQ/" class="link-level-two" target="_self">
+                        FAQ
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Wollfachgeschaft zu übernehmen"  href="/de/Unternehmen/Wollfachgeschaft-zu-uebernehmen/" class="link-level-two" target="_self">
+                        Wollfachgeschaft zu übernehmen
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Kontakt"  href="/de/Unternehmen/Kontakt/" class="link-level-two" target="_self">
+                        Kontakt
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Vertreter"  href="/de/Unternehmen/Vertreter/" class="link-level-two" target="_self">
+                        Vertreter
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Vertriebspartner"  href="/de/Unternehmen/Vertriebspartner/" class="link-level-two" target="_self">
+                        Vertriebspartner
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Händlerbereich"  href="https://webshop.langyarns.com/" class="link-level-two" target="_blank">
+                        Händlerbereich
+                      </a>
+                      
+                      
+                    </li>
+                  
+                </ul>
+              
+
+          </li>
+        
+          
+          <li  class="list-item-level-one"  id="item_500">
+            <a title="Verkaufsstellen"  href="/de/Verkaufsstellen/" class="link-level-one" target="_self">
+              <span class="title">Verkaufsstellen</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+          
+          <li  class="list-item-level-one"  id="item_623">
+            <a title="Onlineshops"  href="/de/Onlineshops/" class="link-level-one" target="_self">
+              <span class="title">Onlineshops</span>
+            </a>
+
+            
+            
+
+          </li>
+        
+          
+          <li  class="list-item-level-one"  id="item_494">
+            <a title="Stories by LANGYARNS"  href="/de/Stories-by-LANGYARNS/" class="link-level-one" target="_self">
+              <span class="title">Stories by LANGYARNS</span>
+            </a>
+
+            
+            
+                <ul class="submenu list-level-two">
+                  
+                    <li class="list-item-level-two">
+                      <a title="Blog"  href="/de/Blog/" class="link-level-two" target="_self">
+                        Blog
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Trace your yarn"  href="/de/Stories-by-LANGYARNS/Trace-your-yarn/" class="link-level-two" target="_self">
+                        Trace your yarn
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Punto 34 - Socken-Videos"  href="/de/Stories-by-LANGYARNS/Punto-34---Socken-Videos/" class="link-level-two" target="_self">
+                        Punto 34 - Socken-Videos
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Bücher"  href="/de/Stories-by-LANGYARNS/Buecher/" class="link-level-two" target="_self">
+                        Bücher
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Advents KAL 2026"  href="/de/AdventsKAL2026/" class="link-level-two" target="_self">
+                        Advents KAL 2026
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Advents KAL 2025"  href="/de/AdventsKAL2025/" class="link-level-two" target="_self">
+                        Advents KAL 2025
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Advents KAL 2024"  href="/de/AdventsKAL2024/" class="link-level-two" target="_self">
+                        Advents KAL 2024
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Advents KAL 2023"  href="/de/AdventsKAL2023/" class="link-level-two" target="_self">
+                        Advents KAL 2023
+                      </a>
+                      
+                      
+                    </li>
+                  
+                    <li class="list-item-level-two">
+                      <a title="Advents KAL 2022"  href="/de/honeycombkal/" class="link-level-two" target="_self">
+                        Advents KAL 2022
+                      </a>
+                      
+                      
+                    </li>
+                  
+                </ul>
+              
+
+          </li>
+        
+      </ul>
+    </div>
+  
+                <div class="containerButton">
+                    <a href="/de/Strickanleitungen/" title="Strickanleitungen kaufen">
+                        <div class="button">Strickanleitungen kaufen</div>
+                    </a>
+                </div>
+				<div class="topbar-social">
+                    <div class="inner">
+    	               <a href="https://www.facebook.com/langyarns/" target="_blank" title="Facebook"><div class="icon">&#xf39e;</div></a>
+    	               <a href="https://www.instagram.com/langyarns_official/" target="_blank" title="Instagram"><div class="icon">&#xf16d;</div></a>
+    	               <a href="https://www.pinterest.com/langyarns/" target="_blank" title="Pinterest"><div class="icon">&#xf231;</div></a>
+    	               <a href="https://www.langyarns.com/de/Blog/" title="Blog"><div class="icon">&#xf37d;</div></a>
+    	               <a href="https://www.youtube.com/user/LANGYARNS" target="_blank" title="YouTube"><div class="icon">&#xf167;</div></a>
+                    </div>
+            	</div>
+			</div>
+		</div>
+	</div>
+
+          </div>
+          <div id="containerImprint">
+            <div id="layerImprint">
+              
+      <a title="Impressum" class="rightsObligationLink" href="/de/Impressum/">Impressum</a>
+      . 
+      <a title="Technisches" class="rightsObligationLink" href="/de/Technisches/">Technisches</a>
+      . 
+      <a title="Datenschutzvereinbarung" class="rightsObligationLink" href="/de/Datenschutzvereinbarung/">Datenschutzvereinbarung</a>
+      . 
+      <a title="AGB" class="rightsObligationLink" href="https://www.langyarns.com/userfiles/file/pdf/AGB_LANG-CO-AG_DE.pdf" target="_blank">AGB</a>
+      
+            </div>
+          </div>
+        </footer>
+        <a id="buttonTop" onclick="$('html, body').animate({ scrollTop: (0) },'slow')"></a>
+      </div>
+
+      <script type="text/javascript">     
+      var bt = $("#buttonTop")
+        $( window ).on({
+        scroll: function() {
+          st = $(this).scrollTop();
+          bts = st > 50 ? 'fadeIn' : 'fadeOut';
+          bt[ bts ]();
+        }
+        });        
+        window.addEventListener("load", () => {
+          document.querySelector("body").classList.add("loaded");
+        });   
+      </script>
+    
+  </body>
+</html>
+
