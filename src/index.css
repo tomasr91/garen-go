@@ -272,7 +272,7 @@ h1, h2, h3 { margin: 0; line-height: 1.2; }
 .shop-marker { background: none; border: 0; }
 .pin {
   display: block; width: 26px; height: 26px; margin: 2px;
-  background: var(--cat); border: 3px solid #fff; border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+  background: var(--accent); border: 3px solid #fff; border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
   box-shadow: 0 2px 6px rgb(0 0 0 / 30%);
 }
 .pin--selected { width: 32px; height: 32px; margin: -2px; border-color: var(--ink); }

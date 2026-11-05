@@ -4,7 +4,6 @@
  */
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import { primaryColor } from '../domain/categories.ts'
 import type { Shop } from '../domain/types.ts'
 
 ;(window as unknown as { L: typeof L }).L = L
@@ -19,10 +18,11 @@ export function addBaseLayer(map: L.Map) {
   }).addTo(map)
 }
 
-export function shopIcon(shop: Shop, selected = false): L.DivIcon {
+export function shopIcon(_shop: Shop, selected = false): L.DivIcon {
   return L.divIcon({
     className: 'shop-marker',
-    html: `<span class="pin${selected ? ' pin--selected' : ''}" style="--cat:${primaryColor(shop.categories)}"></span>`,
+    // Alle markers in dezelfde accentkleur: rustiger kaartbeeld (categorie staat in het kaartje).
+    html: `<span class="pin${selected ? ' pin--selected' : ''}"></span>`,
     iconSize: [30, 30],
     iconAnchor: [15, 28],
   })
