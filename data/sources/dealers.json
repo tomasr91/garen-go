@@ -2405,7 +2405,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.78077465,
+  "lon": 4.61896339,
+  "id": "dlr-t-krekeltje-3295bl"
  },
  {
   "name": "Onnink Textiel",
@@ -2419,7 +2422,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.92664174,
+  "lon": 6.576658,
+  "id": "dlr-onnink-textiel-7122br"
  },
  {
   "name": "Mercerie",
@@ -2434,7 +2440,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.37320832,
+  "lon": 6.7620233,
+  "id": "dlr-mercerie-7665tj"
  },
  {
   "name": "Koperdraadje",
@@ -2449,7 +2458,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.87114941,
+  "lon": 4.64504853,
+  "id": "dlr-koperdraadje-2953ev"
  },
  {
   "name": "MarZ kreatiek",
@@ -2464,7 +2476,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.63439964,
+  "lon": 4.73787177,
+  "id": "dlr-marz-kreatiek-1815de"
  },
  {
   "name": "Naaldkunst",
@@ -2480,7 +2495,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.62983896,
+  "lon": 4.74851386,
+  "id": "dlr-naaldkunst-1811ed"
  },
  {
   "name": "Stichting Wolness",
@@ -2495,7 +2513,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.65449365,
+  "lon": 4.7571413,
+  "id": "dlr-stichting-wolness-1825re"
  },
  {
   "name": "C'est Marc&#232;l",
@@ -2510,7 +2531,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.3605136,
+  "lon": 6.66790544,
+  "id": "dlr-c-est-marc-232-l-7607bd"
  },
  {
   "name": "Caro's Atelier",
@@ -2525,7 +2549,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.36061031,
+  "lon": 5.2605116,
+  "id": "dlr-caro-s-atelier-1327eb"
  },
  {
   "name": "DecoDuoBelle",
@@ -2540,12 +2567,15 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.37431063,
+  "lon": 5.18176253,
+  "id": "dlr-decoduobelle-1312wh"
  },
  {
   "name": "Victoria VIP Fashion",
   "address": "Prozastraat",
-  "postcode": "1321 KP",
+  "postcode": "1321 GZ",
   "city": "Almere",
   "categories": [
    "wol"
@@ -2554,7 +2584,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.35746342,
+  "lon": 5.18281136,
+  "id": "dlr-victoria-vip-fashion-1321kp"
  },
  {
   "name": "Wol en Wonder",
@@ -2569,7 +2602,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.33450172,
+  "lon": 5.21779452,
+  "id": "dlr-wol-en-wonder-1353ax"
  },
  {
   "name": "Wolby",
@@ -2584,7 +2620,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.39905217,
+  "lon": 5.29907697,
+  "id": "dlr-wolby-1339xl"
  },
  {
   "name": "De Wolshop",
@@ -2599,7 +2638,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.1192106,
+  "lon": 4.66796264,
+  "id": "dlr-de-wolshop-2405xp"
  },
  {
   "name": "Echtstudio",
@@ -2614,7 +2656,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.1221737,
+  "lon": 4.66281073,
+  "id": "dlr-echtstudio-2405ah"
  },
  {
   "name": "Pingouin",
@@ -2628,7 +2673,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.14438149,
+  "lon": 4.67461869,
+  "id": "dlr-pingouin-2402en"
  },
  {
   "name": "Loya Co",
@@ -2641,7 +2689,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.1980692,
+  "lon": 5.40537683,
+  "id": "dlr-loya-co-3825aa"
  },
  {
   "name": "Naaldkunst Mur",
@@ -2656,7 +2707,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.1544591,
+  "lon": 5.38819685,
+  "id": "dlr-naaldkunst-mur-3811aa"
  },
  {
   "name": "Pipoos Amersfoort",
@@ -2671,7 +2725,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.15677807,
+  "lon": 5.39188307,
+  "id": "dlr-pipoos-amersfoort-3811ae"
  },
  {
   "name": "A. Boeken vof Stoffen Fournituren",
@@ -2687,7 +2744,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.37068576,
+  "lon": 4.90013395,
+  "id": "dlr-a-boeken-vof-stoffen-fournituren-1011hd"
  },
  {
   "name": "De Afstap",
@@ -2702,7 +2762,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.37475409,
+  "lon": 4.88859082,
+  "id": "dlr-de-afstap-1015aw"
  },
  {
   "name": "Hooks and Yarn",
@@ -2717,7 +2780,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.38380741,
+  "lon": 4.88497855,
+  "id": "dlr-hooks-and-yarn-1013kh"
  },
  {
   "name": "Pipoos Amsterdam",
@@ -2732,7 +2798,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.35298042,
+  "lon": 4.89373788,
+  "id": "dlr-pipoos-amsterdam-1072gn"
  },
  {
   "name": "Ritsies",
@@ -2746,7 +2815,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.39143324,
+  "lon": 4.94463898,
+  "id": "dlr-ritsies-1023bc"
  },
  {
   "name": "Stephen & Penelope",
@@ -2761,7 +2833,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.37411092,
+  "lon": 4.87895005,
+  "id": "dlr-stephen-penelope-1016kj"
  },
  {
   "name": "Doetiek Yvonne",
@@ -2776,7 +2851,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.05494617,
+  "lon": 6.72494795,
+  "id": "dlr-doetiek-yvonne-9468bs"
  },
  {
   "name": "De Schaar",
@@ -2791,7 +2869,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.21229558,
+  "lon": 5.95315559,
+  "id": "dlr-de-schaar-7311es"
  },
  {
   "name": "Freubelwebwinkel",
@@ -2806,7 +2887,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.21438015,
+  "lon": 5.99245846,
+  "id": "dlr-freubelwebwinkel-7321cn"
  },
  {
   "name": "Het Stofnest",
@@ -2819,7 +2903,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.20872579,
+  "lon": 5.94256909,
+  "id": "dlr-het-stofnest-7312ct"
  },
  {
   "name": "Hobby Gigant",
@@ -2834,7 +2921,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.20156513,
+  "lon": 5.9698674,
+  "id": "dlr-hobby-gigant-7331hl"
  },
  {
   "name": "Wol&zo",
@@ -2848,7 +2938,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.32085048,
+  "lon": 6.85905355,
+  "id": "dlr-wol-zo-9901at"
  },
  {
   "name": "Atelier Jaffari",
@@ -2863,7 +2956,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.50007017,
+  "lon": 3.6734431,
+  "id": "dlr-atelier-jaffari-4341ep"
  },
  {
   "name": "BreiKunst",
@@ -2878,7 +2974,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.98150913,
+  "lon": 5.90815336,
+  "id": "dlr-breikunst-6811db"
  },
  {
   "name": "Hobbyhuis",
@@ -2893,7 +2992,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.00188551,
+  "lon": 5.94106657,
+  "id": "dlr-hobbyhuis-6823he"
  },
  {
   "name": "Pipoos Arnhem",
@@ -2908,7 +3010,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.98269272,
+  "lon": 5.9096781,
+  "id": "dlr-pipoos-arnhem-6811cv"
  },
  {
   "name": "Singer Presikhaaf",
@@ -2923,7 +3028,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.98279037,
+  "lon": 5.94930448,
+  "id": "dlr-singer-presikhaaf-6826ml"
  },
  {
   "name": "Art & Hobby Winkel Zomerspeelgoed.com",
@@ -2953,7 +3061,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.01786455,
+  "lon": 6.55331567,
+  "id": "dlr-haked-9407gn"
  },
  {
   "name": "Pipoos Assen",
@@ -2968,7 +3079,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.99467167,
+  "lon": 6.56040974,
+  "id": "dlr-pipoos-assen-9401el"
  },
  {
   "name": "Wolbolletje.nl",
@@ -2983,7 +3097,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.97448314,
+  "lon": 6.56946429,
+  "id": "dlr-wolbolletje-nl-9404mc"
  },
  {
   "name": "L&#252;ckman Handwerkspec.zaak",
@@ -2998,7 +3115,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.44328686,
+  "lon": 4.92945199,
+  "id": "dlr-l-252-ckman-handwerkspec-zaak-5111cw"
  },
  {
   "name": "Hobbyhuis De Strandjutters",
@@ -3013,7 +3133,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.89827189,
+  "lon": 5.58513765,
+  "id": "dlr-hobbyhuis-de-strandjutters-8561bd"
  },
  {
   "name": "Het Wolnestje",
@@ -3027,7 +3150,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.75701256,
+  "lon": 7.0417303,
+  "id": "dlr-het-wolnestje-7884rk"
  },
  {
   "name": "Wester Creatief",
@@ -3042,7 +3168,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.14035446,
+  "lon": 5.58552932,
+  "id": "dlr-wester-creatief-3771bp"
  },
  {
   "name": "Marian's Hobbyshop",
@@ -3057,7 +3186,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.99776689,
+  "lon": 5.67628369,
+  "id": "dlr-marian-s-hobbyshop-6721jj"
  },
  {
   "name": "Garen en Meer",
@@ -3072,7 +3204,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.49313627,
+  "lon": 4.2870984,
+  "id": "dlr-garen-en-meer-4611na"
  },
  {
   "name": "Finlandia Import",
@@ -3100,7 +3235,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.49328591,
+  "lon": 4.65735856,
+  "id": "dlr-volly-s-1944ra"
  },
  {
   "name": "Chefwol",
@@ -3115,7 +3253,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.00727825,
+  "lon": 4.53824876,
+  "id": "dlr-chefwol-2665ep"
  },
  {
   "name": "LouLisa Yarn&Craft (voorheen Crea Irene)",
@@ -3130,7 +3271,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.01179864,
+  "lon": 4.53113382,
+  "id": "dlr-loulisa-yarn-craft-voorheen-crea-irene-2665bh"
  },
  {
   "name": "HomeMade4U",
@@ -3145,7 +3289,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.08366637,
+  "lon": 4.74646853,
+  "id": "dlr-homemade4u-2411cr"
  },
  {
   "name": "Naaiatelier en Handwerkhoek",
@@ -3175,7 +3322,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.11523355,
+  "lon": 6.52266926,
+  "id": "dlr-stof-stuff-7271bc"
  },
  {
   "name": "Blokker - Borger",
@@ -3189,7 +3339,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.92298014,
+  "lon": 6.79147566,
+  "id": "dlr-blokker-borger-9531ah"
  },
  {
   "name": "De Wolkast",
@@ -3204,7 +3357,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.29977553,
+  "lon": 6.75396377,
+  "id": "dlr-de-wolkast-7622ll"
  },
  {
   "name": "Anyfma",
@@ -3218,7 +3374,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.58791438,
+  "lon": 5.32589037,
+  "id": "dlr-anyfma-5281bv"
  },
  {
   "name": "Pipoos Breda",
@@ -3248,7 +3407,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.59679001,
+  "lon": 4.77093784,
+  "id": "dlr-stof-wol-4815hb"
  },
  {
   "name": "Singer Soezy Feijsman",
@@ -3262,7 +3424,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.90209906,
+  "lon": 4.16620577,
+  "id": "dlr-singer-soezy-feijsman-3231av"
  },
  {
   "name": "Van den Bos",
@@ -3277,7 +3442,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.6629965,
+  "lon": 4.09407915,
+  "id": "dlr-van-den-bos-4311ec"
  },
  {
   "name": "Creative Spirit",
@@ -3292,7 +3460,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.27369694,
+  "lon": 5.57372374,
+  "id": "dlr-creative-spirit-6021hs"
  },
  {
   "name": "J.J. Pruijs",
@@ -3306,7 +3477,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.25144002,
+  "lon": 5.37049485,
+  "id": "dlr-j-j-pruijs-3752gs"
  },
  {
   "name": "Primera Ameland",
@@ -3334,7 +3508,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.91150188,
+  "lon": 5.33392355,
+  "id": "dlr-petit-point-4116bk"
  },
  {
   "name": "Rikkers",
@@ -3348,7 +3525,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.93894292,
+  "lon": 4.58285644,
+  "id": "dlr-rikkers-2907lb"
  },
  {
   "name": "De Wolkoker",
@@ -3363,7 +3543,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.66212836,
+  "lon": 6.7389615,
+  "id": "dlr-de-wolkoker-7741gw"
  },
  {
   "name": "'t Kelderke",
@@ -3378,7 +3561,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.73020631,
+  "lon": 5.88097939,
+  "id": "dlr-t-kelderke-5431dk"
  },
  {
   "name": "Hak in schoen en kledingreparatie",
@@ -3393,7 +3579,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.50357799,
+  "lon": 6.25998721,
+  "id": "dlr-hak-in-schoen-en-kledingreparatie-7721aj"
  },
  {
   "name": "De Breibar",
@@ -3408,7 +3597,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.29123118,
+  "lon": 6.01135748,
+  "id": "dlr-de-breibar-9104ab"
  },
  {
   "name": "Het Patroon",
@@ -3423,7 +3615,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.59924301,
+  "lon": 6.45156501,
+  "id": "dlr-het-patroon-7701je"
  },
  {
   "name": "Atelier Kleurrijk Vilt",
@@ -3438,7 +3633,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.01235775,
+  "lon": 4.34725105,
+  "id": "dlr-atelier-kleurrijk-vilt-2613bx"
  },
  {
   "name": "Pipoos Den Bosch",
@@ -3512,7 +3710,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.46145871,
+  "lon": 6.49917683,
+  "id": "dlr-de-wolboutique-7683bk"
  },
  {
   "name": "Wolschuur",
@@ -3526,7 +3727,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.46292742,
+  "lon": 6.51582397,
+  "id": "dlr-wolschuur-7683sw"
  },
  {
   "name": "De Kettingkast",
@@ -3541,7 +3745,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.96163835,
+  "lon": 4.77068591,
+  "id": "dlr-de-kettingkast-1781as"
  },
  {
   "name": "De Woljutter",
@@ -3556,7 +3763,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.95819071,
+  "lon": 4.763137,
+  "id": "dlr-de-woljutter-1781gh"
  },
  {
   "name": "Helders Naaimachinehuis Den Helder",
@@ -3572,7 +3782,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.95925858,
+  "lon": 4.76313511,
+  "id": "dlr-helders-naaimachinehuis-den-helder-1781gj"
  },
  {
   "name": "Studio de Wollerie",
@@ -3587,7 +3800,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.9436702,
+  "lon": 4.7422048,
+  "id": "dlr-studio-de-wollerie-1784ah"
  },
  {
   "name": "De Wolhoorn",
@@ -3601,7 +3817,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.93593721,
+  "lon": 5.03187294,
+  "id": "dlr-de-wolhoorn-1779ak"
  },
  {
   "name": "Stapeltje Geluk",
@@ -3616,12 +3835,15 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.37581601,
+  "lon": 7.00389376,
+  "id": "dlr-stapeltje-geluk-7591ep"
  },
  {
   "name": "Dol-op-Wol",
   "address": "Kleine Overstraat 6",
-  "postcode": "7411 RJ",
+  "postcode": "7411 JL",
   "city": "Deventer",
   "categories": [
    "wol"
@@ -3631,7 +3853,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.25248157,
+  "lon": 6.15723866,
+  "id": "dlr-dol-op-wol-7411rj"
  },
  {
   "name": "Kreafabriek",
@@ -3646,7 +3871,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.26247526,
+  "lon": 6.21445169,
+  "id": "dlr-kreafabriek-7424dc"
  },
  {
   "name": "Vlaswinkel",
@@ -3661,7 +3889,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.0501249,
+  "lon": 6.1016746,
+  "id": "dlr-vlaswinkel-6951cr"
  },
  {
   "name": "'t Winkeltje",
@@ -3675,7 +3906,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.85528629,
+  "lon": 6.31829465,
+  "id": "dlr-t-winkeltje-7981ab"
  },
  {
   "name": "Studio Sier",
@@ -3690,7 +3924,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.86108539,
+  "lon": 6.48931305,
+  "id": "dlr-studio-sier-7091cc"
  },
  {
   "name": "De Garenkast",
@@ -3705,7 +3942,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.74828236,
+  "lon": 4.10499817,
+  "id": "dlr-de-garenkast-3247bx"
  },
  {
   "name": "Het Wolhofje",
@@ -3720,7 +3960,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.91028033,
+  "lon": 5.6318746,
+  "id": "dlr-het-wolhofje-6669cv"
  },
  {
   "name": "Staarink Warenhuis",
@@ -3735,7 +3978,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.01425563,
+  "lon": 6.13455107,
+  "id": "dlr-staarink-warenhuis-6981cj"
  },
  {
   "name": "Nifelje mar ta",
@@ -3749,7 +3995,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.32430097,
+  "lon": 5.9981783,
+  "id": "dlr-nifelje-mar-ta-9101mv"
  },
  {
   "name": "Het Stoffenpalet",
@@ -3764,7 +4013,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.62508911,
+  "lon": 4.94503021,
+  "id": "dlr-het-stoffenpalet-5104jm"
  },
  {
   "name": "Laura Haakt",
@@ -3779,7 +4031,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.63398514,
+  "lon": 4.94762299,
+  "id": "dlr-laura-haakt-5103ez"
  },
  {
   "name": "Modehuys Den Horsten",
@@ -3794,7 +4049,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.41873465,
+  "lon": 5.81922069,
+  "id": "dlr-modehuys-den-horsten-8085ab"
  },
  {
   "name": "De Breicaravan",
@@ -3809,7 +4067,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.80370467,
+  "lon": 4.66817497,
+  "id": "dlr-de-breicaravan-3314ld"
  },
  {
   "name": "Pipoos Dordrecht",
@@ -3824,7 +4085,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.81355213,
+  "lon": 4.66622262,
+  "id": "dlr-pipoos-dordrecht-3311kx"
  },
  {
   "name": "Het Wolwinkeltje",
@@ -3839,7 +4103,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.10588328,
+  "lon": 6.09706356,
+  "id": "dlr-het-wolwinkeltje-9203rv"
  },
  {
   "name": "Hobbykamer de Blauwe Vlinder",
@@ -3854,7 +4121,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.52463733,
+  "lon": 5.71928219,
+  "id": "dlr-hobbykamer-de-blauwe-vlinder-8251ek"
  },
  {
   "name": "Marree's Wolpassie",
@@ -3869,7 +4139,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.50664446,
+  "lon": 5.71612742,
+  "id": "dlr-marree-s-wolpassie-8251nk"
  },
  {
   "name": "Needle Creations",
@@ -3885,7 +4158,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.04631022,
+  "lon": 5.67037709,
+  "id": "dlr-needle-creations-6711an"
  },
  {
   "name": "The Readshop (Eelde)",
@@ -3900,7 +4176,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.13363422,
+  "lon": 6.56413995,
+  "id": "dlr-the-readshop-eelde-9761eb"
  },
  {
   "name": "Isra&#235;ls Textiel",
@@ -3915,7 +4194,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.10428067,
+  "lon": 6.0585722,
+  "id": "dlr-isra-235-ls-textiel-6961cj"
  },
  {
   "name": "Selden S&#225;",
@@ -3960,7 +4242,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.44196153,
+  "lon": 5.47580828,
+  "id": "dlr-pipoos-eindhoven-5611ae"
  },
  {
   "name": "Do-it Creatief",
@@ -3975,7 +4260,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.92250351,
+  "lon": 5.83635326,
+  "id": "dlr-do-it-creatief-6661hc"
  },
  {
   "name": "Hobbyshop Kreatief",
@@ -3990,7 +4278,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.71076178,
+  "lon": 5.7560739,
+  "id": "dlr-hobbyshop-kreatief-8302dz"
  },
  {
   "name": "Alfring zelf-maak-mode",
@@ -4005,7 +4296,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.78813782,
+  "lon": 6.89346231,
+  "id": "dlr-alfring-zelf-maak-mode-7811aj"
  },
  {
   "name": "Creatief Boetiek",
@@ -4020,7 +4314,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.78172518,
+  "lon": 6.92474156,
+  "id": "dlr-creatief-boetiek-7824ee"
  },
  {
   "name": "Stitchingfactory",
@@ -4036,7 +4333,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.6931835,
+  "lon": 5.26455337,
+  "id": "dlr-stitchingfactory-1601mc"
  },
  {
   "name": "R & B Textiel",
@@ -4051,7 +4351,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.21691652,
+  "lon": 6.87731184,
+  "id": "dlr-r-b-textiel-7513cw"
  },
  {
   "name": "De Haakfabriek",
@@ -4066,7 +4369,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.63925412,
+  "lon": 5.83365031,
+  "id": "dlr-de-haakfabriek-8307eb"
  },
  {
   "name": "Singer Naaimodecentrum",
@@ -4081,7 +4387,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.34564169,
+  "lon": 5.98406248,
+  "id": "dlr-singer-naaimodecentrum-8162ae"
  },
  {
   "name": "Allerlei Kreatief",
@@ -4096,7 +4405,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.56803341,
+  "lon": 4.63474018,
+  "id": "dlr-allerlei-kreatief-4876av"
  },
  {
   "name": "De Stofwolk",
@@ -4111,7 +4423,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.86995847,
+  "lon": 5.73903915,
+  "id": "dlr-de-stofwolk-6644br"
  },
  {
   "name": "Woolys",
@@ -4126,7 +4441,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.86992319,
+  "lon": 5.74651204,
+  "id": "dlr-woolys-6644cj"
  },
  {
   "name": "Warenhuis Pijnacker",
@@ -4141,7 +4459,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.33959732,
+  "lon": 5.82656069,
+  "id": "dlr-warenhuis-pijnacker-9172mp"
  },
  {
   "name": "Quarr&#233; Zorgservice",
@@ -4156,7 +4477,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.18021236,
+  "lon": 5.52169175,
+  "id": "dlr-quarr-233-zorgservice-8801ra"
  },
  {
   "name": "Zwarte Schaap",
@@ -4170,7 +4494,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.54305239,
+  "lon": 5.69716544,
+  "id": "dlr-zwarte-schaap-5421wn"
  },
  {
   "name": "Atelier Henrike",
@@ -4185,7 +4512,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.62119203,
+  "lon": 6.04088908,
+  "id": "dlr-atelier-henrike-8281ah"
  },
  {
   "name": "Creamijn",
@@ -4200,7 +4530,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.6156191,
+  "lon": 6.06000866,
+  "id": "dlr-creamijn-8281jx"
  },
  {
   "name": "De Hobbystudio",
@@ -4215,7 +4548,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.62220438,
+  "lon": 6.04115538,
+  "id": "dlr-de-hobbystudio-8281ag"
  },
  {
   "name": "C.B. Hobbykadohoek",
@@ -4228,7 +4564,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.50502815,
+  "lon": 3.88975248,
+  "id": "dlr-c-b-hobbykadohoek-4461ak"
  },
  {
   "name": "De Baronie",
@@ -4242,7 +4581,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.23256649,
+  "lon": 6.58431563,
+  "id": "dlr-de-baronie-7471bs"
  },
  {
   "name": "Fels en Co.",
@@ -4257,7 +4599,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.83048567,
+  "lon": 4.9714925,
+  "id": "dlr-fels-en-co-4201he"
  },
  {
   "name": "The Crazy Quilt",
@@ -4273,7 +4618,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.83050344,
+  "lon": 4.96940763,
+  "id": "dlr-the-crazy-quilt-4201hg"
  },
  {
   "name": "Wol- en Hobbyshop WIKO",
@@ -4288,7 +4636,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.00220231,
+  "lon": 6.06592565,
+  "id": "dlr-wol-en-hobbyshop-wiko-8401dd"
  },
  {
   "name": "Hobbyshop Gouda",
@@ -4303,7 +4654,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.01088387,
+  "lon": 4.70870654,
+  "id": "dlr-hobbyshop-gouda-2801lr"
  },
  {
   "name": "Het Achterpand",
@@ -4318,7 +4672,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.216782,
+  "lon": 6.55904068,
+  "id": "dlr-het-achterpand-9718bj"
  },
  {
   "name": "Pipoos Groningen",
@@ -4333,7 +4690,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.21763862,
+  "lon": 6.5689107,
+  "id": "dlr-pipoos-groningen-9711nn"
  },
  {
   "name": "VIP K.C.",
@@ -4347,7 +4707,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.92454847,
+  "lon": 4.82122706,
+  "id": "dlr-vip-k-c-2964ce"
  },
  {
   "name": "Veltrop Shop",
@@ -4362,7 +4725,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.69727857,
+  "lon": 5.22784224,
+  "id": "dlr-veltrop-shop-1613jb"
  },
  {
   "name": "Variatiekraam",
@@ -4376,7 +4742,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.21331336,
+  "lon": 6.27677064,
+  "id": "dlr-variatiekraam-9861ad"
  },
  {
   "name": "Vera's Krealade",
@@ -4391,7 +4760,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.21396944,
+  "lon": 6.27903427,
+  "id": "dlr-vera-s-krealade-9861ac"
  },
  {
   "name": "Wolwinkel van Draad",
@@ -4406,7 +4778,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.09637821,
+  "lon": 5.83998339,
+  "id": "dlr-wolwinkel-van-draad-9001an"
  },
  {
   "name": "Lisette Fournituren",
@@ -4422,7 +4797,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.15390653,
+  "lon": 6.74120702,
+  "id": "dlr-lisette-fournituren-7481gm"
  },
  {
   "name": "Breien en Zo",
@@ -4436,7 +4814,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.38307761,
+  "lon": 4.6303088,
+  "id": "dlr-breien-en-zo-2011tn"
  },
  {
   "name": "Pipoos Haarlem",
@@ -4451,7 +4832,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.37686389,
+  "lon": 4.63127497,
+  "id": "dlr-pipoos-haarlem-2011sx"
  },
  {
   "name": "Rechte Steek",
@@ -4496,7 +4880,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.30623443,
+  "lon": 5.7836297,
+  "id": "dlr-woninginrichting-beimers-9074ce"
  },
  {
   "name": "Naaimodecentrum Den Ouden Harderwijk",
@@ -4511,7 +4898,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.3434296,
+  "lon": 5.63483421,
+  "id": "dlr-naaimodecentrum-den-ouden-harderwijk-3842hb"
  },
  {
   "name": "Wolatelier Knots",
@@ -4526,7 +4916,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.35043292,
+  "lon": 5.61741221,
+  "id": "dlr-wolatelier-knots-3841cm"
  },
  {
   "name": "Creabeaux",
@@ -4541,7 +4934,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.82660068,
+  "lon": 4.8339732,
+  "id": "dlr-creabeaux-3371am"
  },
  {
   "name": "Wolstube",
@@ -4555,7 +4951,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.17454352,
+  "lon": 5.42298069,
+  "id": "dlr-wolstube-8861aa"
  },
  {
   "name": "Creamira",
@@ -4570,7 +4969,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.99261995,
+  "lon": 5.87980587,
+  "id": "dlr-creamira-8468bd"
  },
  {
   "name": "Twee Steekjes Los",
@@ -4587,7 +4989,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.47498576,
+  "lon": 6.06966557,
+  "id": "dlr-twee-steekjes-los-8051gd"
  },
  {
   "name": "RobiQue Collecties",
@@ -4601,7 +5006,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.78020517,
+  "lon": 6.23561027,
+  "id": "dlr-robique-collecties-7971db"
  },
  {
   "name": "Creahuys 41",
@@ -4616,7 +5024,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.12674361,
+  "lon": 4.58771168,
+  "id": "dlr-creahuys-41-2394bb"
  },
  {
   "name": "Pipoos Hazerswoude",
@@ -4631,7 +5042,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.13794402,
+  "lon": 4.5508701,
+  "id": "dlr-pipoos-hazerswoude-2394ah"
  },
  {
   "name": "Jaukje Hobby, Handwerk & Kleinvak",
@@ -4646,7 +5060,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.95925476,
+  "lon": 5.92335938,
+  "id": "dlr-jaukje-hobby-handwerk-kleinvak-8442br"
  },
  {
   "name": "Het Stoffenhonk",
@@ -4661,7 +5078,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.67253757,
+  "lon": 4.84755136,
+  "id": "dlr-het-stoffenhonk-1701ed"
  },
  {
   "name": "Wanders",
@@ -4675,7 +5095,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.380844,
+  "lon": 5.5793914,
+  "id": "dlr-wanders-5591hh"
  },
  {
   "name": "Het Creatiefpunt",
@@ -4690,7 +5113,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.25242006,
+  "lon": 4.02216598,
+  "id": "dlr-het-creatiefpunt-4566rk"
  },
  {
   "name": "Hermien Zelfmaakmode",
@@ -4704,7 +5130,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.43489127,
+  "lon": 6.23745199,
+  "id": "dlr-hermien-zelfmaakmode-8141gg"
  },
  {
   "name": "Foamworld",
@@ -4719,7 +5148,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.47805386,
+  "lon": 5.66287999,
+  "id": "dlr-foamworld-5701pb"
  },
  {
   "name": "Het Breipunt",
@@ -4734,7 +5166,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.48791113,
+  "lon": 5.6181427,
+  "id": "dlr-het-breipunt-5708gb"
  },
  {
   "name": "CreaPoint",
@@ -4749,7 +5184,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.27975077,
+  "lon": 6.84146181,
+  "id": "dlr-creapoint-7558pj"
  },
  {
   "name": "Creazin",
@@ -4764,7 +5202,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.25598542,
+  "lon": 6.83683014,
+  "id": "dlr-creazin-7552pc"
  },
  {
   "name": "De Breifiets",
@@ -4779,7 +5220,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.26572083,
+  "lon": 6.79654112,
+  "id": "dlr-de-breifiets-7551ga"
  },
  {
   "name": "De Wolwagen",
@@ -4809,7 +5253,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.26810484,
+  "lon": 6.79592658,
+  "id": "dlr-yvanka-7551an"
  },
  {
   "name": "Mooi Zelfgemaakt",
@@ -4824,7 +5271,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.96048867,
+  "lon": 5.75399787,
+  "id": "dlr-mooi-zelfgemaakt-6666aj"
  },
  {
   "name": "Brei en allerlei",
@@ -4839,7 +5289,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.24963213,
+  "lon": 5.8955653,
+  "id": "dlr-brei-en-allerlei-6093ex"
  },
  {
   "name": "Pipoos Hilversum",
@@ -4854,7 +5307,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.22514214,
+  "lon": 5.17718651,
+  "id": "dlr-pipoos-hilversum-1211ed"
  },
  {
   "name": "De Toverdoos",
@@ -4869,7 +5325,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 50.9277836,
+  "lon": 5.92748872,
+  "id": "dlr-de-toverdoos-6431em"
  },
  {
   "name": "Roseau Cadeau en Lifestyle",
@@ -4884,7 +5343,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.70659047,
+  "lon": 6.53435795,
+  "id": "dlr-roseau-cadeau-en-lifestyle-7913ba"
  },
  {
   "name": "Handwerkwinkel Holten - Van Bussel",
@@ -4900,7 +5362,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.28713457,
+  "lon": 6.41303045,
+  "id": "dlr-handwerkwinkel-holten-van-bussel-7451cg"
  },
  {
   "name": "Sissi's Wolmandje",
@@ -4928,7 +5393,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.3075788,
+  "lon": 4.64020664,
+  "id": "dlr-de-handige-hand-2134cr"
  },
  {
   "name": "Stoffen en Stiksels",
@@ -4943,7 +5411,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.42622306,
+  "lon": 4.3290376,
+  "id": "dlr-stoffen-en-stiksels-4631jw"
  },
  {
   "name": "Haak maar aan bij SAS",
@@ -4958,7 +5429,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.6433643,
+  "lon": 5.05294628,
+  "id": "dlr-haak-maar-aan-bij-sas-1621je"
  },
  {
   "name": "De Magneet",
@@ -4973,7 +5447,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.56545772,
+  "lon": 5.92753378,
+  "id": "dlr-de-magneet-8271bn"
  },
  {
   "name": "Jootjes Haakcadeautjes",
@@ -4988,7 +5465,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.01986279,
+  "lon": 5.03870104,
+  "id": "dlr-jootjes-haakcadeautjes-3401nw"
  },
  {
   "name": "Ajoure",
@@ -5002,7 +5482,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.96591488,
+  "lon": 5.79840117,
+  "id": "dlr-ajoure-8501av"
  },
  {
   "name": "'t Winkeltje van Kampen",
@@ -5017,7 +5500,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.55548052,
+  "lon": 5.91863016,
+  "id": "dlr-t-winkeltje-van-kampen-8261hl"
  },
  {
   "name": "K.B.Z.",
@@ -5032,7 +5518,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.55709952,
+  "lon": 5.91611849,
+  "id": "dlr-k-b-z-8261hg"
  },
  {
   "name": "Holland Stoffenhuis",
@@ -5046,7 +5535,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.2050955,
+  "lon": 4.39964429,
+  "id": "dlr-holland-stoffenhuis-2225bh"
  },
  {
   "name": "2ehands wolwinkel",
@@ -5061,7 +5553,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.24533908,
+  "lon": 5.779541,
+  "id": "dlr-2ehands-wolwinkel-9056pa"
  },
  {
   "name": "Het Wolpaleis",
@@ -5075,7 +5570,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.28055722,
+  "lon": 6.14784069,
+  "id": "dlr-het-wolpaleis-9291ca"
  },
  {
   "name": "Ornament",
@@ -5089,7 +5587,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.28031398,
+  "lon": 6.15227047,
+  "id": "dlr-ornament-9291cn"
  },
  {
   "name": "Handwerk-Hobbyzaak",
@@ -5105,7 +5606,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 50.89854245,
+  "lon": 6.01562686,
+  "id": "dlr-handwerk-hobbyzaak-6371gl"
  },
  {
   "name": "JustDD",
@@ -5120,7 +5624,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 50.89889679,
+  "lon": 6.02123021,
+  "id": "dlr-justdd-6371vw"
  },
  {
   "name": "Langbroekertje",
@@ -5135,7 +5642,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.01239193,
+  "lon": 5.32734505,
+  "id": "dlr-langbroekertje-3947me"
  },
  {
   "name": "Atelier 6a",
@@ -5150,7 +5660,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.16237652,
+  "lon": 6.39302804,
+  "id": "dlr-atelier-6a-9351ae"
  },
  {
   "name": "Handwerken XL",
@@ -5165,7 +5678,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.36066674,
+  "lon": 6.38167622,
+  "id": "dlr-handwerken-xl-9965pd"
  },
  {
   "name": "'n Steekje Los",
@@ -5182,7 +5698,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.15633787,
+  "lon": 4.49348074,
+  "id": "dlr-n-steekje-los-2311hm"
  },
  {
   "name": "Mikmak Kreatief",
@@ -5197,7 +5716,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.15188271,
+  "lon": 4.52633985,
+  "id": "dlr-mikmak-kreatief-2351nj"
  },
  {
   "name": "Van der Wouden",
@@ -5211,7 +5733,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.89510462,
+  "lon": 4.6831102,
+  "id": "dlr-van-der-wouden-2941ae"
  },
  {
   "name": "Pandje Naaimachines",
@@ -5242,7 +5767,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.85146807,
+  "lon": 5.715777,
+  "id": "dlr-t-lemster-wolh-250-s-8531pz"
  },
  {
   "name": "Stof en Sier",
@@ -5257,7 +5785,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.98796546,
+  "lon": 6.5683731,
+  "id": "dlr-stof-en-sier-7131de"
  },
  {
   "name": "Wolcompany",
@@ -5272,7 +5803,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.57161944,
+  "lon": 4.69572466,
+  "id": "dlr-wolcompany-1906bs"
  },
  {
   "name": "Wol en Zo Lisse",
@@ -5287,7 +5821,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.26082545,
+  "lon": 4.55534052,
+  "id": "dlr-wol-en-zo-lisse-2161bc"
  },
  {
   "name": "Fleurke Bloem & Cadeau",
@@ -5301,7 +5838,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.86083579,
+  "lon": 6.11959029,
+  "id": "dlr-fleurke-bloem-cadeau-6915al"
  },
  {
   "name": "Especial & More",
@@ -5316,7 +5856,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.99169537,
+  "lon": 5.04717929,
+  "id": "dlr-especial-more-3412kk"
  },
  {
   "name": "Van Weerden Mode & Wonen",
@@ -5331,7 +5874,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.3312924,
+  "lon": 6.7453353,
+  "id": "dlr-van-weerden-mode-wonen-9919am"
  },
  {
   "name": "Jongbloed Lunteren",
@@ -5346,7 +5892,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.09010528,
+  "lon": 5.61872387,
+  "id": "dlr-jongbloed-lunteren-6741ar"
  },
  {
   "name": "Woll of Fame",
@@ -5361,7 +5910,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.14753936,
+  "lon": 5.8863158,
+  "id": "dlr-woll-of-fame-6051cr"
  },
  {
   "name": "Pipoos Maastricht",
@@ -5376,7 +5928,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 50.84940916,
+  "lon": 5.7001548,
+  "id": "dlr-pipoos-maastricht-6221ea"
  },
  {
   "name": "Het Zwarte Schaap Margraten",
@@ -5391,7 +5946,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 50.81974155,
+  "lon": 5.82134222,
+  "id": "dlr-het-zwarte-schaap-margraten-6269bp"
  },
  {
   "name": "Casa Cura",
@@ -5406,7 +5964,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 50.88474499,
+  "lon": 5.7528856,
+  "id": "dlr-casa-cura-6231ck"
  },
  {
   "name": "Creation & Design",
@@ -5421,7 +5982,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.69787825,
+  "lon": 6.19154207,
+  "id": "dlr-creation-design-7941lj"
  },
  {
   "name": "La Vaca Kreatief",
@@ -5436,7 +6000,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.49803395,
+  "lon": 3.61468562,
+  "id": "dlr-la-vaca-kreatief-4331jt"
  },
  {
   "name": "Pipoos Middelburg",
@@ -5451,7 +6018,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.49922383,
+  "lon": 3.61578418,
+  "id": "dlr-pipoos-middelburg-4331am"
  },
  {
   "name": "Net eem Aans bie Janneke",
@@ -5465,7 +6035,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.34646572,
+  "lon": 6.64410486,
+  "id": "dlr-net-eem-aans-bie-janneke-9991bg"
  },
  {
   "name": "Atelier Mimi",
@@ -5495,7 +6068,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.92923006,
+  "lon": 7.01492519,
+  "id": "dlr-kosmeijer-9581ad"
  },
  {
   "name": "'t Kloske",
@@ -5510,7 +6086,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.76455325,
+  "lon": 5.16621856,
+  "id": "dlr-t-kloske-5317jk"
  },
  {
   "name": "Tante Tuttebol",
@@ -5525,7 +6104,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.2828429,
+  "lon": 5.74852006,
+  "id": "dlr-tante-tuttebol-6031vr"
  },
  {
   "name": "Anja's Hobby Winkel",
@@ -5600,7 +6182,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.71848823,
+  "lon": 6.57060202,
+  "id": "dlr-wolhandel-oost-7911tb"
  },
  {
   "name": "WolligWonen",
@@ -5615,7 +6200,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.69631791,
+  "lon": 6.60957,
+  "id": "dlr-wolligwonen-7918ac"
  },
  {
   "name": "Wolwinkel Atelier Ann",
@@ -5630,7 +6218,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.74741137,
+  "lon": 6.14654089,
+  "id": "dlr-wolwinkel-atelier-ann-7948lp"
  },
  {
   "name": "Wilma’s Naald en Draad",
@@ -5645,7 +6236,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.22282168,
+  "lon": 5.4844407,
+  "id": "dlr-wilma-s-naald-en-draad-3861bn"
  },
  {
   "name": "Pipoos Nijmegen",
@@ -5660,7 +6254,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.84414987,
+  "lon": 5.86346947,
+  "id": "dlr-pipoos-nijmegen-6511hs"
  },
  {
   "name": "Wolletjes Nistelrode",
@@ -5675,7 +6272,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.70533116,
+  "lon": 5.56117148,
+  "id": "dlr-wolletjes-nistelrode-5388hn"
  },
  {
   "name": "Pieterse Mode",
@@ -5690,7 +6290,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.16449156,
+  "lon": 4.8265999,
+  "id": "dlr-pieterse-mode-2431ae"
  },
  {
   "name": "Stoffig stel",
@@ -5720,7 +6323,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.89130278,
+  "lon": 6.1404572,
+  "id": "dlr-kreativa-8391bz"
  },
  {
   "name": "MariKari",
@@ -5735,7 +6341,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.0647515,
+  "lon": 6.46085415,
+  "id": "dlr-marikari-9331ja"
  },
  {
   "name": "Mijn Hobbywinkeltje",
@@ -5750,7 +6359,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.46697826,
+  "lon": 5.5344157,
+  "id": "dlr-mijn-hobbywinkeltje-5674cb"
  },
  {
   "name": "Bezige Bij",
@@ -5765,7 +6377,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.73480532,
+  "lon": 4.43848805,
+  "id": "dlr-bezige-bij-3281ag"
  },
  {
   "name": "Naaimodecentrum Den Ouden Nunspeet",
@@ -5780,7 +6395,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.37630517,
+  "lon": 5.78749041,
+  "id": "dlr-naaimodecentrum-den-ouden-nunspeet-8071ax"
  },
  {
   "name": "Creative Studio Sylvia",
@@ -5793,7 +6411,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.05159277,
+  "lon": 5.23307644,
+  "id": "dlr-creative-studio-sylvia-3984kr"
  },
  {
   "name": "Ons winkeltje",
@@ -5808,7 +6429,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.58789823,
+  "lon": 5.1948269,
+  "id": "dlr-ons-winkeltje-5061jt"
  },
  {
   "name": "Bij Mir",
@@ -5823,7 +6447,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.44697484,
+  "lon": 5.8974901,
+  "id": "dlr-bij-mir-8096be"
  },
  {
   "name": "Mikilon",
@@ -5838,7 +6465,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.33841374,
+  "lon": 6.10917079,
+  "id": "dlr-mikilon-8121bj"
  },
  {
   "name": "'t Heerenbrinkje",
@@ -5852,7 +6482,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.51973552,
+  "lon": 6.4221932,
+  "id": "dlr-t-heerenbrinkje-7731dc"
  },
  {
   "name": "De Sierspeld",
@@ -5867,7 +6500,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.46390116,
+  "lon": 3.60073472,
+  "id": "dlr-de-sierspeld-4388bj"
  },
  {
   "name": "Winkel van Sophie",
@@ -5882,7 +6518,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.32613122,
+  "lon": 3.49044962,
+  "id": "dlr-winkel-van-sophie-4501db"
  },
  {
   "name": "Creamieke Oosterbeek",
@@ -5897,7 +6536,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.98612701,
+  "lon": 5.84410574,
+  "id": "dlr-creamieke-oosterbeek-6862dp"
  },
  {
   "name": "Rosalien Hin Texel",
@@ -5926,7 +6568,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.66048555,
+  "lon": 4.86850926,
+  "id": "dlr-de-garenschuur-4907ld"
  },
  {
   "name": "Wolschuurtje - CreaPien",
@@ -5941,7 +6586,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.62188134,
+  "lon": 4.01816412,
+  "id": "dlr-wolschuurtje-creapien-4307rl"
  },
  {
   "name": "Wolatelier Bernardien",
@@ -5970,7 +6618,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.17536663,
+  "lon": 6.21305499,
+  "id": "dlr-gjaltema-s-textielgroothandel-9865ad"
  },
  {
   "name": "Fantasy Fournituren",
@@ -5986,7 +6637,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.76858494,
+  "lon": 5.52569174,
+  "id": "dlr-fantasy-fournituren-5341cl"
  },
  {
   "name": "Haakpret",
@@ -6001,7 +6655,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.78109638,
+  "lon": 5.55212861,
+  "id": "dlr-haakpret-5347kl"
  },
  {
   "name": "Polly Pruts",
@@ -6015,7 +6672,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.75773382,
+  "lon": 5.5000143,
+  "id": "dlr-polly-pruts-5345vt"
  },
  {
   "name": "Van de Veerdonk Fournituren",
@@ -6030,7 +6690,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.76527151,
+  "lon": 5.52026659,
+  "id": "dlr-van-de-veerdonk-fournituren-5341ha"
  },
  {
   "name": "Brokschmidt Schoenservice en Kledingservice",
@@ -6045,7 +6708,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.10328922,
+  "lon": 7.0077941,
+  "id": "dlr-brokschmidt-schoenservice-en-kledingservice-9665jx"
  },
  {
   "name": "Novy Warenhuis Joustra",
@@ -6074,7 +6740,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.32629305,
+  "lon": 5.97964569,
+  "id": "dlr-de-wolhook-5981bj"
  },
  {
   "name": "Pera & Pasha",
@@ -6089,7 +6758,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.01823916,
+  "lon": 4.43134662,
+  "id": "dlr-pera-pasha-2641en"
  },
  {
   "name": "Plume Designs and Products",
@@ -6104,7 +6776,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.01327648,
+  "lon": 4.4452747,
+  "id": "dlr-plume-designs-and-products-2642ad"
  },
  {
   "name": "Bij Tante Toos",
@@ -6119,7 +6794,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.0222059,
+  "lon": 4.22042441,
+  "id": "dlr-bij-tante-toos-2685ep"
  },
  {
   "name": "Crea Caf&#233;",
@@ -6149,7 +6827,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.26036958,
+  "lon": 5.60616766,
+  "id": "dlr-betsys-wolwinkel-nl-3881ba"
  },
  {
   "name": "Stoffen & Babystudio",
@@ -6164,7 +6845,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.25983854,
+  "lon": 5.60232292,
+  "id": "dlr-stoffen-babystudio-3882am"
  },
  {
   "name": "Creashop Duymelot",
@@ -6179,7 +6863,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.38532338,
+  "lon": 6.27592511,
+  "id": "dlr-creashop-duymelot-8102ck"
  },
  {
   "name": "Het Brokantje",
@@ -6194,7 +6881,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.69483414,
+  "lon": 4.87680658,
+  "id": "dlr-het-brokantje-4941jp"
  },
  {
   "name": "Moois Crea Kado",
@@ -6209,7 +6899,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.36190467,
+  "lon": 5.16067885,
+  "id": "dlr-moois-crea-kado-5541ea"
  },
  {
   "name": "C.R. Couture",
@@ -6224,12 +6917,15 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.86249486,
+  "lon": 4.42492264,
+  "id": "dlr-c-r-couture-3161kn"
  },
  {
   "name": "Marianne's Brei- en Haakboetiek",
   "address": "Rijsoordsestraat 30",
-  "postcode": "2988 CL",
+  "postcode": "2988 XP",
   "city": "Ridderkerk",
   "categories": [
    "wol"
@@ -6239,12 +6935,15 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.84906144,
+  "lon": 4.59774956,
+  "id": "dlr-marianne-s-brei-en-haakboetiek-2988cl"
  },
  {
   "name": "Huize van Marrosa",
   "address": "Julianastraat 98a",
-  "postcode": "5121 LE",
+  "postcode": "5121 LT",
   "city": "Rijen",
   "categories": [
    "wol"
@@ -6254,7 +6953,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.58277831,
+  "lon": 4.92415397,
+  "id": "dlr-huize-van-marrosa-5121le"
  },
  {
   "name": "Breipunt",
@@ -6269,7 +6971,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.19104114,
+  "lon": 4.45073078,
+  "id": "dlr-breipunt-2231be"
  },
  {
   "name": "Het Wolhuis",
@@ -6284,7 +6989,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.3088658,
+  "lon": 6.5128315,
+  "id": "dlr-het-wolhuis-7462av"
  },
  {
   "name": "Hobbyzuss",
@@ -6299,7 +7007,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.3015146,
+  "lon": 6.49434127,
+  "id": "dlr-hobbyzuss-7462mn"
  },
  {
   "name": "The Plyground",
@@ -6329,7 +7040,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.19131128,
+  "lon": 5.99123789,
+  "id": "dlr-handwerk-atelier-lidy-6041hk"
  },
  {
   "name": "Knitted Knots",
@@ -6344,7 +7058,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.98890868,
+  "lon": 6.64348168,
+  "id": "dlr-knitted-knots-9451ba"
  },
  {
   "name": "Be Clever",
@@ -6358,7 +7075,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.71682939,
+  "lon": 5.36318622,
+  "id": "dlr-be-clever-5241tj"
  },
  {
   "name": "Pipoos Rotterdam - Coolsingel",
@@ -6373,7 +7093,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.91828885,
+  "lon": 4.47918986,
+  "id": "dlr-pipoos-rotterdam-coolsingel-3012ka"
  },
  {
   "name": "Pipoos Rotterdam - Zuidplein",
@@ -6388,7 +7111,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.88666785,
+  "lon": 4.49094425,
+  "id": "dlr-pipoos-rotterdam-zuidplein-3083bs"
  },
  {
   "name": "Schr&#246;der Modestoffen en Fournituren",
@@ -6404,7 +7130,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.91741522,
+  "lon": 4.47761945,
+  "id": "dlr-schr-246-der-modestoffen-en-fournituren-3012kd"
  },
  {
   "name": "Wolle Petra",
@@ -6419,7 +7148,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.89041243,
+  "lon": 4.47448725,
+  "id": "dlr-wolle-petra-3083mb"
  },
  {
   "name": "Stegeman's Textiel",
@@ -6434,7 +7166,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.61830908,
+  "lon": 6.18529483,
+  "id": "dlr-stegeman-s-textiel-7954gh"
  },
  {
   "name": "Steek van wal",
@@ -6450,7 +7185,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.43253324,
+  "lon": 4.64429442,
+  "id": "dlr-steek-van-wal-2071ca"
  },
  {
   "name": "Sisters Stoffen & Fournituren",
@@ -6466,7 +7204,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.74615286,
+  "lon": 5.63218566,
+  "id": "dlr-sisters-stoffen-fournituren-5374bj"
  },
  {
   "name": "Het Kleinvak",
@@ -6481,7 +7222,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.26589459,
+  "lon": 6.19721883,
+  "id": "dlr-het-kleinvak-7433ad"
  },
  {
   "name": "Boetiek Miss Janet",
@@ -6496,7 +7240,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.07941983,
+  "lon": 5.49191466,
+  "id": "dlr-boetiek-miss-janet-3925ke"
  },
  {
   "name": "Hobbyiaan",
@@ -6511,7 +7258,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.91467251,
+  "lon": 4.39962362,
+  "id": "dlr-hobbyiaan-3111hb"
  },
  {
   "name": "Wolshop Jabo",
@@ -6526,12 +7276,15 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.50024188,
+  "lon": 4.56059289,
+  "id": "dlr-wolshop-jabo-4721bb"
  },
  {
   "name": "Craftgarden",
   "address": "Hoofdstraat 101B",
-  "postcode": "5681 AD",
+  "postcode": "5481 AC",
   "city": "Schijndel",
   "categories": [
    "wol"
@@ -6541,7 +7294,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.6180681,
+  "lon": 5.43522608,
+  "id": "dlr-craftgarden-5681ad"
  },
  {
   "name": "Kreagea",
@@ -6571,7 +7327,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.9446724,
+  "lon": 4.85149916,
+  "id": "dlr-ricken-schoonhoven-2871cn"
  },
  {
   "name": "Wolcaf&#233;",
@@ -6586,7 +7345,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.94671976,
+  "lon": 4.85458082,
+  "id": "dlr-wolcaf-233-2871bc"
  },
  {
   "name": "Wol en Meer",
@@ -6601,7 +7363,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.24737931,
+  "lon": 6.87007961,
+  "id": "dlr-wol-en-meer-9628cv"
  },
  {
   "name": "Creamieke Silvolde",
@@ -6616,12 +7381,15 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.90453866,
+  "lon": 6.3874125,
+  "id": "dlr-creamieke-silvolde-7064bc"
  },
  {
   "name": "Corrie's Stoffenplaza",
   "address": "Ooststraat 2",
-  "postcode": "4697 GN",
+  "postcode": "4697 EG",
   "city": "Sint Annaland",
   "categories": [
    "wol"
@@ -6630,7 +7398,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.60011811,
+  "lon": 4.10337003,
+  "id": "dlr-corrie-s-stoffenplaza-4697gn"
  },
  {
   "name": "Garenhuis u Keus",
@@ -6650,7 +7421,7 @@
  {
   "name": "De Happy Haaknaald",
   "address": "Oostdijk 19",
-  "postcode": "4575 CD",
+  "postcode": "4675 CD",
   "city": "Sint Philipsland",
   "categories": [
    "wol",
@@ -6661,7 +7432,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.61687196,
+  "lon": 4.16743832,
+  "id": "dlr-de-happy-haaknaald-4575cd"
  },
  {
   "name": "MadeByMaly",
@@ -6676,7 +7450,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.56963196,
+  "lon": 5.44749251,
+  "id": "dlr-madebymaly-5491mb"
  },
  {
   "name": "Hobbyshop-online.nl",
@@ -6691,7 +7468,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 50.99478542,
+  "lon": 5.84497968,
+  "id": "dlr-hobbyshop-online-nl-6135lm"
  },
  {
   "name": "Stoffenkraam Sliedrecht",
@@ -6721,7 +7501,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.94881171,
+  "lon": 6.44523376,
+  "id": "dlr-the-readshop-smilde-9422ab"
  },
  {
   "name": "Devo",
@@ -6736,7 +7519,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.03143971,
+  "lon": 5.66148067,
+  "id": "dlr-devo-8601aw"
  },
  {
   "name": "Hobbyleuterij",
@@ -6751,7 +7537,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.17312616,
+  "lon": 5.29331713,
+  "id": "dlr-hobbyleuterij-3762ag"
  },
  {
   "name": "'t Handwerkhuis",
@@ -6782,7 +7571,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.9868877,
+  "lon": 6.95510212,
+  "id": "dlr-de-naaibox-9501ct"
  },
  {
   "name": "J. Kooiker Textiel",
@@ -6796,7 +7588,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.64954894,
+  "lon": 6.21678563,
+  "id": "dlr-j-kooiker-textiel-7951ck"
  },
  {
   "name": "K.F. Vloedgraven Textiel",
@@ -6811,7 +7606,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.64761573,
+  "lon": 6.21132458,
+  "id": "dlr-k-f-vloedgraven-textiel-7951cg"
  },
  {
   "name": "Bolletje Wolletje",
@@ -6826,7 +7624,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.78790473,
+  "lon": 6.11359625,
+  "id": "dlr-bolletje-wolletje-8331jz"
  },
  {
   "name": "T. Dijkstra Markthandel",
@@ -6856,7 +7657,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.87695567,
+  "lon": 6.22149727,
+  "id": "dlr-handwerkhuis-de-rozet-7039ac"
  },
  {
   "name": "CuteDutch",
@@ -6871,7 +7675,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.9664311,
+  "lon": 4.77497054,
+  "id": "dlr-cutedutch-2821at"
  },
  {
   "name": "Postma",
@@ -6885,7 +7692,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.18092623,
+  "lon": 6.16176402,
+  "id": "dlr-postma-9231as"
  },
  {
   "name": "Atelier Het Wolbeest",
@@ -6900,7 +7710,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.23281417,
+  "lon": 6.03575636,
+  "id": "dlr-atelier-het-wolbeest-6071jm"
  },
  {
   "name": "Creatief Atelier het Speldenkussen",
@@ -6915,7 +7728,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.86039918,
+  "lon": 7.08175863,
+  "id": "dlr-creatief-atelier-het-speldenkussen-9561pa"
  },
  {
   "name": "Muldertje",
@@ -6930,7 +7746,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.63882064,
+  "lon": 4.75738961,
+  "id": "dlr-muldertje-4844cg"
  },
  {
   "name": "Crea-Lana",
@@ -6945,7 +7764,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.3377643,
+  "lon": 3.82662561,
+  "id": "dlr-crea-lana-4531gd"
  },
  {
   "name": "Knoppunt",
@@ -6960,7 +7782,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.32921104,
+  "lon": 3.83439726,
+  "id": "dlr-knoppunt-4537ap"
  },
  {
   "name": "Tante Lies",
@@ -6990,7 +7815,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.53262586,
+  "lon": 4.22261615,
+  "id": "dlr-kantje-boord-4691ek"
  },
  {
   "name": "Handmedith",
@@ -7005,7 +7833,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.88706734,
+  "lon": 5.43770617,
+  "id": "dlr-handmedith-4001ld"
  },
  {
   "name": "Crejatex",
@@ -7020,7 +7851,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.57118798,
+  "lon": 4.97814481,
+  "id": "dlr-crejatex-5036wr"
  },
  {
   "name": "Pipoos Tilburg",
@@ -7035,7 +7869,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.56443738,
+  "lon": 5.0902616,
+  "id": "dlr-pipoos-tilburg-5014hj"
  },
  {
   "name": "Textielstad",
@@ -7050,7 +7887,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.57730195,
+  "lon": 5.08052899,
+  "id": "dlr-textielstad-5046aa"
  },
  {
   "name": "Breiboetiek Marja",
@@ -7065,7 +7905,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.89943593,
+  "lon": 4.12256343,
+  "id": "dlr-breiboetiek-marja-3234lc"
  },
  {
   "name": "Gewoon bij 10",
@@ -7080,7 +7923,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.7393994,
+  "lon": 4.75019678,
+  "id": "dlr-gewoon-bij-10-1747er"
  },
  {
   "name": "Winkeltje van Jannetje",
@@ -7094,7 +7940,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.2599119,
+  "lon": 5.77754338,
+  "id": "dlr-winkeltje-van-jannetje-3888lp"
  },
  {
   "name": "Piet Johan",
@@ -7109,7 +7958,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.23276597,
+  "lon": 4.83147442,
+  "id": "dlr-piet-johan-1421at"
  },
  {
   "name": "De Vingerhoed Ulft",
@@ -7123,7 +7975,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.89387065,
+  "lon": 6.38199558,
+  "id": "dlr-de-vingerhoed-ulft-7071bc"
  },
  {
   "name": "Ricken Urk",
@@ -7138,7 +7993,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.66302892,
+  "lon": 5.6237352,
+  "id": "dlr-ricken-urk-8321rg"
  },
  {
   "name": "Pipoos Utrecht",
@@ -7153,7 +8011,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.09344009,
+  "lon": 5.1161899,
+  "id": "dlr-pipoos-utrecht-3511bk"
  },
  {
   "name": "Sticks & Cups",
@@ -7168,7 +8029,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.09285127,
+  "lon": 5.119842,
+  "id": "dlr-sticks-cups-3512gv"
  },
  {
   "name": "Wollyhood",
@@ -7183,7 +8047,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.09900502,
+  "lon": 5.097613,
+  "id": "dlr-wollyhood-3551em"
  },
  {
   "name": "Kledingreparatie Lia ten Hoven",
@@ -7198,7 +8065,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.28280486,
+  "lon": 5.9681108,
+  "id": "dlr-kledingreparatie-lia-ten-hoven-8171lw"
  },
  {
   "name": "mijnWinkel Veendam",
@@ -7211,7 +8081,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.10609693,
+  "lon": 6.87396206,
+  "id": "dlr-mijnwinkel-veendam-9641ap"
  },
  {
   "name": "Pipoos Veenendaal",
@@ -7226,7 +8099,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.02583477,
+  "lon": 5.55706738,
+  "id": "dlr-pipoos-veenendaal-3901az"
  },
  {
   "name": "Pipoos Venlo",
@@ -7241,7 +8117,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.37016293,
+  "lon": 6.16925529,
+  "id": "dlr-pipoos-venlo-5911hd"
  },
  {
   "name": "Wolwebwinkel",
@@ -7271,7 +8150,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.91742827,
+  "lon": 4.31550609,
+  "id": "dlr-olydia-s-3132tl"
  },
  {
   "name": "Gek op Wol",
@@ -7286,7 +8168,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.02536551,
+  "lon": 7.10704428,
+  "id": "dlr-gek-op-wol-9541al"
  },
  {
   "name": "Warenhuis Houter",
@@ -7301,7 +8186,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.29615044,
+  "lon": 5.07089838,
+  "id": "dlr-warenhuis-houter-8899aj"
  },
  {
   "name": "Lovely by Mieke",
@@ -7316,7 +8204,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.44342434,
+  "lon": 3.57294118,
+  "id": "dlr-lovely-by-mieke-4381ew"
  },
  {
   "name": "Josien's Boek & Mix",
@@ -7331,7 +8222,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.68123769,
+  "lon": 5.95435133,
+  "id": "dlr-josien-s-boek-mix-8325bm"
  },
  {
   "name": "Wollig",
@@ -7345,7 +8239,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.06736764,
+  "lon": 4.36387756,
+  "id": "dlr-wollig-2271cc"
  },
  {
   "name": "Made by You B.V.",
@@ -7360,7 +8257,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.22199772,
+  "lon": 4.48231395,
+  "id": "dlr-made-by-you-b-v-2215kk"
  },
  {
   "name": "De Kameleon",
@@ -7375,7 +8275,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.18682648,
+  "lon": 5.60470737,
+  "id": "dlr-de-kameleon-3781ad"
  },
  {
   "name": "Atelier 36",
@@ -7390,7 +8293,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 53.06448632,
+  "lon": 6.57636388,
+  "id": "dlr-atelier-36-9481bp"
  },
  {
   "name": "Moi Mi",
@@ -7405,7 +8311,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.46118866,
+  "lon": 6.5723465,
+  "id": "dlr-moi-mi-7681dd"
  },
  {
   "name": "LiDi's Stoffenhuis",
@@ -7420,7 +8329,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.04662818,
+  "lon": 4.64228766,
+  "id": "dlr-lidi-s-stoffenhuis-2742bd"
  },
  {
   "name": "Belinda-Rian Creatie",
@@ -7435,7 +8347,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.97058628,
+  "lon": 5.66923777,
+  "id": "dlr-belinda-rian-creatie-6707ja"
  },
  {
   "name": "Cadeauhuis Wageningen",
@@ -7450,7 +8365,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.96662104,
+  "lon": 5.66406793,
+  "id": "dlr-cadeauhuis-wageningen-6701bw"
  },
  {
   "name": "Klazien's Kreatie",
@@ -7465,7 +8383,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.43170961,
+  "lon": 6.07398126,
+  "id": "dlr-klazien-s-kreatie-8191ae"
  },
  {
   "name": "Pieterse Handwerken",
@@ -7481,7 +8402,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.14296688,
+  "lon": 6.22217,
+  "id": "dlr-pieterse-handwerken-7231ab"
  },
  {
   "name": "Passage Wassenaar",
@@ -7495,7 +8419,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.14337306,
+  "lon": 4.39392153,
+  "id": "dlr-passage-wassenaar-2242kn"
  },
  {
   "name": "Creatief Wemeldinge",
@@ -7509,7 +8436,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.51733505,
+  "lon": 3.99878662,
+  "id": "dlr-creatief-wemeldinge-4424bb"
  },
  {
   "name": "Marco Kleinvakartikelen v.o.f.",
@@ -7524,7 +8454,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.36407957,
+  "lon": 6.60252278,
+  "id": "dlr-marco-kleinvakartikelen-v-o-f-7641dp"
  },
  {
   "name": "De Naaldboetiek",
@@ -7540,7 +8473,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.38769355,
+  "lon": 6.13578982,
+  "id": "dlr-de-naaldboetiek-8131bb"
  },
  {
   "name": "Schapenvacht en Lifestyle",
@@ -7571,7 +8507,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.77264811,
+  "lon": 5.10831448,
+  "id": "dlr-gerrie-s-naaiatelier-4261rc"
  },
  {
   "name": "Van Soest",
@@ -7586,7 +8525,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.19518436,
+  "lon": 4.90374638,
+  "id": "dlr-van-soest-3648ah"
  },
  {
   "name": "De Knip Etage",
@@ -7601,7 +8543,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.75922218,
+  "lon": 4.89513681,
+  "id": "dlr-de-knip-etage-1731sc"
  },
  {
   "name": "Wolwinkel Het Zwarte Schaap",
@@ -7615,7 +8560,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.97010526,
+  "lon": 6.72125811,
+  "id": "dlr-wolwinkel-het-zwarte-schaap-7101nn"
  },
  {
   "name": "Tuttebollen",
@@ -7630,7 +8578,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.08560552,
+  "lon": 4.88629413,
+  "id": "dlr-tuttebollen-3441bs"
  },
  {
   "name": "Kiekes",
@@ -7644,7 +8595,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.87666487,
+  "lon": 6.00319969,
+  "id": "dlr-kiekes-8471jl"
  },
  {
   "name": "Welkoop Wolvega",
@@ -7658,7 +8612,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.88195086,
+  "lon": 6.00189701,
+  "id": "dlr-welkoop-wolvega-8471ar"
  },
  {
   "name": "'t Nifelhoekje",
@@ -7673,7 +8630,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.97683072,
+  "lon": 5.44005211,
+  "id": "dlr-t-nifelhoekje-8711ct"
  },
  {
   "name": "Wol-Lokaal",
@@ -7688,7 +8648,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.50070667,
+  "lon": 4.82458949,
+  "id": "dlr-wol-lokaal-1531hg"
  },
  {
   "name": "Atelier 't Wolhuisje",
@@ -7703,7 +8666,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.09295896,
+  "lon": 5.42927271,
+  "id": "dlr-atelier-t-wolhuisje-3931pv"
  },
  {
   "name": "Wolmarkt",
@@ -7718,7 +8684,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.7999999,
+  "lon": 4.96532809,
+  "id": "dlr-wolmarkt-4285wr"
  },
  {
   "name": "Frutsels en meer",
@@ -7748,7 +8717,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.467504,
+  "lon": 4.84113151,
+  "id": "dlr-chellebel-1509ka"
  },
  {
   "name": "Pipoos Zaandam",
@@ -7763,7 +8735,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.43913189,
+  "lon": 4.8223189,
+  "id": "dlr-pipoos-zaandam-1506se"
  },
  {
   "name": "Zaans Geluk",
@@ -7778,7 +8753,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.43071463,
+  "lon": 4.8119719,
+  "id": "dlr-zaans-geluk-1507cb"
  },
  {
   "name": "Wolplein",
@@ -7792,7 +8770,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.80274971,
+  "lon": 5.2726196,
+  "id": "dlr-wolplein-5301lv"
  },
  {
   "name": "CreYo",
@@ -7807,7 +8788,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.69518088,
+  "lon": 5.67950983,
+  "id": "dlr-creyo-5411aj"
  },
  {
   "name": "Hobby-Time",
@@ -7822,7 +8806,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.33103506,
+  "lon": 5.54093565,
+  "id": "dlr-hobby-time-3891ex"
  },
  {
   "name": "Geur & Kleur",
@@ -7837,7 +8824,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.08938639,
+  "lon": 5.24650146,
+  "id": "dlr-geur-kleur-3701ea"
  },
  {
   "name": "De 5 klavertjes",
@@ -7852,7 +8842,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.93015056,
+  "lon": 6.07797233,
+  "id": "dlr-de-5-klavertjes-6901jz"
  },
  {
   "name": "Stefanie",
@@ -7866,7 +8859,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.93070896,
+  "lon": 6.07733926,
+  "id": "dlr-stefanie-6901gs"
  },
  {
   "name": "Het kralendorp",
@@ -7910,7 +8906,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.06173425,
+  "lon": 4.52523627,
+  "id": "dlr-marlaine-2723ra"
  },
  {
   "name": "Wolkracht",
@@ -7924,7 +8923,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.11779764,
+  "lon": 4.49998285,
+  "id": "dlr-wolkracht-2381av"
  },
  {
   "name": "Stuifzand Allerhande",
@@ -7939,7 +8941,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.67623484,
+  "lon": 6.42886344,
+  "id": "dlr-stuifzand-allerhande-7921ac"
  },
  {
   "name": "Hobbyspot",
@@ -7953,12 +8958,15 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 51.47178359,
+  "lon": 4.66344138,
+  "id": "dlr-hobbyspot-4881cs"
  },
  {
   "name": "Wol met Verve",
   "address": "De zegge 6",
-  "postcode": "8064 DV",
+  "postcode": "8064 HV",
   "city": "Zwartsluis",
   "categories": [
    "wol"
@@ -7968,7 +8976,10 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.64557553,
+  "lon": 6.07336889,
+  "id": "dlr-wol-met-verve-8064dv"
  },
  {
   "name": "Haken en Maken",
@@ -7982,6 +8993,9 @@
   "brand": "Scheepjes",
   "sourceUrl": "https://www.scheepjes.com/nl/winkels/",
   "verification": "unverified",
-  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken."
+  "notes": "Te controleren: overgenomen uit de Scheepjes-winkelzoeker; openingstijden ontbreken.",
+  "lat": 52.54624351,
+  "lon": 6.03847831,
+  "id": "dlr-haken-en-maken-8044rp"
  }
 ]
