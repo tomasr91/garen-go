@@ -42,7 +42,7 @@
   "method": "tekst",
   "url": "https://aboeken.nl/contact/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "maandag 12.00 \u2013 18.00 | dinsdag 10.00 \u2013 18.00 | woensdag 10.00 \u2013 18.00 | donderdag 10.00 \u2013 18.00 | vrijdag 10.00 \u2013 18.00 | zaterdag 10.00 \u2013 17.00 | zondag gesloten"
+  "evidence": "maandag 12.00 – 18.00 | dinsdag 10.00 – 18.00 | woensdag 10.00 – 18.00 | donderdag 10.00 – 18.00 | vrijdag 10.00 – 18.00 | zaterdag 10.00 – 17.00 | zondag gesloten"
  },
  "dlr-atelier-6a-9351ae": {
   "weekly": {
@@ -173,7 +173,7 @@
   "method": "tekst",
   "url": "http://handwerkzaakbelinda.nl/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "maandag: gesloten | dinsdag \u2013 vrijdag: 10:00 \u2013 12:30 / 13:30 \u2013 17:30 | zaterdag: 10:00 \u2013 17:00"
+  "evidence": "maandag: gesloten | dinsdag – vrijdag: 10:00 – 12:30 / 13:30 – 17:30 | zaterdag: 10:00 – 17:00"
  },
  "dlr-de-knip-etage-1731sc": {
   "weekly": {
@@ -349,7 +349,7 @@
   "method": "tekst",
   "url": "http://www.deschaarapeldoorn.nl/contact/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "maandag: gesloten | dinsdag: 9.30 \u2013 17.00 | woensdag: 9.30 \u2013 17.00 | donderdag: 9.30 \u2013 17.00 | vrijdag: 9.30 \u2013 17.00 | zaterdag: 10.00 \u2013 14.00 | zondag: gesloten"
+  "evidence": "maandag: gesloten | dinsdag: 9.30 – 17.00 | woensdag: 9.30 – 17.00 | donderdag: 9.30 – 17.00 | vrijdag: 9.30 – 17.00 | zaterdag: 10.00 – 14.00 | zondag: gesloten"
  },
  "dlr-de-wolshop-2405xp": {
   "weekly": {
@@ -419,7 +419,7 @@
   "method": "tekst",
   "url": "https://foamworld.nl/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "dinsdag t/m vrijdag: 10.00 \u2013 17.00 | zaterdag: 9.00 \u2013 16.00"
+  "evidence": "dinsdag t/m vrijdag: 10.00 – 17.00 | zaterdag: 9.00 – 16.00"
  },
  "dlr-gek-op-wol-9541al": {
   "weekly": {
@@ -459,7 +459,7 @@
   "method": "tekst",
   "url": "http://www.gekopwol.nl/openingstijden/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "maandag gesloten | di \u2013 do 09:00 \u2013 18:00 | vrijdag 09:00 \u2013 20:00 | zaterdag 09:00 \u2013 17:00 | zondag gesloten"
+  "evidence": "maandag gesloten | di – do 09:00 – 18:00 | vrijdag 09:00 – 20:00 | zaterdag 09:00 – 17:00 | zondag gesloten"
  },
  "dlr-gewoon-bij-10-1747er": {
   "weekly": {
@@ -911,7 +911,7 @@
   "method": "tekst",
   "url": "https://www.sokkenwolliatenhoven.nl/openingstijden-winkel/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "dinsdag 10:00\u201313:00 14:00\u201317:00 | donderdag 10:00\u201313:00 en 18:00\u201320:00 14:00\u201317:00 | zaterdag 10:00\u201314:00"
+  "evidence": "dinsdag 10:00–13:00 14:00–17:00 | donderdag 10:00–13:00 en 18:00–20:00 14:00–17:00 | zaterdag 10:00–14:00"
  },
  "dlr-knoppunt-4537ap": {
   "weekly": {
@@ -1056,7 +1056,7 @@
   "method": "tekst",
   "url": "http://www.marikari.nl/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "dinsdag t/m zaterdag van 09:30 \u2013 12:00 uur en 13:30 \u2013 17:00"
+  "evidence": "dinsdag t/m zaterdag van 09:30 – 12:00 uur en 13:30 – 17:00"
  },
  "dlr-marz-kreatiek-1815de": {
   "weekly": {
@@ -1181,7 +1181,7 @@
   "method": "tekst",
   "url": "http://www.nsteekjelos.nl",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "maandag 13.00 \u2013 17.30 | dinsdag 10.00 \u2013 17.30 | woensdag 10.00 \u2013 17.30 | donderdag 10.00 \u2013 17.30 | vrijdag 10.00 \u2013 17.30 | zaterdag 10.00 \u2013 17.00"
+  "evidence": "maandag 13.00 – 17.30 | dinsdag 10.00 – 17.30 | woensdag 10.00 – 17.30 | donderdag 10.00 – 17.30 | vrijdag 10.00 – 17.30 | zaterdag 10.00 – 17.00"
  },
  "dlr-singer-naaimodecentrum-8162ae": {
   "weekly": {
@@ -1357,5 +1357,2002 @@
   "url": "http://www.wolloffame.nl/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
   "evidence": "maandag: gesloten | dinsdag: gesloten | woensdag: gesloten | donderdag: gesloten | vrijdag: gesloten | zaterdag: 10.00-16.00 | zondag: gesloten"
+ },
+ "dlr-allerlei-kreatief-4876av": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://www.allerleikreatief.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "dinsdag t/m vrijdag van 10.00 tot 17.00 | zaterdag van 10.00 tot 16.00 | zondag en maandag gesloten"
+ },
+ "dlr-cutedutch-2821at": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [],
+   "su": []
+  },
+  "method": "schema.org",
+  "url": "https://www.cutedutch.nl/collections/scheepjes",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Monday\",\"https://schema.org/Tuesday\",\"https://schema.org/Wednesday\",\"https://schema.org/Thursday\",\"https://schema.org/Friday\"],\"opens\":\"09:00\",\"closes\":\"17:00\",\"description\":\"Bestelling afhalen op afspraak\"}]"
+ },
+ "dlr-de-5-klavertjes-6901jz": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "19:30",
+     "close": "21:30"
+    }
+   ],
+   "tu": [],
+   "we": [
+    {
+     "open": "19:30",
+     "close": "21:30"
+    }
+   ],
+   "th": [],
+   "fr": [
+    {
+     "open": "09:30",
+     "close": "17:00"
+    }
+   ],
+   "sa": [],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.de5klavertjes.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag 19.30-21.30 | woensdag 19.30-21.30 | vrijdag 9.30-17"
+ },
+ "dlr-frutsels-en-meer-9113pg": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [
+    {
+     "open": "19:00",
+     "close": "21:30"
+    }
+   ],
+   "th": [],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://frutselsenmeer.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "woensdag van 19.00 – 21.30 | vrijdag en zaterdag van 10.00 – 16.00"
+ },
+ "dlr-finlandia-import-1861kn": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [],
+   "th": [
+    {
+     "open": "12:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "12:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "12:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "schema.org",
+  "url": "https://www.finlandiaimport.nl/garen/?manufacturer=95",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":[\"https://schema.org/Thursday\",\"https://schema.org/Friday\",\"https://schema.org/Saturday\"],\"opens\":\"12:00\",\"closes\":\"17:00\"}]"
+ },
+ "dlr-hak-in-schoen-en-kledingreparatie-7721aj": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://www.hak-in.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag: gesloten | dinsdag: gesloten | woensdag: gesloten | donderdag: 9:00 – 17:00 | vrijdag: 9:00 – 17:00 | zaterdag: 9:00 – 17:00"
+ },
+ "dlr-handwerkwinkel-holten-van-bussel-7451cg": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.handwerkwebshop.nl/product-categorie/breigaren/scheepjeswol/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "dinsdag t/m vrijdag 10.00 tot 17.00 | zaterdag 10.00 tot 16.00"
+ },
+ "dlr-hobbyspot-4881cs": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "sa": [
+    {
+     "open": "11:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://www.hobbyspot.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag: gesloten | dinsdag: 09:30 - 17:30 | woensdag: 09:30 - 17:30 | donderdag: 09:30 - 17:30 | vrijdag: 09:30 - 17:30 | zaterdag: 11:00 - 16:00 | zondag: gesloten"
+ },
+ "dlr-k-b-z-8261hg": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "13:30",
+     "close": "18:00"
+    }
+   ],
+   "tu": [],
+   "we": [
+    {
+     "open": "13:30",
+     "close": "18:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "13:30",
+     "close": "18:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "13:30",
+     "close": "18:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://www.kbzkampen.nl/openingstijden/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag 13:30 – 18:00 | dinsdag gesloten | woensdag 13:30 – 18:00 | donderdag 13:30 – 18:00 | vrijdag 13:30 – 18:00 | zaterdag 13.00 – 17:00 | zondag gesloten"
+ },
+ "dlr-langbroekertje-3947me": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://langbroekertje.nl/over-ons/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "dinsdag t/m vrijdag 9:00 – 17:00 | zaterdag 9:00 – 16:00"
+ },
+ "dlr-staarink-warenhuis-6981cj": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "13:00",
+     "close": "18:00"
+    }
+   ],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://www.staarinkwarenhuis.nl/openingstijden",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag: 13.00 - 18.00 | dinsdag: 09.00 - 18.00 | woensdag: 09.00 - 18.00 | donderdag: 09.00 - 18.00 | vrijdag: 09.00 - 18.00 | zaterdag: 09.00 - 17.00 | zondag: gesloten"
+ },
+ "dlr-selden-s-225-9131ed": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "12:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "12:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [],
+   "fr": [
+    {
+     "open": "12:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://www.seldensa.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "dinsdag: 12:00 – 17:00 | woensdag: 12:00 – 17:00 | vrijdag: 12:00 – 17:00 | zaterdag: 10:00 – 17:00"
+ },
+ "dlr-tante-tuttebol-6031vr": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "12:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://tantetuttebol.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag gesloten | dinsdag 13.00 - 17.00 | woensdag 09.00 - 12.00 | donderdag 10.00 - 17.00 | vrijdag 10.00 - 17.00 | zaterdag 10.00 - 16.00 | zondag gesloten"
+ },
+ "dlr-t-lemster-wolh-250-s-8531pz": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "12:00",
+     "close": "18:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "12:00",
+     "close": "18:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "12:00",
+     "close": "18:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "12:00",
+     "close": "18:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "12:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://lemsterwolhus.nl/content/10-winkel-openingstijden",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag gesloten | dinsdag 12:00 - 18:00 | woensdag 12:00 - 18:00 | donderdag 12:00 - 18:00 | vrijdag 12:00 - 18:00 | zaterdag 12:00 - 17:00 | zondag gesloten"
+ },
+ "dlr-wester-creatief-3771bp": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "13:00",
+     "close": "17:30"
+    }
+   ],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "17:30"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "17:30"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "17:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "17:30"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://www.wester-beenmode.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag: 13:00-17:30 | dinsdag t/m vrijdag : 09:00-17:30 | zaterdag: 09:00-17:00"
+ },
+ "dlr-quarr-233-zorgservice-8801ra": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "13:00",
+     "close": "17:30"
+    }
+   ],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "17:30"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "17:30"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "17:30"
+    }
+   ],
+   "sa": [],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.quarre-zorgservice.nl",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag: 13.00 – 17.30 | dinsdag t/m vrijdag: 10.00 – 17.30 | zaterdag: gesloten | zondag: gesloten"
+ },
+ "dlr-wolcaf-233-2871bc": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "18:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "18:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "18:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "18:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://www.wolcafe.nl",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag gesloten | dinsdag 10:00 - 18:00 | woensdag 10:00 - 18:00 | donderdag 10:00 - 18:00 | vrijdag 10:00 - 18:00 | zaterdag 10:00 - 17:00"
+ },
+ "dlr-wolligwonen-7918ac": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "12:00"
+    },
+    {
+     "open": "13:00",
+     "close": "16:30"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "12:00"
+    },
+    {
+     "open": "13:00",
+     "close": "16:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "12:00"
+    },
+    {
+     "open": "13:00",
+     "close": "16:30"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "12:00"
+    },
+    {
+     "open": "13:00",
+     "close": "16:30"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.wolligwonen.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag en dinsdag gesloten | woensdag t/m zaterdag 10:00 – 12:00 uur 13:00 – 16:30"
+ },
+ "dlr-wolwinkel-van-draad-9001an": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "12:00",
+     "close": "18:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "12:00",
+     "close": "18:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "12:00",
+     "close": "18:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "12:00",
+     "close": "18:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.wolwinkel.nl/pages/openingstijden",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "dinsdag 12.00 – 18.00 | woensdag 12.00 – 18.00 | donderdag 12.00 – 18.00 | vrijdag 12.00 – 18.00 | zaterdag 10.00 – 17.00"
+ },
+ "osm-node-2655942965": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.onslykke.nl/pages/contact",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag : gesloten | dinsdag t/m zaterdag: 10-17"
+ },
+ "osm-node-2655951335": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "schema.org",
+  "url": "https://dekartelschaar.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Tuesday\",\"opens\":\"10:00\",\"closes\":\"17:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Wednesday\",\"opens\":\"10:00\",\"closes\":\"17:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Thursday\",\"opens\":\"10:00\",\"closes\":\"17:00\"},{\"@type\":\"Opening"
+ },
+ "osm-node-2668561277": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "13:30",
+     "close": "17:00"
+    }
+   ],
+   "tu": [
+    {
+     "open": "13:30",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "13:30",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "13:30",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "13:30",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "schema.org",
+  "url": "https://www.hetwolhuis.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "[\"Mo,Tu,We,Th,Fr 10:00-12:30\",\"Mo,Tu,We,Th,Fr 13:30-17:00\",\"Sa 10:00-16:00\"]"
+ },
+ "osm-node-2709959042": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "13:00",
+     "close": "17:30"
+    }
+   ],
+   "we": [],
+   "th": [
+    {
+     "open": "13:00",
+     "close": "17:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "13:00",
+     "close": "17:30"
+    }
+   ],
+   "sa": [
+    {
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://steekjemeer.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "dinsdag, donderdag en vrijdag 13:00 - 17:30 | zaterdag 13:00 - 17:00"
+ },
+ "osm-node-2697947984": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "18:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "18:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "18:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "18:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "18:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://naaiatelier-wilhelmina.nl/contact/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "dinsdag-zaterdag 10:00- 18:00 | maandag: gesloten | zondag: gesloten"
+ },
+ "osm-node-2709690549": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "12:00",
+     "close": "16:00"
+    }
+   ],
+   "tu": [],
+   "we": [],
+   "th": [
+    {
+     "open": "12:00",
+     "close": "16:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "12:00",
+     "close": "16:00"
+    }
+   ],
+   "sa": [],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://schonestoffen.nl",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "ma 12.00 - 16.00 | do 12.00 - 16.00 | vrij 12.00 - 16.00"
+ },
+ "osm-node-2727961282": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "12:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "12:00"
+    }
+   ],
+   "th": [],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.dokterzigzag.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag gesloten | dinsdag 10.00 tot 12.00 | woensdag 10.00 tot 12.00 | donderdag gesloten | vrijdag 10.00 tot 16.00 | zaterdag 10.00 tot 16.00"
+ },
+ "osm-node-2714565048": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "14:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.buyzepolyether.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "woensdag-vrijdag 10.00-14.00 | zaterdag 10.00-14.00"
+ },
+ "osm-node-2754608342": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "tu": [
+    {
+     "open": "09:30",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:30",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:30",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:30",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:30",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://nstudio.nl/n-studio-steenwijk/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag: van 13.00 - 17.00 | dinsdag t/m vrijdag: van 9.30 - 12.30 / 13.30 - 17.00 | zaterdag: van 9.30 - 17.00 | ma 13:00 - 17:00"
+ },
+ "osm-node-2742370050": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "12:00",
+     "close": "18:00"
+    }
+   ],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://harrysstoffen.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag 12.00 - 18.00 | dinsdag 09.00 - 18.00 | woensdag 09.00 - 18.00 | donderdag 09.00 - 18.00 | vrijdag 09.00 - 18.00 | zaterdag 09.00 - 17.00"
+ },
+ "osm-node-2754604296": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [],
+   "th": [],
+   "fr": [],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.stomerijcleaninn.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "zondag en maandag gesloten | zaterdag 09.00 uur – 17.00"
+ },
+ "osm-node-2778876283": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.lestissuscolores.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "woensdag t/m vrijdag: 10.00-17.00 | zondag & maandag: gesloten"
+ },
+ "osm-node-2762338549": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.fourniturenstefanie.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag gesloten | dinsdag 9.00 - 17.00 | woensdag 9.00 - 17.00 | donderdag 9.00 - 17.00 | vrijdag 9.00 - 17.00 | zaterdag 9.00 - 17.00 | zondag gesloten"
+ },
+ "osm-node-2779386819": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://stoffenboetiektwello.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "woensdag: 10:00 uur tot 17:00 | donderdag: 10:00 uur tot 17:00 | vrijdag: 10:00 uur tot 17:00 | zaterdag: 10:00 uur tot 16:00"
+ },
+ "osm-node-2784911912": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [
+    {
+     "open": "12:00",
+     "close": "16:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.aljona.nl",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandaggesloten | dinsdaggesloten | woensdag12:00 – 16:00 | donderdag10:00 – 16:00 | vrijdag10:00 – 16:00 | zaterdag10:00 – 16:00"
+ },
+ "osm-node-2777795974": {
+  "weekly": {
+   "mo": [
+    {
+     "open": "13:00",
+     "close": "17:00"
+    }
+   ],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://stoffendorp.nl/contact-route/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag 13.00 – 17.00 | dinsdag 09.00 – 17.00 | woensdag 09.00 – 17.00 | donderdag 09.00 – 17.00 | vrijdag 09.00 – 17.00 | zaterdag 09.00 – 17.00 | zondag gesloten"
+ },
+ "osm-node-2843706968": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "schema.org",
+  "url": "https://www.vangoolstoffen.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Tuesday\",\"opens\":\"09:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Wednesday\",\"opens\":\"09:00\",\"closes\":\"18:00\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"https://schema.org/Thur"
+ },
+ "osm-node-2863512081": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "12:15"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "12:15"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "12:15"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "12:15"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.bij-mir.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "dinsdag,woensdag en donderdag van 09:00 uur - 12:15 | vrijdag 09.00 uur - 12:15 | zaterdag 09:00 uur - 17:00"
+ },
+ "osm-node-2845994634": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:30"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:30"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:30"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://mareincreatief.nl/contact/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag gesloten | dinsdag 10.00 - 12.30 uur 13.30 - 17.30 | woensdag 10.00 - 12.30 uur 13:30 - 17:30 | donderdag 10.00 - 12.30 uur 13:30 - 17:30 | vrijdag 10.00 - 12.30 uur 13.30 - 17:30 | zaterdag 10:00 uur - 17:00"
+ },
+ "osm-node-2854646110": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://wolatelierknots.nl/index.php?route=information/contact",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag en dinsdag gesloten | woensdag t/m zaterdag van 10:00 tot 16:00"
+ },
+ "osm-node-2867523057": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "12:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.marliesmodefournituren.nl/contact-5",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag gesloten | dinsdag 09:00 - 17:00 | woensdag 09:00 - 17:00 | donderdag 09:00 - 17:00 | vrijdag 09:00 - 17:00 | zaterdag 09:00 - 12:00 | zondag gesloten"
+ },
+ "osm-node-2916995229": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "17:30"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "17:30"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "17:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "17:30"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:30"
+    }
+   ],
+   "su": []
+  },
+  "method": "schema.org",
+  "url": "https://www.plastic-borduurhuis-stoffering.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "[{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Tuesday\",\"opens\":\"09:00\",\"closes\":\"17:30\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Wednesday\",\"opens\":\"09:00\",\"closes\":\"17:30\"},{\"@type\":\"OpeningHoursSpecification\",\"dayOfWeek\":\"Thursday\",\"opens\":\"09:00\",\"closes\":\"17:30\"},{\"@type\":\"Opening"
+ },
+ "osm-node-3014141223": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:30"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:30"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:30"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.handwerkzaakbelinda.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag: gesloten | dinsdag – vrijdag: 10:00 – 12:30 / 13:30 – 17:30 | zaterdag: 10:00 – 17:00"
+ },
+ "osm-node-3019095374": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://handmedith.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "woensdag 10.00 tot 17.00 | donderdag 10.00 tot 17.00 | vrijdag 10.00 tot 17.00 | zaterdag 10.00 tot 17.00"
+ },
+ "osm-node-4683525388": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "th": [],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://wietskesquilts.blogspot.com/p/contact.html",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "woensdag, vrijdag en zaterdag van 10.00 tot 16.00"
+ },
+ "osm-node-4142916705": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "19:00",
+     "close": "22:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "19:00",
+     "close": "22:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "11:00",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.hetnaaicafe.nl/c-299155/contact-met-het-naaicafe/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "dinsdag & woensdag 19:00 - 22:00 | donderdag 09:00 - 17:00 | vrijdag 11:00 - 17:00 | zaterdag 09:00 - 17:00"
+ },
+ "osm-node-4762539506": {
+  "weekly": {
+   "mo": [],
+   "tu": [],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "17:30"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "17:30"
+    },
+    {
+     "open": "18:30",
+     "close": "21:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://ingenaaimachines.nl",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "wo-do: 10:00-17:30 | vr: 10:00 – 17:30 en 18:30 – 21:00 | za: 10:00 – 17:00"
+ },
+ "osm-node-4174571927": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:30",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://www.sistersstoffen.nl/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag: gesloten | dinsdag: 9:30 - 17:30 | woensdag: 9:30 - 17:30 | donderdag: 9:30 - 17:30 | vrijdag: 9:30 - 17:30 | zaterdag: 9:30 - 16:00"
+ },
+ "osm-node-5236077161": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "10:00",
+     "close": "12:30"
+    },
+    {
+     "open": "13:30",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.adjansen.nl/openingstijden",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag gesloten | dinsdag 10.00 - 17.00 | woensdag 10.00 - 17.00 | donderdag 10.00 - 17.00 | vrijdag 10.00 - 12.30 uur 13.30 - 17.00 | zaterdag 10.00 - 17.00 | zondag gesloten"
+ },
+ "osm-node-5499101903": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "we": [],
+   "th": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:30",
+     "close": "17:30"
+    }
+   ],
+   "sa": [
+    {
+     "open": "10:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "http://www.delinnenkamer.com/Contact.html",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag gesloten | dinsdag 9.30 tot 17.30 | woensdag gesloten | donderdag 9.30 tot 17.30 | vrijdag 9.30 tot 17.30 | zaterdag 10.00 tot 16.00"
+ },
+ "osm-node-7780160312": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "09:00",
+     "close": "18:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "09:00",
+     "close": "16:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.losnaaimachines.nl",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag: gesloten | dinsdag: 9:00 – 18:00 | woensdag: 9:00 – 18:00 | donderdag: 9:00 – 18:00 | vrijdag: 9:00 – 18:00 | zaterdag: 9:00 – 16:00 | zondag: gesloten"
+ },
+ "osm-node-8727834777": {
+  "weekly": {
+   "mo": [],
+   "tu": [
+    {
+     "open": "08:45",
+     "close": "17:00"
+    }
+   ],
+   "we": [
+    {
+     "open": "08:45",
+     "close": "17:00"
+    }
+   ],
+   "th": [
+    {
+     "open": "08:45",
+     "close": "17:00"
+    }
+   ],
+   "fr": [
+    {
+     "open": "08:45",
+     "close": "17:00"
+    }
+   ],
+   "sa": [
+    {
+     "open": "08:45",
+     "close": "17:00"
+    }
+   ],
+   "su": []
+  },
+  "method": "tekst",
+  "url": "https://www.zigzagfournituren.nl/contact/",
+  "retrievedAt": "2026-11-05T14:23:38.639Z",
+  "evidence": "maandag: gesloten | dinsdag t/m zaterdag: 8:45-17:00"
  }
 }
