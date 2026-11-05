@@ -257,13 +257,13 @@ h1, h2, h3 { margin: 0; line-height: 1.2; }
   position: absolute; z-index: 450; left: 50%; top: 50%; transform: translate(-50%, -50%);
   background: var(--surface); padding: 12px 18px; border-radius: var(--radius); box-shadow: var(--shadow-lg); text-align: center; max-width: 80%;
 }
-.map-sheet {
-  position: absolute; z-index: 460; left: 10px; right: 10px; bottom: 10px;
-  background: var(--surface); border-radius: 20px; box-shadow: var(--shadow-lg); max-width: 480px; margin: 0 auto;
+.map-sheet { position: absolute; z-index: 460; left: 10px; right: 10px; bottom: 12px; max-width: 480px; margin: 0 auto; }
+.map-sheet .card { box-shadow: 0 6px 24px rgb(60 40 20 / 16%); border-color: transparent; }
+.map-sheet__close {
+  position: absolute; z-index: 1; right: 8px; top: -18px; width: 32px; height: 32px; border-radius: 50%;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink-2); display: grid; place-items: center;
+  cursor: pointer; box-shadow: var(--shadow);
 }
-.map-sheet__main { display: grid; gap: 6px; padding: 16px 52px 12px 16px; color: inherit; text-decoration: none; }
-.map-sheet__main h3 { font-size: 1.1rem; }
-.map-sheet__close { position: absolute; top: 6px; right: 6px; width: 40px; height: 40px; border: 0; background: none; border-radius: 50%; display: grid; place-items: center; cursor: pointer; color: var(--ink-2); }
 .leaflet-top.leaflet-right { top: 116px; }
 .leaflet-container { font-family: var(--font); }
 .leaflet-control-attribution { font-size: 10px; }

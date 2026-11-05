@@ -1,10 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { hrefFor } from '../app/router.ts'
 import { SearchAndFilters } from '../components/Filters.tsx'
-import { IconClose, IconLocate, IconNavigate } from '../components/Icons.tsx'
-import { CategoryTags, StatusBadge } from '../components/ShopBits.tsx'
-import { formatDistance, navigationUrl, NETHERLANDS_CENTER, NETHERLANDS_ZOOM } from '../domain/geo.ts'
-import { getOpeningStatus } from '../domain/openingHours.ts'
+import { IconClose, IconLocate } from '../components/Icons.tsx'
+import { ShopCard } from '../components/ShopCard.tsx'
+import { NETHERLANDS_CENTER, NETHERLANDS_ZOOM } from '../domain/geo.ts'
 import { createClusterGroup } from '../map/cluster.ts'
 import { addBaseLayer, L, shopIcon, userIcon } from '../map/leaflet.ts'
 import { useAppState } from '../state/AppState.tsx'
@@ -132,26 +130,11 @@ export function MapTab({ active }: { active: boolean }) {
       )}
       {selected && (
         <div className="map-sheet" role="dialog" aria-label={selected.shop.name}>
+          {/* Zelfde rustige kaartje als in de lijst; tik ernaast op de kaart of op × om te sluiten. */}
           <button type="button" className="map-sheet__close" onClick={() => setSelectedId(null)} aria-label="Sluiten">
-            <IconClose />
+            <IconClose width={16} height={16} />
           </button>
-          <a className="map-sheet__main" href={hrefFor.shop(selected.shop.id)}>
-            <h3>{selected.shop.name}</h3>
-            <p className="card__city">
-              {selected.shop.city || 'Plaats onbekend'}
-              {selected.distanceKm !== undefined && ` · ${formatDistance(selected.distanceKm)}`}
-            </p>
-            <StatusBadge status={getOpeningStatus(selected.shop.openingHours, now)} />
-            <CategoryTags ids={selected.shop.categories} />
-          </a>
-          <div className="card__actions">
-            <a className="btn btn--primary" href={hrefFor.shop(selected.shop.id)}>
-              Bekijk winkel
-            </a>
-            <a className="btn btn--ghost" href={navigationUrl(selected.shop)} target="_blank" rel="noopener noreferrer">
-              <IconNavigate width={18} height={18} /> Route
-            </a>
-          </div>
+          <ShopCard shop={selected.shop} distanceKm={selected.distanceKm} now={now} />
         </div>
       )}
     </div>
