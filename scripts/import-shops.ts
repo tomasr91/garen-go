@@ -16,7 +16,7 @@ import type { Shop, ShopDataset } from '../src/domain/types.ts'
 import { dedupeShops, fillMissingCity, mapOsmElement, SHOP_TYPE_CATEGORIES, type Place } from './osm/mapping.ts'
 import { overpass } from './osm/overpass.ts'
 import { applyWebsiteHours, type WebsiteHoursMap } from './sources/websiteHours.ts'
-import { entryToShop, geocodePdok, mergeExtra, type SourceEntry } from './sources/extraSources.ts'
+import { entryId, entryToShop, geocodePdok, mergeExtra, type SourceEntry } from './sources/extraSources.ts'
 
 const OUTPUT = resolve(import.meta.dirname, '../public/data/shops.json')
 const shopTypes = Object.keys(SHOP_TYPE_CATEGORIES).join('|')
@@ -41,6 +41,14 @@ out;`
 
 const SOURCES_DIR = resolve(import.meta.dirname, '../data/sources')
 
+async function loadJson<T>(file: string, fallback: T): Promise<T> {
+  try {
+    return JSON.parse(await readFile(resolve(SOURCES_DIR, file), 'utf8')) as T
+  } catch {
+    return fallback
+  }
+}
+
 async function loadEntries(file: string): Promise<SourceEntry[]> {
   try {
     return JSON.parse(await readFile(resolve(SOURCES_DIR, file), 'utf8')) as SourceEntry[]
@@ -62,6 +70,12 @@ async function toShops(entries: SourceEntry[], type: 'manual' | 'import', prefix
         }
         e.lat = pos.lat
         e.lon = pos.lon
+        // ID vastleggen vóór een eventuele postcodecorrectie, zodat het stabiel blijft.
+        e.id ??= entryId(prefix, e)
+        // Officiële postcode uit de BAG gebruiken als de bron een andere noemde.
+        if (pos.postcode && pos.postcode.replace(/\s/g, '') !== e.postcode.replace(/\s/g, '').toUpperCase()) {
+          e.postcode = pos.postcode.replace(/^(\d{4})\s*([A-Z]{2})$/, '$1 $2')
+        }
       } catch (err) {
         console.warn(`  geocoderen mislukt voor ${e.name}:`, (err as Error).message)
         continue
@@ -121,7 +135,10 @@ async function main() {
   console.log(`  handmatig: ${manualShops.length} (${step1.report.replacedOsm} vervangen een OSM-winkel)`)
   console.log(`  verkooppunten: ${addable.length} → ${step2.report.added} nieuw, ${step2.report.enrichedExisting} verrijkten een bestaande winkel`)
   console.log(`  alleen-verrijken: ${enrichers.length} → ${step3.report.enrichedExisting} gekoppeld`)
-  const imported = step3.shops
+  // Handmatig uitgesloten (bijv. verouderde OSM-punten van verhuisde winkels): data/sources/exclude.json
+  const excluded = new Set((await loadJson<{ id: string }[]>('exclude.json', [])).map((x) => x.id))
+  const imported = step3.shops.filter((s) => !excluded.has(s.id))
+  console.log(`  uitgesloten via exclude.json: ${step3.shops.length - imported.length}`)
 
   // Samenvoegen met bestaande data.
   const existing = await readExisting()

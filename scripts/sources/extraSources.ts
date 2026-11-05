@@ -90,6 +90,29 @@ export function isSameShop(a: Pick<Shop, 'name' | 'postcode' | 'lat' | 'lon'>, b
   return samePc && distanceKm(a, b) < 0.03
 }
 
+const digits = (p?: string) => (p ?? '').replace(/\D/g, '').slice(-9)
+const domain = (u?: string) => {
+  try {
+    return u ? new URL(u).hostname.replace(/^www\./, '') : ''
+  } catch {
+    return ''
+  }
+}
+const streetKey = (a: string) => normalizeText(a).replace(/ /g, '')
+
+/**
+ * Zelfde zaak, ook als bronnen een ander (of verouderd) adres noemen:
+ * exact dezelfde naam binnen 5 km én hetzelfde telefoonnummer, dezelfde website of hetzelfde straatadres.
+ */
+export function isSameBusiness(a: Shop, b: Shop): boolean {
+  if (normalizeText(a.name) !== normalizeText(b.name)) return false
+  if (distanceKm(a, b) > 5) return false
+  const phone = digits(a.phone).length === 9 && digits(a.phone) === digits(b.phone)
+  const site = !!domain(a.website) && domain(a.website) === domain(b.website) && !/facebook|instagram/.test(domain(a.website))
+  const street = !!a.address && streetKey(a.address) === streetKey(b.address)
+  return phone || site || street
+}
+
 export interface MergeReport {
   added: number
   enrichedExisting: number
@@ -108,7 +131,7 @@ export function mergeExtra(base: Shop[], extra: Shop[], mode: MergeMode): { shop
   const shops = [...base]
   const report: MergeReport = { added: 0, enrichedExisting: 0, replacedOsm: 0 }
   for (const shop of extra) {
-    const idx = shops.findIndex((s) => s.id === shop.id || isSameShop(s, shop))
+    const idx = shops.findIndex((s) => s.id === shop.id || isSameShop(s, shop) || isSameBusiness(s, shop))
     if (idx < 0) {
       if (mode === 'enrich-only') continue
       shops.push(shop)
@@ -122,6 +145,12 @@ export function mergeExtra(base: Shop[], extra: Shop[], mode: MergeMode): { shop
       shops[idx] = { ...shop, notes: [shop.notes, `Vervangt OSM ${existing.source.ref}.`].filter(Boolean).join(' ') }
       report.replacedOsm++
     } else {
+      // Noemt de andere bron een ander adres? Dan laten we dat zien als controlepunt.
+      const otherAddress = streetKey(existing.address) !== streetKey(shop.address) && shop.address
+      const brand = shop.source.ref?.replace('verkooppunt:', '') ?? 'een andere bron'
+      const addressNote = otherAddress
+        ? `Let op: ${brand} noemt adres ${shop.address}, ${shop.postcode} ${shop.city}; controleer welk adres actueel is.`
+        : undefined
       const assortment = [...new Set([...existing.assortment, ...shop.assortment])]
       const categories = [...new Set([...existing.categories, ...shop.categories])]
       shops[idx] = {
@@ -131,6 +160,7 @@ export function mergeExtra(base: Shop[], extra: Shop[], mode: MergeMode): { shop
         website: existing.website ?? shop.website,
         phone: existing.phone ?? shop.phone,
         openingHours: existing.openingHours ?? shop.openingHours,
+        notes: addressNote && !existing.notes?.includes(addressNote) ? [existing.notes, addressNote].filter(Boolean).join(' ') : existing.notes,
       }
       report.enrichedExisting++
     }
@@ -138,22 +168,57 @@ export function mergeExtra(base: Shop[], extra: Shop[], mode: MergeMode): { shop
   return { shops, report }
 }
 
-/** Zoekt coördinaten bij een Nederlands adres via de PDOK Locatieserver. Controleert dat de plaats klopt. */
-export async function geocodePdok(e: SourceEntry): Promise<{ lat: number; lon: number } | null> {
-  // Postcode + huisnummer is het meest betrouwbaar (straatnamen worden vaak afgekort, bijv. "H. Droststraat").
-  const nr = /(\d+)\s*([a-zA-Z]?)\s*(?:[-\s]?\d+)?$/.exec(e.address.trim())
-  const pc = e.postcode.replace(/\s/g, '').toUpperCase()
-  const q = /^\d{4}[A-Z]{2}$/.test(pc) && nr ? `${pc} ${nr[1]}${nr[2] ?? ''}` : `${e.address} ${e.postcode} ${e.city}`.trim()
-  const url = `https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=${encodeURIComponent(q)}&fq=type:adres&rows=1&fl=centroide_ll,woonplaatsnaam,postcode,weergavenaam`
+/** Straatnaam zonder huisnummer, bijv. "Kleine Overstraat 6" → "kleine overstraat". */
+export function streetName(address: string): string {
+  return normalizeText(address.replace(/\s*\d.*$/, ''))
+}
+
+/** "H. Droststraat" en "Hendrik Droststraat" tellen als dezelfde straat (laatste woord gelijk). */
+export function streetMatches(a: string, b: string): boolean {
+  const x = streetName(a)
+  const y = normalizeText(b)
+  if (!x || !y) return false
+  const lastX = x.split(' ').pop()!
+  const lastY = y.split(' ').pop()!
+  return x === y || lastX === lastY || x.includes(y) || y.includes(x)
+}
+
+interface PdokDoc {
+  centroide_ll: string
+  woonplaatsnaam: string
+  postcode?: string
+  straatnaam?: string
+}
+
+async function pdok(q: string): Promise<PdokDoc | null> {
+  const url = `https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=${encodeURIComponent(q)}&fq=type:adres&rows=1&fl=centroide_ll,woonplaatsnaam,postcode,straatnaam`
   const res = await fetch(url, { signal: AbortSignal.timeout(20_000) })
   if (!res.ok) return null
-  const json = (await res.json()) as { response: { docs: { centroide_ll: string; woonplaatsnaam: string; postcode?: string }[] } }
-  const doc = json.response.docs[0]
-  if (!doc) return null
-  const pcOk = !e.postcode || (doc.postcode ?? '').replace(/\s/g, '') === e.postcode.replace(/\s/g, '').toUpperCase()
-  const cityOk = !e.city || normalizeText(doc.woonplaatsnaam) === normalizeText(e.city)
-  if (!pcOk && !cityOk) return null
-  const m = /POINT\(([\d.]+) ([\d.]+)\)/.exec(doc.centroide_ll)
-  if (!m) return null
-  return { lon: Number(m[1]), lat: Number(m[2]) }
+  const json = (await res.json()) as { response: { docs: PdokDoc[] } }
+  return json.response.docs[0] ?? null
+}
+
+/**
+ * Zoekt coördinaten bij een Nederlands adres via de PDOK Locatieserver.
+ * Eerst postcode + huisnummer; klopt de straatnaam niet (bijv. een verkeerde postcode in de bron),
+ * dan op straat + huisnummer + plaats. Het resultaat moet altijd in dezelfde straat en plaats liggen.
+ */
+export async function geocodePdok(e: SourceEntry): Promise<{ lat: number; lon: number; postcode?: string } | null> {
+  const nr = /(\d+)\s*([a-zA-Z]?)\s*(?:[-\s]?\d+)?$/.exec(e.address.trim())
+  const pc = e.postcode.replace(/\s/g, '').toUpperCase()
+  const queries = [
+    /^\d{4}[A-Z]{2}$/.test(pc) && nr ? `${pc} ${nr[1]}${nr[2] ?? ''}` : null,
+    `${e.address} ${e.city}`.trim(),
+  ].filter((q): q is string => !!q)
+  for (const q of queries) {
+    const doc = await pdok(q)
+    if (!doc) continue
+    const cityOk = !e.city || normalizeText(doc.woonplaatsnaam) === normalizeText(e.city)
+    const streetOk = !doc.straatnaam || streetMatches(e.address, doc.straatnaam)
+    if (!cityOk || !streetOk) continue
+    const m = /POINT\(([\d.]+) ([\d.]+)\)/.exec(doc.centroide_ll)
+    if (!m) continue
+    return { lon: Number(m[1]), lat: Number(m[2]), postcode: doc.postcode }
+  }
+  return null
 }

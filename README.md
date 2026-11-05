@@ -77,6 +77,10 @@ Data © OpenStreetMap-bijdragers ([ODbL](https://www.openstreetmap.org/copyright
    - De winkeldetails tonen dat de tijden automatisch zijn overgenomen, met een link naar de bron. Tijden uit OSM, `manual.json` of beheer gaan altijd voor.
    - robots.txt wordt gerespecteerd. Per winkel worden maximaal 3 pagina's bekeken.
 
+**`data/sources/exclude.json`** sluit winkels uit op ID, bijvoorbeeld een verouderd OSM-punt van een verhuisde winkel. Vermeld er altijd een reden bij.
+
+Dubbele winkels worden herkend aan exact dezelfde naam binnen 5 km, plus hetzelfde telefoonnummer, dezelfde website of hetzelfde straatadres. Noemt een bron een ander adres, dan komt er een controlepunt in de notities. Adressen uit verkooppuntenlijsten worden bij PDOK gecontroleerd: straat en plaats moeten kloppen, en een verkeerde postcode wordt vervangen door de officiële.
+
 Gevonden coördinaten worden terug in `manual.json` en `dealers.json` geschreven, zodat een volgende run niet opnieuw hoeft te geocoderen. Pas je een adres aan? Verwijder dan ook `lat` en `lon`.
 
 ### Data bijwerken

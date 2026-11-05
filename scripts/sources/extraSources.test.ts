@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Shop } from '../../src/domain/types.ts'
-import { entryToShop, isSameShop, mergeExtra } from './extraSources.ts'
+import { entryToShop, isSameBusiness, isSameShop, mergeExtra, streetMatches } from './extraSources.ts'
 
 const now = '2026-11-05T00:00:00.000Z'
 const osm: Shop = {
@@ -47,5 +47,40 @@ describe('mergeExtra', () => {
     const other = { ...dealer, id: 'dlr-x', name: 'Garenhuis', postcode: '9999 ZZ', lat: 53, lon: 6 }
     expect(mergeExtra([osm], [other], 'enrich-or-add').shops).toHaveLength(2)
     expect(mergeExtra([osm], [other], 'enrich-only').shops).toHaveLength(1)
+  })
+})
+
+describe('dubbele winkels met afwijkend adres in de bron', () => {
+  const base = { categories: ['wol'], openingHours: null, assortment: [], active: true, verification: 'unverified' as const, updatedAt: now }
+  const osmDol: Shop = { ...base, id: 'osm-node-2678765967', name: 'Dol-op-Wol', address: 'Kleine Overstraat 6', postcode: '7411 JL', city: 'Deventer',
+    lat: 52.252609, lon: 6.157006, phone: '+31 570 769 084', website: 'https://dolopwol.com/', source: { type: 'osm' } }
+  const scheepjesDol: Shop = { ...base, id: 'dlr-dol-op-wol-7411rj', name: 'Dol-op-Wol', address: 'Kleine Overstraat 6', postcode: '7411 RJ', city: 'Deventer',
+    lat: 52.2558938, lon: 6.15627387, phone: '0570 - 76 90 84', website: 'https://dolopwol.com/291-scheepjes', assortment: ['Verkooppunt Scheepjes'],
+    source: { type: 'import', ref: 'verkooppunt:Scheepjes' } }
+
+  it('herkent Dol-op-Wol als dezelfde winkel ondanks andere postcode en 370 m afstand', () => {
+    expect(isSameBusiness(osmDol, scheepjesDol)).toBe(true)
+    const { shops } = mergeExtra([osmDol], [scheepjesDol], 'enrich-or-add')
+    expect(shops).toHaveLength(1)
+    expect(shops[0].assortment).toContain('Verkooppunt Scheepjes')
+    expect(shops[0].notes ?? '').not.toContain('controleer welk adres')
+  })
+  it('zet een controlepunt bij een verhuisde winkel (zelfde naam en website, ander adres)', () => {
+    const moved = { ...scheepjesDol, address: 'Andere Straat 1', postcode: '7411 AA', phone: undefined, lat: 52.26, lon: 6.16 }
+    const { shops } = mergeExtra([osmDol], [moved], 'enrich-or-add')
+    expect(shops).toHaveLength(1)
+    expect(shops[0].notes).toContain('Scheepjes noemt adres Andere Straat 1')
+  })
+  it('voegt zaken met dezelfde naam maar zonder ander gemeenschappelijk kenmerk niet samen', () => {
+    const other = { ...scheepjesDol, address: 'Markt 1', phone: '0101234567', website: 'https://anders.nl', lat: 52.27, lon: 6.17 }
+    expect(isSameBusiness(osmDol, other)).toBe(false)
+  })
+})
+
+describe('streetMatches', () => {
+  it('accepteert afkortingen, maar geen andere straat', () => {
+    expect(streetMatches('H. Droststraat 48a', 'Hendrik Droststraat')).toBe(true)
+    expect(streetMatches('Kleine Overstraat 6', 'Kleine Overstraat')).toBe(true)
+    expect(streetMatches('Kleine Overstraat 6', 'Brink')).toBe(false)
   })
 })
