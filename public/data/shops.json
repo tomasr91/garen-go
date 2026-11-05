@@ -1,6 +1,6 @@
 {
  "version": 1,
- "generatedAt": "2026-11-05T12:34:03.433Z",
+ "generatedAt": "2026-11-05T12:56:53.340Z",
  "attribution": "Winkelgegevens © OpenStreetMap-bijdragers (ODbL), aangevuld met handmatige invoer.",
  "shops": [
   {
@@ -27,7 +27,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-10253910152",
@@ -54,7 +54,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-10604139050",
@@ -115,7 +115,7 @@
     "url": "https://www.openstreetmap.org/node/10604139050"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-10698134887",
@@ -141,7 +141,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-10748389128",
@@ -203,7 +203,7 @@
     "checkedAt": "2025-06-11"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-10928633781",
@@ -230,7 +230,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-11007790491",
@@ -257,7 +257,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-11235381048",
@@ -282,7 +282,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-11439966215",
@@ -309,7 +309,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-11688349673",
@@ -335,7 +335,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-11919676209",
@@ -362,7 +362,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-12068793213",
@@ -444,7 +444,7 @@
     "url": "https://www.openstreetmap.org/node/12068793213"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-12076996432",
@@ -469,7 +469,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-12093751972",
@@ -494,7 +494,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-12117265030",
@@ -561,7 +561,7 @@
     "url": "https://www.openstreetmap.org/node/12117265030"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-12797409837",
@@ -586,7 +586,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-12993894619",
@@ -630,7 +630,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-1309523222",
@@ -657,7 +657,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-13389207986",
@@ -724,7 +724,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-1348470813",
@@ -750,7 +750,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-13584357201",
@@ -779,7 +779,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden niet automatisch te lezen: \"\"by appointment only\"\".",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-13698945590",
@@ -804,7 +804,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-1410405231",
@@ -855,7 +855,7 @@
     "url": "https://www.openstreetmap.org/node/1410405231"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-1508965022",
@@ -917,7 +917,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-1705038581",
@@ -973,7 +973,7 @@
     "url": "https://www.openstreetmap.org/node/1705038581"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-1746658654",
@@ -998,7 +998,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-1763007434",
@@ -1062,7 +1062,7 @@
     "checkedAt": "2026-08-21"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-1964643612",
@@ -1129,7 +1129,7 @@
     "url": "https://www.openstreetmap.org/node/1964643612"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-1964741447",
@@ -1195,7 +1195,7 @@
     "url": "https://www.openstreetmap.org/node/1964741447"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2366149830",
@@ -1261,7 +1261,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2409587942",
@@ -1286,7 +1286,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2424051679",
@@ -1311,7 +1311,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2444476612",
@@ -1336,7 +1336,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2498669458",
@@ -1363,7 +1363,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2498670302",
@@ -1388,7 +1388,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2553172901",
@@ -1450,7 +1450,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2562022740",
@@ -1476,7 +1476,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2597981665",
@@ -1539,7 +1539,7 @@
     "checkedAt": "2024-03-14"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2599513046",
@@ -1605,7 +1605,7 @@
     "url": "https://www.openstreetmap.org/node/2599513046"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2610223979",
@@ -1671,7 +1671,7 @@
     "checkedAt": "2026-10-10"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2630384416",
@@ -1697,7 +1697,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2636323507",
@@ -1723,7 +1723,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2655942965",
@@ -1749,7 +1749,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden niet automatisch te lezen: \"Tu-Sa 10:00-17:00; Su[-1] 12:00-17:00\".",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2655951335",
@@ -1776,7 +1776,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2663610482",
@@ -1802,7 +1802,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2668561277",
@@ -1828,7 +1828,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2670765804",
@@ -1853,7 +1853,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2672769550",
@@ -1879,7 +1879,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2672776531",
@@ -1945,7 +1945,7 @@
     "checkedAt": "2025-10-02"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2678759539",
@@ -1973,7 +1973,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2678765967",
@@ -2041,7 +2041,7 @@
     "checkedAt": "2026-07-08"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2678768374",
@@ -2099,7 +2099,7 @@
     "checkedAt": "2026-04-03"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2684299840",
@@ -2155,7 +2155,7 @@
     "url": "https://www.openstreetmap.org/node/2684299840"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2685902530",
@@ -2181,7 +2181,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2686857346",
@@ -2208,7 +2208,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2687040459",
@@ -2234,7 +2234,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2697947984",
@@ -2262,7 +2262,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2697951170",
@@ -2329,7 +2329,7 @@
     "url": "https://www.openstreetmap.org/node/2697951170"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2705797866",
@@ -2418,7 +2418,7 @@
     "url": "https://www.openstreetmap.org/node/2705797866"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2707601422",
@@ -2444,7 +2444,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2709275938",
@@ -2512,7 +2512,7 @@
     "checkedAt": "2026-07-07"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2709690549",
@@ -2538,7 +2538,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2709959042",
@@ -2564,7 +2564,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2710003743",
@@ -2633,7 +2633,7 @@
     "checkedAt": "2025-11-17"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2711222487",
@@ -2660,7 +2660,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2711238434",
@@ -2717,7 +2717,7 @@
     "checkedAt": "2026-10-20"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2714565048",
@@ -2743,7 +2743,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2715764631",
@@ -2769,33 +2769,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
-  },
-  {
-   "id": "osm-node-2716113370",
-   "name": "Klaas Vaak Bed & Textiel",
-   "address": "Spoorstraat 2",
-   "postcode": "7051 CJ",
-   "city": "Varsseveld",
-   "lat": 51.943481,
-   "lon": 6.462126,
-   "categories": [
-    "handwerk"
-   ],
-   "openingHours": null,
-   "website": "https://www.klaasvaakbedtextiel.nl",
-   "assortment": [
-    "Stoffen"
-   ],
-   "active": true,
-   "source": {
-    "type": "osm",
-    "ref": "node/2716113370",
-    "url": "https://www.openstreetmap.org/node/2716113370"
-   },
-   "verification": "unverified",
-   "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2719027360",
@@ -2820,7 +2794,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2721294643",
@@ -2888,7 +2862,7 @@
     "checkedAt": "2026-04-24"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2721723352",
@@ -2913,7 +2887,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2721723386",
@@ -2939,7 +2913,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2722494102",
@@ -2964,7 +2938,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2724423482",
@@ -2991,7 +2965,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2725750757",
@@ -3057,7 +3031,7 @@
     "url": "https://www.openstreetmap.org/node/2725750757"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2727829911",
@@ -3084,7 +3058,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2727961282",
@@ -3110,7 +3084,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2729491964",
@@ -3135,7 +3109,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2730250727",
@@ -3160,7 +3134,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2730251297",
@@ -3185,7 +3159,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2730251787",
@@ -3245,7 +3219,7 @@
     "url": "https://www.openstreetmap.org/node/2730251787"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2730252732",
@@ -3272,7 +3246,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2731354747",
@@ -3297,7 +3271,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2731446997",
@@ -3357,7 +3331,7 @@
     "url": "https://www.openstreetmap.org/node/2731446997"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2731793339",
@@ -3417,7 +3391,7 @@
     "url": "https://www.openstreetmap.org/node/2731793339"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2732473285",
@@ -3444,7 +3418,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2732912461",
@@ -3469,7 +3443,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2738397171",
@@ -3496,7 +3470,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2738796719",
@@ -3560,7 +3534,7 @@
     "checkedAt": "2026-08-26"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2739771740",
@@ -3620,7 +3594,7 @@
     "url": "https://www.openstreetmap.org/node/2739771740"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2740107923",
@@ -3646,7 +3620,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2740780653",
@@ -3672,7 +3646,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2742370050",
@@ -3698,7 +3672,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2742800856",
@@ -3749,7 +3723,7 @@
     "url": "https://www.openstreetmap.org/node/2742800856"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2744866115",
@@ -3811,7 +3785,7 @@
     "url": "https://www.openstreetmap.org/node/2744866115"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2745962985",
@@ -3837,7 +3811,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2746409193",
@@ -3903,7 +3877,7 @@
     "url": "https://www.openstreetmap.org/node/2746409193"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2751009396",
@@ -3929,7 +3903,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2751744502",
@@ -3994,7 +3968,7 @@
     "url": "https://www.openstreetmap.org/node/2751744502"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2752335610",
@@ -4061,7 +4035,7 @@
     "url": "https://www.openstreetmap.org/node/2752335610"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2754604296",
@@ -4087,7 +4061,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2754608342",
@@ -4113,7 +4087,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2755031075",
@@ -4179,7 +4153,7 @@
     "url": "https://www.openstreetmap.org/node/2755031075"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2755970369",
@@ -4205,7 +4179,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2755970375",
@@ -4231,7 +4205,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2757429090",
@@ -4291,7 +4265,7 @@
     "url": "https://www.openstreetmap.org/node/2757429090"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2757439763",
@@ -4317,7 +4291,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden niet automatisch te lezen: \"Mo 13:00-17:30; Tu-Fr 09:30-17:30; Sa 09:30-17:00; Su[-1] 13:00-17:00\".",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2757807080",
@@ -4378,7 +4352,7 @@
     "url": "https://www.openstreetmap.org/node/2757807080"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2759105361",
@@ -4435,7 +4409,7 @@
     "url": "https://www.openstreetmap.org/node/2759105361"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2759646534",
@@ -4502,7 +4476,7 @@
     "url": "https://www.openstreetmap.org/node/2759646534"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2762338549",
@@ -4530,7 +4504,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2765191825",
@@ -4590,7 +4564,7 @@
     "url": "https://www.openstreetmap.org/node/2765191825"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2774034530",
@@ -4657,7 +4631,7 @@
     "checkedAt": "2026-01-26"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2775544352",
@@ -4710,7 +4684,7 @@
     "url": "https://www.openstreetmap.org/node/2775544352"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2775666842",
@@ -4774,7 +4748,7 @@
     "url": "https://www.openstreetmap.org/node/2775666842"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2775726050",
@@ -4817,7 +4791,7 @@
     "checkedAt": "2022-11-12"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2777154928",
@@ -4842,7 +4816,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2777795974",
@@ -4868,7 +4842,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2777801445",
@@ -4893,7 +4867,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2778876283",
@@ -4919,7 +4893,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2779053234",
@@ -4980,7 +4954,7 @@
     "url": "https://www.openstreetmap.org/node/2779053234"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2779386819",
@@ -5007,7 +4981,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2780602136",
@@ -5032,7 +5006,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2783662891",
@@ -5058,7 +5032,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2784908387",
@@ -5083,7 +5057,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2784911912",
@@ -5110,7 +5084,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2784913642",
@@ -5137,7 +5111,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2785473142",
@@ -5190,7 +5164,7 @@
     "url": "https://www.openstreetmap.org/node/2785473142"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2787898198",
@@ -5215,7 +5189,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2787984175",
@@ -5283,7 +5257,7 @@
     "checkedAt": "2026-02-19"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2792442981",
@@ -5346,7 +5320,7 @@
     "url": "https://www.openstreetmap.org/node/2792442981"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2796109976",
@@ -5372,7 +5346,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2798492349",
@@ -5397,7 +5371,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2798638690",
@@ -5422,7 +5396,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2805953705",
@@ -5447,7 +5421,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2808051331",
@@ -5474,7 +5448,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2809041213",
@@ -5499,7 +5473,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2809200421",
@@ -5524,7 +5498,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2814044196",
@@ -5575,7 +5549,7 @@
     "url": "https://www.openstreetmap.org/node/2814044196"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2814056582",
@@ -5600,7 +5574,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2815176974",
@@ -5627,7 +5601,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2816179212",
@@ -5652,7 +5626,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2817454122",
@@ -5710,7 +5684,7 @@
     "checkedAt": "2026-01-03"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2817536216",
@@ -5773,7 +5747,7 @@
     "checkedAt": "2026-01-16"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2817556681",
@@ -5841,7 +5815,7 @@
     "checkedAt": "2026-01-31"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2817556976",
@@ -5909,7 +5883,7 @@
     "checkedAt": "2026-01-31"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2817558014",
@@ -5967,7 +5941,7 @@
     "checkedAt": "2026-01-31"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2817611276",
@@ -6033,7 +6007,7 @@
     "url": "https://www.openstreetmap.org/node/2817611276"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2818810317",
@@ -6095,7 +6069,7 @@
     "url": "https://www.openstreetmap.org/node/2818810317"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2821446350",
@@ -6167,7 +6141,7 @@
     "url": "https://www.openstreetmap.org/node/2821446350"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2821569003",
@@ -6192,7 +6166,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2823336529",
@@ -6217,7 +6191,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2824236563",
@@ -6243,7 +6217,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2825745585",
@@ -6295,7 +6269,7 @@
     "url": "https://www.openstreetmap.org/node/2825745585"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2827734456",
@@ -6320,7 +6294,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2831430250",
@@ -6382,7 +6356,7 @@
     "url": "https://www.openstreetmap.org/node/2831430250"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2832081080",
@@ -6444,7 +6418,7 @@
     "url": "https://www.openstreetmap.org/node/2832081080"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2842137343",
@@ -6500,7 +6474,7 @@
     "url": "https://www.openstreetmap.org/node/2842137343"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2842211093",
@@ -6560,7 +6534,7 @@
     "url": "https://www.openstreetmap.org/node/2842211093"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2843457228",
@@ -6586,7 +6560,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2843706968",
@@ -6612,7 +6586,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2845994634",
@@ -6638,7 +6612,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2847395516",
@@ -6684,7 +6658,7 @@
     "checkedAt": "2026-10-01"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2848020711",
@@ -6710,7 +6684,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2850937981",
@@ -6738,7 +6712,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2851152672",
@@ -6764,7 +6738,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2851164460",
@@ -6790,7 +6764,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2851438321",
@@ -6841,7 +6815,7 @@
     "url": "https://www.openstreetmap.org/node/2851438321"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2854646110",
@@ -6867,7 +6841,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2858860962",
@@ -6929,7 +6903,7 @@
     "url": "https://www.openstreetmap.org/node/2858860962"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2860105460",
@@ -6942,7 +6916,43 @@
    "categories": [
     "handwerk"
    ],
-   "openingHours": null,
+   "openingHours": {
+    "weekly": {
+     "mo": [],
+     "tu": [
+      {
+       "open": "09:30",
+       "close": "18:00"
+      }
+     ],
+     "we": [
+      {
+       "open": "09:30",
+       "close": "18:00"
+      }
+     ],
+     "th": [
+      {
+       "open": "09:30",
+       "close": "18:00"
+      }
+     ],
+     "fr": [
+      {
+       "open": "09:30",
+       "close": "18:00"
+      }
+     ],
+     "sa": [
+      {
+       "open": "09:30",
+       "close": "17:00"
+      }
+     ],
+     "su": []
+    },
+    "raw": "Tu-Fr 09:30-18:00, Sa 09:30-17:00"
+   },
    "website": "https://www.1968dewinkel.nl",
    "phone": "+31 294 431 914",
    "assortment": [
@@ -6955,8 +6965,7 @@
     "url": "https://www.openstreetmap.org/node/2860105460"
    },
    "verification": "unverified",
-   "notes": "Te controleren: openingstijden niet automatisch te lezen: \"Tu-Fr 09:30-18:00, Sa 09:30-17:00\".",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2860611349",
@@ -6981,7 +6990,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2862703226",
@@ -7048,7 +7057,7 @@
     "url": "https://www.openstreetmap.org/node/2862703226"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2863512081",
@@ -7074,7 +7083,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2867523057",
@@ -7101,7 +7110,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2867524995",
@@ -7127,7 +7136,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2870994844",
@@ -7153,7 +7162,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2876415308",
@@ -7215,7 +7224,7 @@
     "url": "https://www.openstreetmap.org/node/2876415308"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2878966419",
@@ -7241,7 +7250,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2890084959",
@@ -7267,33 +7276,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
-  },
-  {
-   "id": "osm-node-2896552923",
-   "name": "Schuimrubber Gigant",
-   "address": "Fluorietweg 23C",
-   "postcode": "1812 RR",
-   "city": "Alkmaar",
-   "lat": 52.602281,
-   "lon": 4.741765,
-   "categories": [
-    "handwerk"
-   ],
-   "openingHours": null,
-   "website": "https://schuimrubbergigant.nl/",
-   "assortment": [
-    "Stoffen"
-   ],
-   "active": true,
-   "source": {
-    "type": "osm",
-    "ref": "node/2896552923",
-    "url": "https://www.openstreetmap.org/node/2896552923"
-   },
-   "verification": "unverified",
-   "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2897143605",
@@ -7319,7 +7302,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2900584353",
@@ -7346,7 +7329,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2902518378",
@@ -7373,7 +7356,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2902558514",
@@ -7400,7 +7383,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2903869741",
@@ -7466,7 +7449,7 @@
     "url": "https://www.openstreetmap.org/node/2903869741"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2904570037",
@@ -7492,7 +7475,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2907116306",
@@ -7517,7 +7500,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2907116538",
@@ -7579,7 +7562,7 @@
     "url": "https://www.openstreetmap.org/node/2907116538"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2907120982",
@@ -7605,7 +7588,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2911215987",
@@ -7631,7 +7614,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2911252335",
@@ -7656,7 +7639,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2916995229",
@@ -7682,7 +7665,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2922550748",
@@ -7749,7 +7732,7 @@
     "checkedAt": "2026-08-25"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2929737843",
@@ -7811,7 +7794,7 @@
     "url": "https://www.openstreetmap.org/node/2929737843"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2931349357",
@@ -7837,7 +7820,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2933464697",
@@ -7862,7 +7845,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2948628293",
@@ -7886,7 +7869,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2948643530",
@@ -7913,7 +7896,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2953480419",
@@ -7973,7 +7956,7 @@
     "url": "https://www.openstreetmap.org/node/2953480419"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-2994054443",
@@ -7998,7 +7981,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-3004378383",
@@ -8024,7 +8007,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-3004383822",
@@ -8050,7 +8033,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-3011370916",
@@ -8076,7 +8059,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-3014141223",
@@ -8103,7 +8086,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-3016954903",
@@ -8128,7 +8111,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-3018761545",
@@ -8155,7 +8138,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-3019095374",
@@ -8181,7 +8164,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-3066733747",
@@ -8207,7 +8190,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-3358464234",
@@ -8232,7 +8215,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-3409712054",
@@ -8258,7 +8241,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4142916705",
@@ -8284,7 +8267,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4174571927",
@@ -8310,7 +8293,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4247254070",
@@ -8336,7 +8319,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4315892009",
@@ -8360,7 +8343,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4452255056",
@@ -8388,7 +8371,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4466869323",
@@ -8413,7 +8396,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4474611911",
@@ -8479,7 +8462,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4485246888",
@@ -8504,7 +8487,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4679558841",
@@ -8531,7 +8514,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4683525388",
@@ -8559,7 +8542,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4704054909",
@@ -8631,7 +8614,7 @@
     "url": "https://www.openstreetmap.org/node/4704054909"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4761673704",
@@ -8696,7 +8679,7 @@
     "url": "https://www.openstreetmap.org/node/4761673704"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4762539506",
@@ -8723,7 +8706,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4799813749",
@@ -8748,7 +8731,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4806644206",
@@ -8774,7 +8757,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4806649850",
@@ -8799,7 +8782,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4854089072",
@@ -8825,7 +8808,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4892138733",
@@ -8892,7 +8875,7 @@
     "url": "https://www.openstreetmap.org/node/4892138733"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-4987159217",
@@ -8958,7 +8941,7 @@
     "url": "https://www.openstreetmap.org/node/4987159217"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-507913659",
@@ -8982,7 +8965,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-5212542958",
@@ -9008,7 +8991,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-5236077161",
@@ -9034,7 +9017,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-5499101903",
@@ -9061,7 +9044,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-5619369120",
@@ -9086,7 +9069,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-5628154099",
@@ -9112,7 +9095,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-5685412824",
@@ -9137,7 +9120,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-5686427223",
@@ -9162,7 +9145,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-5766492333",
@@ -9217,7 +9200,7 @@
     "url": "https://www.openstreetmap.org/node/5766492333"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-5780099586",
@@ -9242,33 +9225,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
-  },
-  {
-   "id": "osm-node-6144342107",
-   "name": "Textaafoam",
-   "address": "La Défense 11",
-   "postcode": "5026 SC",
-   "city": "Tilburg",
-   "lat": 51.535424,
-   "lon": 5.050978,
-   "categories": [
-    "handwerk"
-   ],
-   "openingHours": null,
-   "website": "https://www.textaafoam.nl/",
-   "assortment": [
-    "Stoffen"
-   ],
-   "active": true,
-   "source": {
-    "type": "osm",
-    "ref": "node/6144342107",
-    "url": "https://www.openstreetmap.org/node/6144342107"
-   },
-   "verification": "unverified",
-   "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-631809976",
@@ -9293,7 +9250,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-631809979",
@@ -9318,7 +9275,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-7045946279",
@@ -9346,7 +9303,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-7460606028",
@@ -9372,7 +9329,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-7460628411",
@@ -9399,7 +9356,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-7684673772",
@@ -9425,7 +9382,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-7684673776",
@@ -9452,7 +9409,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-7684673777",
@@ -9480,7 +9437,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-7752487589",
@@ -9507,7 +9464,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-7780160312",
@@ -9534,7 +9491,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-7913768908",
@@ -9559,7 +9516,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-7913791497",
@@ -9584,7 +9541,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-8019842465",
@@ -9609,7 +9566,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-8154718814",
@@ -9636,7 +9593,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden niet automatisch te lezen: \"We 13:00-17:00; Th 10:00-17:00; Fr 13:00-17:00; Sa 10:00-17:00; PH off; Jul 22-Aug 19 off\".",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-8195481970",
@@ -9697,7 +9654,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-8517787461",
@@ -9764,7 +9721,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: plaats afgeleid van dichtstbijzijnde woonplaats.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-8727834777",
@@ -9790,7 +9747,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-9146750587",
@@ -9816,7 +9773,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-9183562748",
@@ -9842,7 +9799,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-9910011221",
@@ -9866,7 +9823,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-node-9947862192",
@@ -9922,7 +9879,7 @@
     "url": "https://www.openstreetmap.org/node/9947862192"
    },
    "verification": "unverified",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-way-268645034",
@@ -9989,7 +9946,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: plaats afgeleid van dichtstbijzijnde woonplaats.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-way-275448534",
@@ -10014,7 +9971,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-way-278826097",
@@ -10040,7 +9997,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-way-362879890",
@@ -10065,7 +10022,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-way-363054412",
@@ -10090,7 +10047,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-way-368076252",
@@ -10115,7 +10072,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-way-369289284",
@@ -10140,7 +10097,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-way-371348469",
@@ -10165,7 +10122,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   },
   {
    "id": "osm-way-488802944",
@@ -10192,7 +10149,7 @@
    },
    "verification": "unverified",
    "notes": "Te controleren: adres ontbreekt; plaats afgeleid van dichtstbijzijnde woonplaats; openingstijden ontbreken.",
-   "updatedAt": "2026-11-05T12:34:03.433Z"
+   "updatedAt": "2026-11-05T12:56:53.340Z"
   }
  ]
 }
