@@ -1,8 +1,5 @@
-sch_store_nl https://www.scheepjes.com/en/shops/+/storekind-store/?filter=nederland
-sch_filter_olst https://www.scheepjes.com/en/shops/?filter=Olst
-sch_stores_zwolle https://www.scheepjes.com/en/shops/?stores=Zwolle
-sch_filter_deventer https://www.scheepjes.com/en/shops/+/storekind-store/?filter=Deventer
-sch_nl_winkels https://www.scheepjes.com/nl/winkels/
-rico_finder https://www.rico-design.de/en/storefinder/
-katia_winkels https://www.katia.com/NL/winkels.html
-katia_kwinkels https://www.katia.com/NL/katia-winkels.html
+katia_olst https://www.katia.com/NL/winkels.html?pais=PBS&prov=Overijssel&pobl=Olst&lng=NL
+sch_stores_olst https://www.scheepjes.com/nl/winkels/?stores=Olst
+sch_stores_8121 https://www.scheepjes.com/nl/winkels/?stores=8121
+rico_nl https://www.rico-design.de/en/storefinder/?lat=52.34&lng=6.11&rad=50
+rico_nl2 https://www.rico-design.de/en/storefinder/?address=Olst&radius=50
