@@ -1,0 +1,24 @@
+name: probe
+on:
+  push:
+    branches: [probe]
+permissions:
+  contents: write
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fetch
+        run: |
+          mkdir -p out
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            code=$(curl -sSL -m 30 -A "Mozilla/5.0 (GarenEnGo research)" -o "out/$name.html" -w "%{http_code} %{url_effective}" "$url" || echo "ERR")
+            echo "$name $code" >> out/_status.txt
+          done < urls.txt
+          cat out/_status.txt
+      - name: commit
+        run: |
+          git config user.name "probe"; git config user.email "probe@users.noreply.github.com"
+          git add out && git commit -qm "probe output" && git push
