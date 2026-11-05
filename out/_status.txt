@@ -11,3 +11,11 @@ stylecraft_home 403 https://www.stylecraft-yarns.co.uk/
 lammy_home 200 https://lammyyarns.com/
 hjertegarn_home 200 https://hjertegarn.dk/
 langyarns_home 200 https://www.langyarns.com/
+sch_store_nl 404 https://www.scheepjes.com/en/shops/+/storekind-store/?filter=nederland
+sch_filter_olst 200 https://www.scheepjes.com/en/shops/?filter=Olst
+sch_stores_zwolle 200 https://www.scheepjes.com/en/shops/?stores=Zwolle
+sch_filter_deventer 404 https://www.scheepjes.com/en/shops/+/storekind-store/?filter=Deventer
+sch_nl_winkels 200 https://www.scheepjes.com/nl/winkels/
+rico_finder 200 https://www.rico-design.de/en/storefinder/
+katia_winkels 200 https://www.katia.com/NL/winkels.html
+katia_kwinkels 200 https://www.katia.com/NL/katia-winkels.html
