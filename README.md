@@ -52,20 +52,32 @@ De centrale databron is **`public/data/shops.json`**. Er staan geen winkelgegeve
 
 ### Herkomst en betrouwbaarheid
 
-De eerste dataset komt uit **OpenStreetMap** (via de Overpass API) en bevat alleen winkels die daar als fysieke winkel staan: `shop=wool|yarn|needlework|patchwork|fabric|haberdashery|sewing|craft`. Een paar regels bij het importeren:
+`public/data/shops.json` wordt opgebouwd uit drie bronnen (`npm run data:import`):
 
-- Hobbywinkels (`shop=craft`) komen alleen mee als de naam op handwerk wijst. Gordijn-, stoffeerder- en schuimrubberwinkels vallen af.
-- Openingstijden worden alleen overgenomen als ze zeker te lezen zijn. Anders blijven ze leeg en toont de app *Openingstijden onbekend*.
-- Elke OSM-winkel krijgt `verification: "unverified"`. In het veld `notes` staat wat nog gecontroleerd moet worden. In beheer kun je filteren op *Nog te controleren* en *Zonder openingstijden*.
-- Dubbele winkels (zelfde naam, minder dan 75 m uit elkaar) worden samengevoegd. ID's zijn stabiel (`osm-node-123`, of `man-<uuid>` voor handmatig toegevoegde winkels).
+1. **OpenStreetMap** (Overpass API)
+   - Winkeltypes `shop=wool|yarn|needlework|patchwork|fabric|haberdashery|sewing|craft`.
+   - Daarnaast winkels van een ander type (zoals `shop=hobby` of `shop=gift`) waarvan de naam duidelijk op handwerk wijst: wol, garen, brei, quilt, borduur, handwerk of fournituren. Kledingzaken en kleermakers vallen af.
+   - Categorie op naam: een naaiwinkel met "naald" of "steek" in de naam is ook een handwerkwinkel (zoals De Naaldboetiek).
+2. **`data/sources/manual.json`**: handmatig gecontroleerde winkels, bijvoorbeeld overgenomen van de eigen website van de winkel. Zo'n winkel vervangt een dubbele OSM-winkel. Coördinaten worden via de [PDOK Locatieserver](https://www.pdok.nl/) bij het adres gezocht. Met `hours_note` geef je een toelichting die bezoekers zien, zoals afwijkende zomertijden.
+3. **`data/sources/dealers.json`**: fysieke verkooppunten van garenmerken (`npm run data:dealers`).
+   - De **Scheepjes**-winkelzoeker wordt per woonplaats doorzocht. Pure webshops vallen af.
+   - **Rico Design** wordt alleen gebruikt om bestaande winkels aan te vullen. Rico's namen bevatten vaak de naam van de eigenaar, dus daaruit voegen we geen nieuwe winkels toe.
+   - Een verkooppunt dat al bestaat, krijgt alleen "Verkooppunt <merk>" en eventueel telefoon en website erbij. Nieuwe verkooppunten krijgen `verification: "unverified"`.
 
-Data © OpenStreetMap-bijdragers, [ODbL](https://www.openstreetmap.org/copyright).
+Regels bij het importeren:
+- Openingstijden worden alleen overgenomen als ze zeker te lezen zijn. Anders toont de app *Openingstijden onbekend*.
+- In het veld `notes` staat per winkel wat nog gecontroleerd moet worden. In beheer kun je filteren op *Nog te controleren* en *Zonder openingstijden*.
+- ID's zijn stabiel: `osm-node-123`, `src-…` (manual.json), `dlr-…` (verkooppunten) en `man-<uuid>` (toegevoegd in beheer).
 
-### Data bijwerken uit OpenStreetMap
+Data © OpenStreetMap-bijdragers ([ODbL](https://www.openstreetmap.org/copyright)). De verkooppuntgegevens komen uit de openbare winkelzoekers van de genoemde merken.
 
-Ga naar **Actions → "Winkeldata bijwerken (OpenStreetMap)" → Run workflow**. De workflow haalt de nieuwste gegevens op, commit `shops.json` en publiceert de site opnieuw. Lokaal kan het ook met `npm run data:import-osm`.
+### Data bijwerken
 
-Handmatig toegevoegde winkels en winkels die op *gecontroleerd* staan, worden bij het importeren **nooit overschreven**. Uitgeschakelde OSM-winkels blijven uitgeschakeld.
+Ga naar **Actions → "Winkeldata bijwerken" → Run workflow**. Het vinkje *verkooppunten* bepaalt of ook de merklijsten opnieuw worden opgehaald (±10 minuten). De workflow commit de nieuwe data en publiceert de site opnieuw.
+
+Lokaal: `npm run data:dealers` (optioneel), daarna `npm run data:import`.
+
+Winkels die in beheer zijn toegevoegd of op *gecontroleerd* staan, worden bij het importeren **nooit overschreven**. Uitgeschakelde OSM-winkels blijven uitgeschakeld.
 
 ### Beheer en opslag (eerste versie)
 

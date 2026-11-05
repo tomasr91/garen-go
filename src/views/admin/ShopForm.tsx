@@ -170,6 +170,14 @@ export function ShopForm({ initial, isNew, allShops, onSave, onCancel }: Props) 
             {DAY_KEYS.map((d) => (
               <DayEditor key={d} day={d} ranges={hours.weekly[d]} onChange={(r) => setDay(d, r)} />
             ))}
+            <label className="field">
+              <span>Toelichting voor bezoekers (optioneel)</span>
+              <input
+                value={hours.note ?? ''}
+                onChange={(e) => set('openingHours', { ...hours, note: e.target.value || undefined })}
+                placeholder="Bijv. In de zomer afwijkende tijden, bel vooraf"
+              />
+            </label>
             {hours.raw && <p className="hint">Oorspronkelijke notatie uit de bron: <code>{hours.raw}</code></p>}
           </div>
         )}

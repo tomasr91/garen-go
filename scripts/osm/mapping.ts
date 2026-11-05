@@ -35,12 +35,27 @@ const SHOP_TYPE_ASSORTMENT: Record<string, string> = {
 }
 
 /** Extra categorieën op basis van woorden in de winkelnaam. */
-const NAME_HINTS: [RegExp, string][] = [
-  [/\b(wol|garen|garens|brei|breien|breiwinkel|haak|haken|yarn|knit|knitting|wolwinkel)/i, 'wol'],
-  [/(quilt|patchwork|borduur|borduren|stitch|kruissteek)/i, 'borduur-quilt'],
-  [/(fourni|knopen|band en|naaibenodigd|sewing|naaimachine)/i, 'fournituren'],
-  [/(handwerk|handwerken|needle|naaiatelier)/i, 'handwerk'],
+export const NAME_HINTS: [RegExp, string][] = [
+  [/\b(wol|wolwinkel|wolhuis|wolletje|garen|garens|brei|breien|breiwinkel|breicaf[eé]|haak|haken|yarn|knit|knitting|sokkenwol)/i, 'wol'],
+  [/(quilt|patchwork|borduur|borduren|stitch|kruissteek|steekje)/i, 'borduur-quilt'],
+  [/(fourni|knopen|knoop|band en|naaibenodigd|sewing|naaimachine|ritsen)/i, 'fournituren'],
+  // "Naald" en "steek" in een winkelnaam wijzen vrijwel altijd op handwerk (bijv. De Naaldboetiek).
+  [/(handwerk|handwerken|needle|naaiatelier|naald|steek|creatief met draad)/i, 'handwerk'],
 ]
+
+/**
+ * Stap 2: winkels met een ander OSM-type (bijv. shop=hobby of shop=gift) nemen we alleen mee
+ * als de naam overduidelijk op handwerk wijst. "Naald" alleen is hier te zwak (kledingreparatie).
+ */
+export const STRONG_NAME =
+  /\b(wol|wolwinkel|wolhuis|wolletje|garen|garens|brei|breien|breiwinkel|breicaf[eé]|haken|haakwinkel|yarn|knit|knitting|sokkenwol|quilt\w*|patchwork|borduur\w*|handwerk\w*|fourniture\w*|kruissteek)\b/i
+
+/** OSM-types die we bij stap 2 accepteren. Kleding, kleermakers en stomerijen niet. */
+export const EXTRA_SHOP_TYPES = new Set([
+  'hobby', 'gift', 'variety_store', 'art', 'books', 'general', 'yes', 'department_store', 'second_hand',
+  'toys', 'interior_decoration', 'textiles', 'textile', 'boutique', 'crafts', 'arts_and_crafts', 'knitting',
+  'embroidery', 'quilting', 'tailor_supplies',
+])
 
 /** Woorden die bij een `shop=craft` op textiel/handwerk wijzen. Zonder zo'n hint laten we een hobbywinkel weg. */
 const CRAFT_RELEVANT = /(wol|garen|brei|haak|naai|stof|stoffen|quilt|patchwork|borduur|handwerk|fourni|knop|textiel|yarn|knit|stitch|sew|fabric|kant|vilt)/i
@@ -72,8 +87,12 @@ export function mapOsmElement(el: OsmElement, now: string): MapResult {
   const tags = el.tags ?? {}
   const shopType = tags.shop
   const name = clean(tags.name) ?? clean(tags.brand)
-  if (!shopType || !SHOP_TYPE_CATEGORIES[shopType]) return { skipped: 'onbekend winkeltype' }
+  if (!shopType) return { skipped: 'geen winkel' }
   if (!name) return { skipped: 'geen naam' }
+  const knownType = !!SHOP_TYPE_CATEGORIES[shopType]
+  if (!knownType && !(EXTRA_SHOP_TYPES.has(shopType) && STRONG_NAME.test(name))) {
+    return { skipped: 'ander winkeltype zonder duidelijke handwerknaam' }
+  }
   if (EXCLUDE_NAME.test(name)) return { skipped: 'geen handwerkwinkel (naam)' }
   if (shopType === 'craft' && !CRAFT_RELEVANT.test(`${name} ${tags.description ?? ''} ${tags.craft ?? ''}`)) {
     return { skipped: 'hobbywinkel zonder aanwijzing voor handwerkaanbod' }
@@ -83,8 +102,9 @@ export function mapOsmElement(el: OsmElement, now: string): MapResult {
   const lon = el.lon ?? el.center?.lon
   if (lat === undefined || lon === undefined) return { skipped: 'geen coördinaten' }
 
-  const categories = new Set(SHOP_TYPE_CATEGORIES[shopType])
+  const categories = new Set(SHOP_TYPE_CATEGORIES[shopType] ?? (shopType === 'hobby' ? ['hobby'] : []))
   for (const [re, cat] of NAME_HINTS) if (re.test(name)) categories.add(cat)
+  if (categories.size === 0) return { skipped: 'geen categorie te bepalen' }
 
   const street = [clean(tags['addr:street']), clean(tags['addr:housenumber'])].filter(Boolean).join(' ')
   const city = clean(tags['addr:city']) ?? ''
@@ -95,6 +115,7 @@ export function mapOsmElement(el: OsmElement, now: string): MapResult {
   if (description) assortment.push(description)
 
   const todo: string[] = []
+  if (!knownType) todo.push(`gevonden op naam (OSM-type shop=${shopType}), controleer of het assortiment relevant is`)
   if (!street) todo.push('adres ontbreekt')
   if (!city) todo.push('plaats ontbreekt in OSM')
   if (tags.opening_hours && !openingHours) todo.push(`openingstijden niet automatisch te lezen: "${tags.opening_hours}"`)

@@ -1,8 +1,13 @@
-name: Winkeldata bijwerken (OpenStreetMap)
+name: Winkeldata bijwerken
 
 # Handmatig starten via Actions → "Winkeldata bijwerken" → Run workflow.
 on:
   workflow_dispatch:
+    inputs:
+      verkooppunten:
+        description: 'Ook verkooppunten van garenmerken opnieuw ophalen (duurt ±10 minuten)'
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -11,7 +16,7 @@ permissions:
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -19,18 +24,22 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run data:import-osm
+      - name: Verkooppunten garenmerken ophalen
+        if: ${{ inputs.verkooppunten }}
+        continue-on-error: true
+        run: npm run data:dealers
+      - run: npm run data:import
       - name: Wijzigingen committen
         id: commit
         run: |
-          if git diff --quiet -- public/data/shops.json; then
+          if git diff --quiet -- public/data/shops.json data/sources; then
             echo "Geen wijzigingen in de winkeldata."
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add public/data/shops.json
-            git commit -m "Winkeldata bijgewerkt uit OpenStreetMap"
+            git add public/data/shops.json data/sources
+            git commit -m "Winkeldata bijgewerkt (OpenStreetMap, verkooppunten, handmatig)"
             git push
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi

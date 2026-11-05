@@ -54,3 +54,23 @@ describe('fillMissingCity', () => {
     expect(fillMissingCity(r.shop, [{ name: 'Ver', lat: 52.3, lon: 5 }]).city).toBe('')
   })
 })
+
+describe('stap 1: categorie op naam', () => {
+  it('een naaiwinkel met "naald" in de naam is ook een handwerkwinkel (De Naaldboetiek)', () => {
+    const r = mapOsmElement({ type: 'node', id: 20, lat: 52.38, lon: 6.13, tags: { shop: 'sewing', name: 'De Naaldboetiek' } }, now)
+    expect('shop' in r && r.shop.categories.sort()).toEqual(['fournituren', 'handwerk'])
+  })
+})
+
+describe('stap 2: andere winkeltypes op naam', () => {
+  it('neemt een hobbywinkel met een duidelijke handwerknaam mee', () => {
+    const r = mapOsmElement({ type: 'node', id: 21, lat: 52, lon: 5, tags: { shop: 'hobby', name: 'Wolwinkel Het Bolletje' } }, now)
+    expect('shop' in r && r.shop.categories.sort()).toEqual(['hobby', 'wol'])
+    expect('shop' in r && r.shop.notes).toContain('gevonden op naam')
+  })
+  it('laat kledingzaken, kleermakers en vage namen weg', () => {
+    expect(mapOsmElement({ type: 'node', id: 22, lat: 52, lon: 5, tags: { shop: 'clothes', name: 'Wolkenkrabber Mode' } }, now)).toHaveProperty('skipped')
+    expect(mapOsmElement({ type: 'node', id: 23, lat: 52, lon: 5, tags: { shop: 'gift', name: 'De Gouden Naald' } }, now)).toHaveProperty('skipped')
+    expect(mapOsmElement({ type: 'node', id: 24, lat: 52, lon: 5, tags: { shop: 'gift', name: 'Wolters Cadeaus' } }, now)).toHaveProperty('skipped')
+  })
+})

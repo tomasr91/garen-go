@@ -286,6 +286,7 @@ h1, h2, h3 { margin: 0; line-height: 1.2; }
 .hours td { text-align: right; }
 .hours tr:last-child th, .hours tr:last-child td { border-bottom: 0; }
 .hours--today th, .hours--today td { font-weight: 700; color: var(--accent-ink); }
+.hours-note { margin-top: 10px !important; padding: 8px 12px; border-radius: var(--radius-sm); background: var(--soon-soft); color: var(--soon); font-size: 0.9rem; }
 .facts { display: grid; grid-template-columns: auto 1fr; gap: 8px 16px; margin: 0; }
 .facts dt { color: var(--ink-3); }
 .facts dd { margin: 0; overflow-wrap: anywhere; }

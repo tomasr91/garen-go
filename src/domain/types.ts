@@ -37,6 +37,8 @@ export interface OpeningHours {
   exceptions?: OpeningException[]
   /** Oorspronkelijke notatie uit de bron, bijv. de OSM `opening_hours`-tag. */
   raw?: string
+  /** Toelichting voor bezoekers, bijv. "In de zomer afwijkende tijden, bel vooraf." */
+  note?: string
 }
 
 export type SourceType = 'osm' | 'manual' | 'import'

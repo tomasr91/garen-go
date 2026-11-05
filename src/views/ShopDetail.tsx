@@ -108,6 +108,7 @@ function DetailContent({ shop, now, distance }: { shop: Shop; now: Date; distanc
             Openingstijden onbekend. Kijk op de website of bel de winkel voordat je gaat.
           </p>
         )}
+        {shop.openingHours?.note && <p className="hours-note">{shop.openingHours.note}</p>}
         {shop.openingHours && (
           <p className="hint">Feestdagen en vakanties kunnen afwijken. Controleer bij twijfel de website van de winkel.</p>
         )}

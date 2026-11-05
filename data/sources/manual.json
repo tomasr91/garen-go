@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Mikilon's Workshops",
+    "address": "Hendrik Droststraat 48a",
+    "postcode": "8121 BJ",
+    "city": "Olst",
+    "categories": [
+      "wol",
+      "borduur-quilt",
+      "handwerk",
+      "fournituren"
+    ],
+    "opening_hours": "Tu-Fr 13:00-17:30; Sa 09:30-16:00",
+    "website": "https://www.mikilon.nl",
+    "phone": "0570-561384",
+    "assortment": [
+      "Quiltstoffen",
+      "Brei- en haakgarens",
+      "Sokkenwol",
+      "Borduurmateriaal",
+      "Naai-, lock- en borduurmachines",
+      "Workshops"
+    ],
+    "sourceUrl": "https://www.mikilon.nl",
+    "checkedAt": "2026-11-05",
+    "verification": "verified",
+    "notes": "Gegevens overgenomen van mikilon.nl (5 november 2026).",
+    "hours_note": "In juni, juli en augustus wijken de openingstijden af. Bel dan even vooraf."
+  }
+]
