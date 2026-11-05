@@ -19,3 +19,8 @@ sch_nl_winkels 200 https://www.scheepjes.com/nl/winkels/
 rico_finder 200 https://www.rico-design.de/en/storefinder/
 katia_winkels 200 https://www.katia.com/NL/winkels.html
 katia_kwinkels 200 https://www.katia.com/NL/katia-winkels.html
+katia_olst 200 https://www.katia.com/NL/winkels.html?pais=PBS&prov=Overijssel&pobl=Olst&lng=NL
+sch_stores_olst 200 https://www.scheepjes.com/nl/winkels/?stores=Olst
+sch_stores_8121 200 https://www.scheepjes.com/nl/winkels/?stores=8121
+rico_nl 200 https://www.rico-design.de/en/storefinder/?lat=52.34&lng=6.11&rad=50
+rico_nl2 200 https://www.rico-design.de/en/storefinder/?address=Olst&radius=50
