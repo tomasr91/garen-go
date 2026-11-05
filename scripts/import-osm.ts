@@ -43,6 +43,7 @@ async function overpass(query: string): Promise<OsmElement[]> {
           method: 'POST',
           headers: { 'Content-Type': 'application/x-www-form-urlencoded', 'User-Agent': USER_AGENT },
           body: new URLSearchParams({ data: query }),
+          signal: AbortSignal.timeout(300_000),
         })
         if (!res.ok) throw new Error(`${endpoint} gaf HTTP ${res.status}`)
         const json = (await res.json()) as { elements: OsmElement[] }
