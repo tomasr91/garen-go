@@ -42,3 +42,9 @@ export function siteDomain(url: string): string | null {
     return null
   }
 }
+
+/** robots.txt-patroon: prefix, met * als wildcard en $ als einde. "/*?x" blokkeert dus niet de hele site. */
+export function robotsRuleMatches(rule: string, path: string): boolean {
+  const body = rule.replace(/[.+?^{}()|[\]\\]/g, '\\$&').replace(/\*/g, '.*')
+  return new RegExp('^' + body).test(path)
+}

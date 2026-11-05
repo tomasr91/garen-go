@@ -11,7 +11,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import type { ShopDataset } from '../src/domain/types.ts'
 import { candidateLinks, extractOpeningHours } from './sources/hoursParser.ts'
-import { applyWebsiteHours, siteDomain, type WebsiteHoursMap } from './sources/websiteHours.ts'
+import { applyWebsiteHours, robotsRuleMatches, siteDomain, type WebsiteHoursMap } from './sources/websiteHours.ts'
 
 const SHOPS = resolve(import.meta.dirname, '../public/data/shops.json')
 const OUTPUT = resolve(import.meta.dirname, '../data/sources/website-hours.json')
@@ -57,7 +57,7 @@ function disallowed(origin: string): Promise<string[]> {
 async function allowed(url: string): Promise<boolean> {
   const u = new URL(url)
   const rules = await disallowed(u.origin)
-  return !rules.some((r) => u.pathname.startsWith(r.replace(/\*.*$/, '')))
+  return !rules.some((r) => robotsRuleMatches(r, u.pathname + u.search))
 }
 
 async function main() {

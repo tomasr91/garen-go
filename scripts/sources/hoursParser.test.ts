@@ -29,6 +29,9 @@ describe('schema.org JSON-LD', () => {
     expect(extractOpeningHours(html, '2222BB')!.weekly.mo).toEqual([{ open: '10:00', close: '18:00' }])
     expect(extractOpeningHours(html)).toBeNull()
   })
+  it('negeert een standaardwaarde van een thema (elke dag dezelfde tijden)', () => {
+    expect(extractOpeningHours(ld({ openingHours: ['Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00'] }))).toBeNull()
+  })
   it('wijst onzinnige tijden af', () => {
     expect(extractOpeningHours(ld({ openingHoursSpecification: [{ dayOfWeek: ['Monday', 'Tuesday', 'Friday'], opens: '02:00', closes: '03:00' }] }))).toBeNull()
   })

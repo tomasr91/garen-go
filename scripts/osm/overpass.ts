@@ -21,7 +21,11 @@ export async function overpass(query: string): Promise<OsmElement[]> {
           signal: AbortSignal.timeout(300_000),
         })
         if (!res.ok) throw new Error(`${endpoint} gaf HTTP ${res.status}`)
-        const json = (await res.json()) as { elements: OsmElement[] }
+        const json = (await res.json()) as { elements: OsmElement[]; remark?: string }
+        // Bij een time-out of overbelasting geeft Overpass soms HTTP 200 met een onvolledig resultaat + "remark".
+        if (json.remark && /error|timed out|out of memory|runtime/i.test(json.remark)) {
+          throw new Error(`onvolledig resultaat: ${json.remark.slice(0, 120)}`)
+        }
         return json.elements
       } catch (err) {
         lastError = err

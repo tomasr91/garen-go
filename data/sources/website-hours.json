@@ -42,7 +42,7 @@
   "method": "tekst",
   "url": "https://aboeken.nl/contact/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "maandag 12.00 – 18.00 | dinsdag 10.00 – 18.00 | woensdag 10.00 – 18.00 | donderdag 10.00 – 18.00 | vrijdag 10.00 – 18.00 | zaterdag 10.00 – 17.00 | zondag gesloten"
+  "evidence": "maandag 12.00 \u2013 18.00 | dinsdag 10.00 \u2013 18.00 | woensdag 10.00 \u2013 18.00 | donderdag 10.00 \u2013 18.00 | vrijdag 10.00 \u2013 18.00 | zaterdag 10.00 \u2013 17.00 | zondag gesloten"
  },
  "dlr-atelier-6a-9351ae": {
   "weekly": {
@@ -173,7 +173,7 @@
   "method": "tekst",
   "url": "http://handwerkzaakbelinda.nl/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "maandag: gesloten | dinsdag – vrijdag: 10:00 – 12:30 / 13:30 – 17:30 | zaterdag: 10:00 – 17:00"
+  "evidence": "maandag: gesloten | dinsdag \u2013 vrijdag: 10:00 \u2013 12:30 / 13:30 \u2013 17:30 | zaterdag: 10:00 \u2013 17:00"
  },
  "dlr-de-knip-etage-1731sc": {
   "weekly": {
@@ -349,7 +349,7 @@
   "method": "tekst",
   "url": "http://www.deschaarapeldoorn.nl/contact/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "maandag: gesloten | dinsdag: 9.30 – 17.00 | woensdag: 9.30 – 17.00 | donderdag: 9.30 – 17.00 | vrijdag: 9.30 – 17.00 | zaterdag: 10.00 – 14.00 | zondag: gesloten"
+  "evidence": "maandag: gesloten | dinsdag: 9.30 \u2013 17.00 | woensdag: 9.30 \u2013 17.00 | donderdag: 9.30 \u2013 17.00 | vrijdag: 9.30 \u2013 17.00 | zaterdag: 10.00 \u2013 14.00 | zondag: gesloten"
  },
  "dlr-de-wolshop-2405xp": {
   "weekly": {
@@ -419,7 +419,7 @@
   "method": "tekst",
   "url": "https://foamworld.nl/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "dinsdag t/m vrijdag: 10.00 – 17.00 | zaterdag: 9.00 – 16.00"
+  "evidence": "dinsdag t/m vrijdag: 10.00 \u2013 17.00 | zaterdag: 9.00 \u2013 16.00"
  },
  "dlr-gek-op-wol-9541al": {
   "weekly": {
@@ -459,7 +459,7 @@
   "method": "tekst",
   "url": "http://www.gekopwol.nl/openingstijden/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "maandag gesloten | di – do 09:00 – 18:00 | vrijdag 09:00 – 20:00 | zaterdag 09:00 – 17:00 | zondag gesloten"
+  "evidence": "maandag gesloten | di \u2013 do 09:00 \u2013 18:00 | vrijdag 09:00 \u2013 20:00 | zaterdag 09:00 \u2013 17:00 | zondag gesloten"
  },
  "dlr-gewoon-bij-10-1747er": {
   "weekly": {
@@ -891,12 +891,12 @@
      "close": "13:00"
     },
     {
-     "open": "18:00",
-     "close": "20:00"
-    },
-    {
      "open": "14:00",
      "close": "17:00"
+    },
+    {
+     "open": "18:00",
+     "close": "20:00"
     }
    ],
    "fr": [],
@@ -911,7 +911,7 @@
   "method": "tekst",
   "url": "https://www.sokkenwolliatenhoven.nl/openingstijden-winkel/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "dinsdag 10:00–13:00 14:00–17:00 | donderdag 10:00–13:00 en 18:00–20:00 14:00–17:00 | zaterdag 10:00–14:00"
+  "evidence": "dinsdag 10:00\u201313:00 14:00\u201317:00 | donderdag 10:00\u201313:00 en 18:00\u201320:00 14:00\u201317:00 | zaterdag 10:00\u201314:00"
  },
  "dlr-knoppunt-4537ap": {
   "weekly": {
@@ -1056,7 +1056,7 @@
   "method": "tekst",
   "url": "http://www.marikari.nl/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "dinsdag t/m zaterdag van 09:30 – 12:00 uur en 13:30 – 17:00"
+  "evidence": "dinsdag t/m zaterdag van 09:30 \u2013 12:00 uur en 13:30 \u2013 17:00"
  },
  "dlr-marz-kreatiek-1815de": {
   "weekly": {
@@ -1181,7 +1181,7 @@
   "method": "tekst",
   "url": "http://www.nsteekjelos.nl",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "maandag 13.00 – 17.30 | dinsdag 10.00 – 17.30 | woensdag 10.00 – 17.30 | donderdag 10.00 – 17.30 | vrijdag 10.00 – 17.30 | zaterdag 10.00 – 17.00"
+  "evidence": "maandag 13.00 \u2013 17.30 | dinsdag 10.00 \u2013 17.30 | woensdag 10.00 \u2013 17.30 | donderdag 10.00 \u2013 17.30 | vrijdag 10.00 \u2013 17.30 | zaterdag 10.00 \u2013 17.00"
  },
  "dlr-singer-naaimodecentrum-8162ae": {
   "weekly": {
@@ -1217,56 +1217,6 @@
   "url": "https://www.singerkreatief.nl/",
   "retrievedAt": "2026-11-05T14:15:58.921Z",
   "evidence": "maandag gesloten | dinsdag 9:00 uur tot 17:00 | woensdag 9:00 uur tot 17:00 | donderdag gesloten | vrijdag 9:00 uur tot 17:00 | zaterdag 9:00 uur tot 17:00 | zondag gesloten"
- },
- "dlr-selden-s-225-9131ed": {
-  "weekly": {
-   "mo": [
-    {
-     "open": "09:00",
-     "close": "17:00"
-    }
-   ],
-   "tu": [
-    {
-     "open": "09:00",
-     "close": "17:00"
-    }
-   ],
-   "we": [
-    {
-     "open": "09:00",
-     "close": "17:00"
-    }
-   ],
-   "th": [
-    {
-     "open": "09:00",
-     "close": "17:00"
-    }
-   ],
-   "fr": [
-    {
-     "open": "09:00",
-     "close": "17:00"
-    }
-   ],
-   "sa": [
-    {
-     "open": "09:00",
-     "close": "17:00"
-    }
-   ],
-   "su": [
-    {
-     "open": "09:00",
-     "close": "17:00"
-    }
-   ]
-  },
-  "method": "schema.org",
-  "url": "http://www.seldensa.nl/",
-  "retrievedAt": "2026-11-05T14:15:58.921Z",
-  "evidence": "[\"Mo,Tu,We,Th,Fr,Sa,Su 09:00-17:00\"]"
  },
  "dlr-steek-van-wal-2071ca": {
   "weekly": {

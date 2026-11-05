@@ -125,6 +125,14 @@ async function main() {
 
   // Samenvoegen met bestaande data.
   const existing = await readExisting()
+
+  // Veiligheidsgrens: valt het aantal OSM-winkels ineens sterk terug, dan is de bron waarschijnlijk
+  // onvolledig (Overpass-storing). Dan niets wegschrijven, zodat de live data intact blijft.
+  const previousOsm = existing.filter((s) => s.source.type === 'osm').length
+  if (previousOsm > 50 && fromOsm.length < previousOsm * 0.8) {
+    console.error(`Afgebroken: ${fromOsm.length} OSM-winkels, terwijl het er eerder ${previousOsm} waren. Bron lijkt onvolledig.`)
+    process.exit(1)
+  }
   const existingById = new Map(existing.map((s) => [s.id, s]))
   // Beschermd = in beheer toegevoegd of gecontroleerd. Winkels uit data/sources/ (src-/dlr-) worden elke run opnieuw opgebouwd.
   const fromSources = (id: string) => id.startsWith('src-') || id.startsWith('dlr-')

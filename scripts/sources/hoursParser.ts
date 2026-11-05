@@ -248,8 +248,27 @@ function fromText(html: string): ParsedHours | null {
   return { weekly: week, method: 'tekst', evidence: [...new Set(evidence)].join(' | ').slice(0, 300) }
 }
 
+/** Tijdvakken op volgorde; overlappende tijdvakken maken het rooster onbetrouwbaar. */
+function normalize(r: ParsedHours | null): ParsedHours | null {
+  if (!r) return null
+  for (const d of DAY_KEYS) {
+    const sorted = [...r.weekly[d]].sort((a, b) => a.open.localeCompare(b.open))
+    for (let i = 1; i < sorted.length; i++) if (sorted[i].open < sorted[i - 1].close) return null
+    r.weekly[d] = sorted
+  }
+  return r
+}
+
+/** Alle zeven dagen exact dezelfde tijden in schema.org is meestal een standaardwaarde van een websitethema. */
+function looksLikeTemplate(r: ParsedHours): boolean {
+  const first = JSON.stringify(r.weekly.mo)
+  return r.method !== 'tekst' && r.weekly.mo.length > 0 && DAY_KEYS.every((d) => JSON.stringify(r.weekly[d]) === first)
+}
+
 export function extractOpeningHours(html: string, postcode?: string): ParsedHours | null {
-  return fromJsonLd(html, postcode) ?? fromMicrodata(html) ?? fromText(html)
+  const structured = normalize(fromJsonLd(html, postcode) ?? fromMicrodata(html))
+  if (structured && !looksLikeTemplate(structured)) return structured
+  return normalize(fromText(html))
 }
 
 /** Links op dezelfde site die waarschijnlijk openingstijden bevatten. */
